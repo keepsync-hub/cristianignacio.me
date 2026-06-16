@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Claude desde Cero — Sin tecnicismos</title>
+  <meta name="description" content="Soluciones reales construidas con Claude, explicadas sin tecnicismos. La base abierta de la comunidad Claude desde Cero." />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Claude desde Cero — Sin tecnicismos" />
+  <meta property="og:description" content="Soluciones reales construidas con Claude, explicadas paso a paso y sin tecnicismos." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://cristianignacio.me/" />
+
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🟧</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+<body>
+
+  <!-- ============================================================ NAV -->
+  <header class="nav">
+    <div class="wrap nav__inner">
+      <a class="brand" href="/">
+        <span class="brand__mark">C0</span>
+        <span>Claude desde Cero</span>
+      </a>
+      <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false">MENÚ</button>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="#como-funciona">Cómo funciona</a></li>
+          <li><a href="soluciones/">Soluciones</a></li>
+          <li><a href="#comunidad">Comunidad</a></li>
+          <li><a href="https://github.com/keepsync-hub/cristianignacio.me">GitHub</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ======================================================== HERO -->
+    <section class="hero">
+      <div class="wrap">
+        <span class="eyebrow">Sin tecnicismos · Paso a paso</span>
+        <h1 class="mt-0">Aprende a resolver<br />problemas reales con <mark>Claude</mark>, desde cero.</h1>
+        <p class="lead">
+          Cada solución se explica en lenguaje claro: el problema, la idea, el
+          paso a paso y exactamente cómo se construyó. Sin jerga, sin asumir que
+          ya sabes programar.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="soluciones/">Ver soluciones →</a>
+          <a class="btn" href="#como-funciona">Cómo funciona</a>
+        </div>
+        <div class="hero__badges">
+          <span class="chip">🧱 Abierto y replicable</span>
+          <span class="chip">📂 Todo en GitHub</span>
+          <span class="chip">🗣️ Lenguaje humano</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================ CÓMO FUNCIONA -->
+    <section class="section" id="como-funciona">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">La idea</span>
+          <h2>Tres pasos. Cero misterio.</h2>
+          <p>Publicamos soluciones acompañadas de su receta completa para que
+             cualquiera pueda entenderlas, copiarlas y mejorarlas.</p>
+        </div>
+
+        <div class="grid grid--3">
+          <div class="card">
+            <div class="card__icon c-pink">🧩</div>
+            <h3>El problema</h3>
+            <p>Empezamos por una necesidad concreta y cotidiana, contada como se
+               la contarías a un amigo.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon c-cyan">🛠️</div>
+            <h3>La construcción</h3>
+            <p>Mostramos los prompts, decisiones y archivos. Cómo se hizo de
+               verdad, no una versión idealizada.</p>
+          </div>
+          <div class="card">
+            <div class="card__icon c-yellow">🚀</div>
+            <h3>El resultado</h3>
+            <p>Una solución que funciona y que puedes replicar tú mismo, con
+               todo el material disponible.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================================ SOLUCIONES DESTACADAS -->
+    <section class="section" id="soluciones" style="padding-top:0;">
+      <div class="wrap">
+        <div class="section-head">
+          <span class="eyebrow">Soluciones</span>
+          <h2>Lo último de la comunidad</h2>
+          <p>Cada tarjeta enlaza a la explicación completa y a los archivos que
+             la componen.</p>
+        </div>
+
+        <div class="grid grid--3">
+
+          <a class="card" href="soluciones/organizar-tareas-con-claude/">
+            <div class="card__icon c-violet">✅</div>
+            <h3>Organizar tus tareas con Claude</h3>
+            <p>Convierte una lista caótica de pendientes en un plan claro y
+               priorizado, conversando en lenguaje natural.</p>
+            <div class="card__meta">
+              <span class="tag">Productividad</span>
+              <span class="tag">Principiante</span>
+            </div>
+          </a>
+
+          <div class="card" aria-disabled="true" style="opacity:.7;">
+            <div class="card__icon c-lime">✍️</div>
+            <h3>Tu próxima solución aquí</h3>
+            <p>Este espacio es para la comunidad. Comparte cómo resolviste algo
+               con Claude y aparecerá en esta lista.</p>
+            <div class="card__meta">
+              <span class="tag">Próximamente</span>
+            </div>
+          </div>
+
+          <div class="card" aria-disabled="true" style="opacity:.7;">
+            <div class="card__icon c-orange">💡</div>
+            <h3>¿Tienes una idea?</h3>
+            <p>Usa la plantilla del repositorio para documentar tu solución en
+               minutos.</p>
+            <div class="card__meta">
+              <span class="tag">Plantilla</span>
+            </div>
+          </div>
+
+        </div>
+
+        <p style="margin-top:32px;">
+          <a class="btn btn--cyan" href="soluciones/">Ver todas las soluciones →</a>
+        </p>
+      </div>
+    </section>
+
+    <!-- ============================================== ESTRUCTURA / REPO -->
+    <section class="section" style="padding-top:0;">
+      <div class="wrap">
+        <div class="panel">
+          <span class="eyebrow">Cómo está organizado</span>
+          <h2 style="margin-top:16px;">Transparente por diseño</h2>
+          <p>Tanto el sitio como el repositorio comparten la misma lógica: cada
+             solución vive en su propia carpeta, con su explicación y sus
+             archivos. Así es fácil aprender, copiar y contribuir.</p>
+          <pre class="mono" style="background:var(--ink);color:#f3eee1;border-radius:14px;padding:22px;overflow-x:auto;margin-top:20px;"><code>cristianignacio.me/
+├── index.html              # Esta página
+├── soluciones/             # Todas las soluciones
+│   ├── index.html          # Listado
+│   └── nombre-solucion/    # Una carpeta por solución
+│       ├── index.html      # Explicación (web)
+│       ├── README.md       # Explicación (GitHub)
+│       └── archivos/       # Material de la solución
+├── plantilla/              # Plantilla para empezar
+└── CONTRIBUTING.md         # Cómo contribuir</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- =================================================== COMUNIDAD CTA -->
+    <section class="band" id="comunidad">
+      <div class="wrap section">
+        <div class="panel stack center">
+          <span class="eyebrow" style="background:var(--yellow);color:var(--ink);">Comunidad</span>
+          <h2 style="color:var(--bg);">Construyamos esto entre todos</h2>
+          <p style="margin-inline:auto;color:var(--bg);">
+            <strong>Claude desde Cero</strong> es una base abierta. Si resolviste
+            algo con Claude —por simple que parezca— alguien más lo necesita.
+            Documenta tu solución y compártela.
+          </p>
+          <div class="hero__actions" style="justify-content:center;margin-top:8px;">
+            <a class="btn btn--primary" href="plantilla/">Usar la plantilla →</a>
+            <a class="btn btn--pink" href="CONTRIBUTING.md">Cómo contribuir</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================== FOOTER -->
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div>
+        <strong>Claude desde Cero</strong> — Sin tecnicismos.<br />
+        <span class="mono" style="font-size:.85rem;opacity:.8;">cristianignacio.me</span>
+      </div>
+      <div class="mono" style="font-size:.85rem;">
+        <a href="soluciones/">Soluciones</a> ·
+        <a href="CONTRIBUTING.md">Contribuir</a> ·
+        <a href="https://github.com/keepsync-hub/cristianignacio.me">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
