@@ -1,17 +1,24 @@
-name: Deploy a Hostinger (FTP)
+name: Deploy a Hostinger (SSH)
 
-# Despliega el sitio a Hostinger en cada push a main.
-# Requiere configurar estos secretos en:
-#   GitHub -> Settings -> Secrets and variables -> Actions
-#     FTP_SERVER    -> host FTP de Hostinger (ej: ftp.cristianignacio.me o la IP)
-#     FTP_USERNAME  -> usuario FTP (hPanel -> Archivos -> Cuentas FTP)
-#     FTP_PASSWORD  -> contraseña de esa cuenta FTP
-#     FTP_DIR       -> carpeta destino (normalmente: public_html/  )
+# Publica el sitio en Hostinger por rsync sobre SSH (clave pública/privada).
+# Es más seguro que FTP: la clave privada nunca sale de GitHub y se puede revocar.
+#
+# Secretos a configurar en:
+#   GitHub -> Settings -> Secrets and variables -> Actions -> New repository secret
+#     SSH_PRIVATE_KEY -> contenido COMPLETO de la clave privada (deploy_key)
+#                        incluyendo las líneas BEGIN/END
+#     SSH_HOST        -> host/IP del servidor (hPanel -> Avanzado -> Acceso SSH)
+#     SSH_USER        -> usuario SSH (ej: u123456789)
+#     SSH_PORT        -> puerto SSH de Hostinger (normalmente 65002)
+#     SSH_TARGET      -> carpeta destino (ej: /home/u123456789/public_html)
+#
+# Variable opcional (pestaña Variables):
+#     PUBLIC_URL      -> https://cristianignacio.me  (para verificar la publicación)
 
 on:
   push:
     branches: [main]
-  workflow_dispatch:   # permite lanzarlo a mano desde la pestaña Actions
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -20,48 +27,63 @@ jobs:
       - name: Descargar el repositorio
         uses: actions/checkout@v4
 
-      - name: Comprobar que los secretos FTP existen
+      - name: Comprobar que los secretos SSH existen
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_USER: ${{ secrets.SSH_USER }}
+          SSH_PORT: ${{ secrets.SSH_PORT }}
+          SSH_TARGET: ${{ secrets.SSH_TARGET }}
         run: |
           missing=0
-          for s in FTP_SERVER FTP_USERNAME FTP_PASSWORD FTP_DIR; do
+          for s in SSH_PRIVATE_KEY SSH_HOST SSH_USER SSH_PORT SSH_TARGET; do
             if [ -z "${!s}" ]; then echo "::error::Falta el secreto $s"; missing=1; fi
           done
           if [ "$missing" = "1" ]; then
             echo "::error::Configura los secretos en Settings -> Secrets and variables -> Actions"
             exit 1
           fi
-        env:
-          FTP_SERVER: ${{ secrets.FTP_SERVER }}
-          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
-          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
-          FTP_DIR: ${{ secrets.FTP_DIR }}
 
-      - name: Subir por FTP a Hostinger
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: ${{ secrets.FTP_DIR }}
-          # No subir archivos internos del repo, solo el sitio:
-          exclude: |
-            **/.git*
-            **/.git*/**
-            **/.github/**
-            README.md
-            CONTRIBUTING.md
-            CNAME
+      - name: Preparar la clave SSH privada
+        env:
+          SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_PORT: ${{ secrets.SSH_PORT }}
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/deploy_key
+          chmod 600 ~/.ssh/deploy_key
+          # Guarda la huella del servidor para evitar el aviso de "host desconocido"
+          ssh-keyscan -p "$SSH_PORT" "$SSH_HOST" >> ~/.ssh/known_hosts 2>/dev/null
+
+      - name: Publicar con rsync sobre SSH
+        env:
+          SSH_HOST: ${{ secrets.SSH_HOST }}
+          SSH_USER: ${{ secrets.SSH_USER }}
+          SSH_PORT: ${{ secrets.SSH_PORT }}
+          SSH_TARGET: ${{ secrets.SSH_TARGET }}
+        run: |
+          rsync -avz --delete \
+            -e "ssh -i ~/.ssh/deploy_key -p $SSH_PORT" \
+            --exclude='.git' \
+            --exclude='.github' \
+            --exclude='README.md' \
+            --exclude='CONTRIBUTING.md' \
+            --exclude='CNAME' \
+            ./ "$SSH_USER@$SSH_HOST:$SSH_TARGET"
+
+      - name: Borrar la clave del runner
+        if: always()
+        run: rm -f ~/.ssh/deploy_key
 
       # Verifica que el sitio realmente quedó publicado (no solo que subió).
-      # Opcional: solo corre si defines la variable PUBLIC_URL en
-      #   Settings -> Secrets and variables -> Actions -> Variables
-      #   (ej. https://cristianignacio.me). Útil tras propagar el DNS.
+      # Solo corre si defines la variable PUBLIC_URL.
       - name: Verificar publicación en vivo
         if: ${{ vars.PUBLIC_URL != '' }}
         run: |
           url="${{ vars.PUBLIC_URL }}"
           echo "Comprobando $url ..."
-          # Reintenta hasta 5 veces por si el servidor tarda en refrescar.
           for i in 1 2 3 4 5; do
             body="$(curl -fsSL --max-time 20 "$url" || true)"
             if echo "$body" | grep -q "Claude desde Cero"; then
