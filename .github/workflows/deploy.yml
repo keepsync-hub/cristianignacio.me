@@ -1,0 +1,37 @@
+name: Deploy a Hostinger (FTP)
+
+# Despliega el sitio a Hostinger en cada push a main.
+# Requiere configurar estos secretos en:
+#   GitHub -> Settings -> Secrets and variables -> Actions
+#     FTP_SERVER    -> host FTP de Hostinger (ej: ftp.cristianignacio.me o la IP)
+#     FTP_USERNAME  -> usuario FTP (hPanel -> Archivos -> Cuentas FTP)
+#     FTP_PASSWORD  -> contraseña de esa cuenta FTP
+#     FTP_DIR       -> carpeta destino (normalmente: public_html/  )
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:   # permite lanzarlo a mano desde la pestaña Actions
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Subir por FTP a Hostinger
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ secrets.FTP_DIR }}
+          # No subir archivos internos del repo, solo el sitio:
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github/**
+            README.md
+            CONTRIBUTING.md
+            CNAME
