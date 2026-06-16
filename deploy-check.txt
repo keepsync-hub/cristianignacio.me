@@ -1,3 +1,0 @@
-deploy-check OK
-fecha: 2026-06-16T23:28:42Z
-commit-marker para validar GitHub -> Hostinger

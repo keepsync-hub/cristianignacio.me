@@ -84,8 +84,11 @@ jobs:
         run: |
           url="${{ vars.PUBLIC_URL }}"
           echo "Comprobando $url ..."
+          # User-Agent de navegador: Hostinger responde 403 a clientes sin él
+          # (protección anti-bots), lo que daría un falso fallo.
+          ua="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36"
           for i in 1 2 3 4 5; do
-            body="$(curl -fsSL --max-time 20 "$url" || true)"
+            body="$(curl -fsSL -A "$ua" --max-time 20 "$url" || true)"
             if echo "$body" | grep -q "Claude desde Cero"; then
               echo "✅ Publicado: el sitio responde y contiene el contenido esperado."
               exit 0
