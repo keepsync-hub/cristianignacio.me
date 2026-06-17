@@ -75,32 +75,28 @@
             <strong>Crea la estructura base en Google Sheets.</strong> Un libro
             llamado <code>CRM Prospección Loke</code> con cuatro pestañas:
             <ul>
-              <li><strong>Configuración:</strong> localidad (ej. Córdoba), sector
-                objetivo de la semana (ej. transporte) y señales de compra
-                prioritarias.</li>
-              <li><strong>Leads diarios:</strong> la tabla principal (empresa, web,
-                decisor probable, señal detectada y, obligatoriamente, la URL
-                fuente que la demuestra).</li>
+              <li><strong>Configuración:</strong> localidad, sector objetivo de la
+                semana y señales de compra prioritarias.</li>
+              <li><strong>Leads diarios:</strong> la tabla principal, con la URL
+                fuente que demuestra cada señal.</li>
               <li><strong>Descartados:</strong> empresas que no te interesan, para
-                que la IA no te las vuelva a sugerir.</li>
+                que la IA no vuelva a sugerirlas.</li>
               <li><strong>Consultas:</strong> las cadenas de búsqueda que usará el
-                sistema (ej. <em>"transporte Córdoba" "oferta de empleo"</em>).</li>
+                sistema.</li>
             </ul>
           </div></li>
           <li><div>
-            <strong>Configura las fuentes de señales (Google Alerts).</strong>
-            Combina localidad, sector y palabras clave de compra:
-            <em>"empresa Córdoba" "nuevo gerente"</em> o
-            <em>"transporte Córdoba" "amplía plantilla"</em>. Cada novedad que
+            <strong>Configura las fuentes de señales con Google Alerts.</strong>
+            Combina localidad, sector y palabras clave de compra (por ejemplo,
+            <em>"transporte Córdoba" "amplía plantilla"</em>). Cada novedad que
             Google indexe llega directa a tu Gmail.
           </div></li>
           <li><div>
             <strong>Arma el flujo automatizado en Workspace Studio.</strong>
-            Configura el disparador para que se ejecute de forma reactiva cuando
-            llegue un correo de Google Alerts, o proactiva cada mañana a las 08:30.
-            El flujo lee tu pestaña de configuración, le pide a Gemini que
-            investigue en la web, filtra duplicados y extrae de forma estructurada
-            solo los 3 leads con mayor puntuación del día.
+            Lánzalo cuando llegue un correo de Google Alerts o cada mañana a las
+            08:30. El flujo lee tu configuración, pide a Gemini que investigue en
+            la web, filtra duplicados y guarda solo los 3 leads con mayor
+            puntuación del día.
           </div></li>
         </ol>
 
