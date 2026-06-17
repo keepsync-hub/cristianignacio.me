@@ -1,7 +1,8 @@
 # Prompts: Prospección diaria en Workspace Studio
 
 Tres prompts en español, listos para pegar en **Google Workspace Studio**.
-Ajusta el horario, la localidad y el nombre de la hoja si los cambiaste.
+Ajusta el horario, la localidad y el nombre de la hoja si los cambiaste, y
+sustituye lo que está entre corchetes por los datos de tu negocio.
 
 ## 1) Prompt principal (búsqueda diaria)
 
@@ -9,7 +10,7 @@ Crea el flujo proactivo que cada mañana investiga, puntúa y guarda los 3 mejor
 leads.
 
 ```text
-Cada día laborable a las 8:30 AM, lee la Google Sheet llamada "CRM Prospección Loke", pestaña "Configuración".
+Cada día laborable a las 8:30 AM, lee la Google Sheet llamada "CRM Prospección", pestaña "Configuración".
 
 Usa la configuración activa para identificar:
 - localidad objetivo
@@ -17,7 +18,7 @@ Usa la configuración activa para identificar:
 - sector objetivo
 - número de leads necesarios
 - señales de compra prioritarias
-- servicio Loke preferente
+- servicio preferente
 
 Busca en la web empresas ubicadas en la zona y el sector seleccionados que muestren al menos una señal de compra reciente y verificable.
 
@@ -46,7 +47,7 @@ Para cada empresa candidata, extrae:
 - tipo de señal
 - URL de evidencia
 - fecha de la evidencia
-- motivo por el que esta empresa puede encajar con Loke Trabajo Social y Talento
+- motivo por el que esta empresa puede encajar con tu propuesta de valor
 - canal de contacto recomendado
 - mensaje inicial sugerido para LinkedIn, en español
 - puntuación del lead de 0 a 100
@@ -68,7 +69,7 @@ correo de Google Alerts.
 ```text
 Cuando reciba un correo de Google Alerts, analiza el contenido del correo.
 
-Identifica empresas ubicadas en Córdoba o la provincia de Córdoba que coincidan con el sector activo en la Google Sheet "CRM Prospección Loke", pestaña "Configuración".
+Identifica empresas ubicadas en mi localidad o provincia objetivo que coincidan con el sector activo en la Google Sheet "CRM Prospección", pestaña "Configuración".
 
 Extrae solo empresas con una señal de compra clara y verificable:
 - contratación
@@ -92,7 +93,7 @@ Para cada empresa, extrae:
 - decisor probable si es público
 - cargo
 - datos de contacto públicos
-- motivo por el que puede encajar con Loke
+- motivo por el que puede encajar con tu negocio
 - canal de primer contacto recomendado
 - mensaje breve sugerido para LinkedIn, en español
 
@@ -115,7 +116,7 @@ Reglas:
 - Tono natural y profesional.
 - No vendas directamente.
 - Menciona la empresa o la señal solo si resulta natural.
-- Posiciona a Fran como alguien que ayuda a las PYMEs a mejorar la gestión de personas, el clima laboral y los conflictos internos.
+- Posicióname como alguien que ayuda a las PYMEs con [tu propuesta de valor: por ejemplo, mejorar la gestión de personas, el clima laboral y los conflictos internos].
 - Evita el lenguaje de venta agresiva.
 ```
 

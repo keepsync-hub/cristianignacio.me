@@ -59,7 +59,7 @@
            LinkedIn, Google Maps, noticias o portales de empleo.</p>
         <p>El problema no es solo encontrar empresas. El verdadero reto es
            encontrar empresas que tengan <strong>alguna señal real de
-           oportunidad</strong>. Para Loke, una empresa puede ser buen lead si:</p>
+           oportunidad</strong>. Por ejemplo, una empresa puede ser buen lead si:</p>
         <ul>
           <li>está contratando personal;</li>
           <li>está creciendo;</li>
@@ -99,7 +99,7 @@
         <h2>🛠️ La construcción, paso a paso</h2>
 
         <h3>1. Crea la hoja principal en Google Sheets</h3>
-        <p>Nombre recomendado: <code>CRM Prospección Loke</code>. Crea estas cinco
+        <p>Nombre recomendado: <code>CRM Prospección</code>. Crea estas cinco
            pestañas:</p>
         <ol>
           <li><strong>Configuración</strong></li>
@@ -122,7 +122,7 @@
               <tr><td>Nº leads diarios</td><td>3</td></tr>
               <tr><td>Tamaño ideal</td><td>10-40 trabajadores</td></tr>
               <tr><td>Señales prioritarias</td><td>contratación, expansión, cambio gerente, reseñas negativas</td></tr>
-              <tr><td>Servicio Loke prioritario</td><td>Radar Loke / Loke 360 / protocolos / conflictos</td></tr>
+              <tr><td>Servicio prioritario</td><td>diagnóstico / RRHH externalizado / protocolos / conflictos</td></tr>
               <tr><td>Estado</td><td>Activo</td></tr>
             </tbody>
           </table>
@@ -151,8 +151,8 @@
               <tr><td>Fuente</td><td>URL de evidencia</td></tr>
               <tr><td>Fecha de la señal</td><td>Fecha de noticia/oferta/publicación</td></tr>
               <tr><td>Score</td><td>Puntuación 0-100</td></tr>
-              <tr><td>Motivo Loke</td><td>Por qué puede encajar con Loke</td></tr>
-              <tr><td>Canal recomendado</td><td>LinkedIn, llamada, email, visita, BNI</td></tr>
+              <tr><td>Motivo de encaje</td><td>Por qué puede encajar con tu negocio</td></tr>
+              <tr><td>Canal recomendado</td><td>LinkedIn, llamada, email, visita, networking</td></tr>
               <tr><td>Mensaje sugerido</td><td>Texto inicial</td></tr>
               <tr><td>Estado</td><td>Nuevo, revisado, contactado, descartado</td></tr>
               <tr><td>Notas</td><td>Observaciones</td></tr>
@@ -203,10 +203,11 @@
         <h2>📝 Los prompts que usamos</h2>
         <p>Los tres prompts completos están en
            <a href="archivos/prompt-prospeccion-diaria.md">archivos/prompt-prospeccion-diaria.md</a>.
-           Aquí van en español, listos para pegar en Workspace Studio.</p>
+           Aquí van en español, listos para pegar en Workspace Studio. Sustituye
+           lo que está entre corchetes por los datos de tu negocio.</p>
 
         <h3>1) Prompt principal (búsqueda diaria)</h3>
-        <pre><code>Cada día laborable a las 8:30 AM, lee la Google Sheet llamada "CRM Prospección Loke", pestaña "Configuración".
+        <pre><code>Cada día laborable a las 8:30 AM, lee la Google Sheet llamada "CRM Prospección", pestaña "Configuración".
 
 Usa la configuración activa para identificar:
 - localidad objetivo
@@ -214,7 +215,7 @@ Usa la configuración activa para identificar:
 - sector objetivo
 - número de leads necesarios
 - señales de compra prioritarias
-- servicio Loke preferente
+- servicio preferente
 
 Busca en la web empresas ubicadas en la zona y el sector seleccionados que muestren al menos una señal de compra reciente y verificable.
 
@@ -243,7 +244,7 @@ Para cada empresa candidata, extrae:
 - tipo de señal
 - URL de evidencia
 - fecha de la evidencia
-- motivo por el que esta empresa puede encajar con Loke Trabajo Social y Talento
+- motivo por el que esta empresa puede encajar con tu propuesta de valor
 - canal de contacto recomendado
 - mensaje inicial sugerido para LinkedIn, en español
 - puntuación del lead de 0 a 100
@@ -261,7 +262,7 @@ Reglas:
            Google Alerts.</p>
         <pre><code>Cuando reciba un correo de Google Alerts, analiza el contenido del correo.
 
-Identifica empresas ubicadas en Córdoba o la provincia de Córdoba que coincidan con el sector activo en la Google Sheet "CRM Prospección Loke", pestaña "Configuración".
+Identifica empresas ubicadas en mi localidad o provincia objetivo que coincidan con el sector activo en la Google Sheet "CRM Prospección", pestaña "Configuración".
 
 Extrae solo empresas con una señal de compra clara y verificable:
 - contratación
@@ -285,7 +286,7 @@ Para cada empresa, extrae:
 - decisor probable si es público
 - cargo
 - datos de contacto públicos
-- motivo por el que puede encajar con Loke
+- motivo por el que puede encajar con tu negocio
 - canal de primer contacto recomendado
 - mensaje breve sugerido para LinkedIn, en español
 
@@ -304,7 +305,7 @@ Reglas:
 - Tono natural y profesional.
 - No vendas directamente.
 - Menciona la empresa o la señal solo si resulta natural.
-- Posiciona a Fran como alguien que ayuda a las PYMEs a mejorar la gestión de personas, el clima laboral y los conflictos internos.
+- Posicióname como alguien que ayuda a las PYMEs con [tu propuesta de valor: por ejemplo, mejorar la gestión de personas, el clima laboral y los conflictos internos].
 - Evita el lenguaje de venta agresiva.</code></pre>
         <p>Ejemplo de salida:</p>
         <pre><code>Hola, [Nombre]. He visto la evolución de [Empresa] en Córdoba. Trabajo ayudando a PYMEs a mejorar clima, liderazgo y gestión de personas. Me encantará seguir vuestra actividad.</code></pre>
@@ -335,16 +336,16 @@ Reglas:
 
 1. Transportes X
 Señal: está seleccionando conductores.
-Motivo Loke: crecimiento de plantilla y posible necesidad de ordenar onboarding, clima y coordinación.
+Motivo de encaje: crecimiento de plantilla y posible necesidad de ordenar onboarding, clima y coordinación.
 Canal recomendado: LinkedIn + llamada.
 
 2. Limpiezas Y
 Señal: nueva adjudicación de servicio.
-Motivo Loke: aumento de carga operativa y posible necesidad de coordinación de equipos.
+Motivo de encaje: aumento de carga operativa y posible necesidad de coordinación de equipos.
 
 3. Restaurante Z
 Señal: nueva apertura.
-Motivo Loke: incorporación de personal, liderazgo operativo y prevención de rotación.</code></pre>
+Motivo de encaje: incorporación de personal, liderazgo operativo y prevención de rotación.</code></pre>
 
         <h2>🔁 Hazlo tuyo</h2>
 
@@ -383,17 +384,17 @@ Motivo Loke: incorporación de personal, liderazgo operativo y prevención de ro
           </table>
         </div>
 
-        <h3>Adaptación 3: por servicio de Loke</h3>
+        <h3>Adaptación 3: por servicio que ofreces</h3>
         <p>Buscas leads según el servicio que quieras vender.</p>
         <div class="table-wrap">
           <table>
-            <thead><tr><th>Servicio Loke</th><th>Señales a buscar</th></tr></thead>
+            <thead><tr><th>Servicio que ofreces</th><th>Señales a buscar</th></tr></thead>
             <tbody>
-              <tr><td>Radar Loke</td><td>crecimiento, desorden, reseñas, rotación</td></tr>
-              <tr><td>Loke 360</td><td>empresas 10-40 trabajadores sin RRHH</td></tr>
-              <tr><td>Protocolos de acoso</td><td>empresas +50, plan igualdad, obligación normativa</td></tr>
-              <tr><td>Conflictos internos</td><td>reseñas negativas, quejas de trato, mala coordinación</td></tr>
-              <tr><td>Loke Care</td><td>sectores con estrés, turnos, absentismo, atención al público</td></tr>
+              <tr><td>Diagnóstico / auditoría</td><td>crecimiento, desorden, reseñas, rotación</td></tr>
+              <tr><td>RRHH externalizado</td><td>empresas 10-40 trabajadores sin departamento de RRHH</td></tr>
+              <tr><td>Protocolos y cumplimiento normativo</td><td>empresas +50, plan de igualdad, obligación normativa</td></tr>
+              <tr><td>Resolución de conflictos internos</td><td>reseñas negativas, quejas de trato, mala coordinación</td></tr>
+              <tr><td>Bienestar y clima laboral</td><td>sectores con estrés, turnos, absentismo, atención al público</td></tr>
             </tbody>
           </table>
         </div>
@@ -415,9 +416,9 @@ Motivo Loke: incorporación de personal, liderazgo operativo y prevención de ro
 
         <h3>Opción 3: Google Maps manual + Workspace Studio para enriquecer</h3>
         <p>Tú metes empresas en bruto y Workspace Studio busca señales. Más
-           control y mejor calidad, ideal para Córdoba, y evita perder tiempo
-           buscando decisores uno a uno. Inconveniente: requiere una carga manual
-           semanal. <strong>Valoración: 8,5/10.</strong></p>
+           control y mejor calidad, ideal para una zona concreta, y evita perder
+           tiempo buscando decisores uno a uno. Inconveniente: requiere una carga
+           manual semanal. <strong>Valoración: 8,5/10.</strong></p>
 
         <h3>Opción 4: Places API + Apps Script + Workspace Studio</h3>
         <p>La versión profesional: escalable, ordenada, automatizable y buena para
@@ -432,11 +433,11 @@ Motivo Loke: incorporación de personal, liderazgo operativo y prevención de ro
            prospección local artesanal.
            <strong>Valoración: 7/10 ahora, 9/10 cuando escales.</strong></p>
 
-        <h2>✅ Mi recomendación final</h2>
-        <p>Para Loke, el camino sería este:</p>
+        <h2>✅ Recomendación final</h2>
+        <p>El camino recomendado sería este:</p>
         <h3>Fase 1 — Esta semana</h3>
         <ul>
-          <li>Google Sheet <code>CRM Prospección Loke</code>;</li>
+          <li>Google Sheet <code>CRM Prospección</code>;</li>
           <li>Google Alerts por sector;</li>
           <li>flujo de Workspace Studio para leer alertas y guardar leads;</li>
           <li>mensaje diario resumen.</li>
@@ -472,13 +473,13 @@ Motivo Loke: incorporación de personal, liderazgo operativo y prevención de ro
 
         <h2>📌 Versión resumida</h2>
         <p>La mejor arquitectura para este caso:</p>
-        <pre><code>Google Sheets   = panel de control
-Google Alerts   = detector de señales
+        <pre><code>Google Sheets    = panel de control
+Google Alerts    = detector de señales
 Workspace Studio = investigador y clasificador
-Gemini          = análisis y redacción
-Fran            = revisión final y contacto humano</code></pre>
+Gemini           = análisis y redacción
+Tú               = revisión final y contacto humano</code></pre>
         <p>Y el objetivo diario no es "buscar empresas", sino:</p>
-        <pre><code>Detectar 3 empresas con una razón concreta para hablar con Loke.</code></pre>
+        <pre><code>Detectar 3 empresas con una razón concreta para contactarlas.</code></pre>
         <p>Ahí está la diferencia entre prospectar por volumen y prospectar con
            criterio.</p>
 
