@@ -32,22 +32,21 @@ URL de evidencia para que puedas revisarlos.
 
 1. **Crea la estructura base en Google Sheets.** Un libro llamado
    **"CRM Prospección Loke"** con cuatro pestañas:
-   - **Configuración:** localidad (ej. Córdoba), sector objetivo de la semana
-     (ej. transporte) y señales de compra prioritarias.
-   - **Leads diarios:** la tabla principal (empresa, web, decisor probable,
-     señal detectada y, obligatoriamente, la URL fuente que la demuestra).
-   - **Descartados:** empresas que no te interesan, para que la IA no te las
-     vuelva a sugerir.
-   - **Consultas:** las cadenas de búsqueda que usará el sistema
-     (ej. *"transporte Córdoba" "oferta de empleo"*).
-2. **Configura las fuentes de señales (Google Alerts).** Combina localidad,
-   sector y palabras clave de compra: *"empresa Córdoba" "nuevo gerente"* o
-   *"transporte Córdoba" "amplía plantilla"*. Cada novedad llega directa a Gmail.
-3. **Arma el flujo automatizado en Workspace Studio.** Configura el disparador
-   para que se ejecute de forma reactiva cuando llegue un correo de Google
-   Alerts, o proactiva cada mañana a las 08:30. El flujo lee tu pestaña de
-   configuración, le pide a Gemini que investigue en la web, filtra duplicados y
-   extrae de forma estructurada solo los 3 leads con mayor puntuación del día.
+   - **Configuración:** localidad, sector objetivo de la semana y señales de
+     compra prioritarias.
+   - **Leads diarios:** la tabla principal, con la URL fuente que demuestra cada
+     señal.
+   - **Descartados:** empresas que no te interesan, para que la IA no vuelva a
+     sugerirlas.
+   - **Consultas:** las cadenas de búsqueda que usará el sistema.
+2. **Configura las fuentes de señales con Google Alerts.** Combina localidad,
+   sector y palabras clave de compra (por ejemplo,
+   *"transporte Córdoba" "amplía plantilla"*). Cada novedad que Google indexe
+   llega directa a tu Gmail.
+3. **Arma el flujo automatizado en Workspace Studio.** Lánzalo cuando llegue un
+   correo de Google Alerts o cada mañana a las 08:30. El flujo lee tu
+   configuración, pide a Gemini que investigue en la web, filtra duplicados y
+   guarda solo los 3 leads con mayor puntuación del día.
 
 ## 📝 El prompt que usamos
 
