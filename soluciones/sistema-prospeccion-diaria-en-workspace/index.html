@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Prospección diaria de 3 leads locales con Workspace Studio · Claude desde Cero</title>
-  <meta name="description" content="Sistema para encontrar cada día 3 empresas de tu localidad y sector con señales reales de compra (contratación, expansión, cambio de gerente, financiación…) y guardarlas puntuadas en Google Sheets con Workspace Studio. Paso a paso y sin tecnicismos." />
+  <title>Prospección diaria de leads locales con Google Alerts + Workspace Studio · Claude desde Cero</title>
+  <meta name="description" content="Un sistema sencillo: Google Alerts detecta las señales de compra y Workspace Studio las convierte cada día en leads locales cualificados dentro de tu Google Sheets. Paso a paso y sin tecnicismos." />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🟧</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -33,233 +33,116 @@
 
   <main>
     <div class="wrap">
-      <p class="breadcrumb"><a href="../../">Inicio</a> / <a href="../">Soluciones</a> / Prospección diaria con Workspace Studio</p>
+      <p class="breadcrumb"><a href="../../">Inicio</a> / <a href="../">Soluciones</a> / Prospección diaria con Google Alerts</p>
 
       <article class="article">
         <span class="eyebrow">Prospección de clientes · Intermedio</span>
-        <h1 style="margin-top:16px;">Prospección diaria de 3 leads locales con Workspace Studio</h1>
-        <p class="lead">Un sistema para encontrar cada día <strong>3 empresas de tu
-           localidad y sector elegido</strong> que muestren señales de compra:
-           contratación, crecimiento, cambio de gerente, financiación, expansión,
-           adjudicaciones o señales de tensión organizativa.</p>
+        <h1 style="margin-top:16px;">Prospección diaria de leads locales con Google Alerts</h1>
+        <p class="lead">Un sistema sencillo: <strong>Google Alerts</strong> detecta
+           las señales de compra y <strong>Workspace Studio</strong> las convierte
+           cada día en leads locales cualificados dentro de tu Google Sheets.</p>
 
         <div class="callout">
           <span style="font-size:1.4rem;">⏱️</span>
           <div>
-            <strong>Tiempo: 60-90 min para una primera versión · Dificultad: intermedio</strong>
+            <strong>Tiempo: 30-45 min · Dificultad: intermedio</strong>
             Necesitas Google Workspace con <strong>Workspace Studio</strong>,
             <strong>Google Sheets</strong>, <strong>Gmail/Google Alerts</strong> y
-            <strong>Gemini</strong>. Sin código en la versión básica.
+            <strong>Gemini</strong>. Sin código.
           </div>
         </div>
 
         <h2>🧩 El problema</h2>
-        <p>Quieres prospectar empresas locales de forma constante, pero sin tener
-           que pasar cada día una o dos horas buscando manualmente en Google,
-           LinkedIn, Google Maps, noticias o portales de empleo.</p>
-        <p>El problema no es solo encontrar empresas. El verdadero reto es
-           encontrar empresas que tengan <strong>alguna señal real de
-           oportunidad</strong>. Por ejemplo, una empresa puede ser buen lead si:</p>
-        <ul>
-          <li>está contratando personal;</li>
-          <li>está creciendo;</li>
-          <li>ha recibido financiación o subvención;</li>
-          <li>ha cambiado de gerente;</li>
-          <li>abre nueva sede;</li>
-          <li>tiene reseñas negativas relacionadas con trato, organización o equipo;</li>
-          <li>muestra rotación, desorden interno o necesidad de profesionalizar personas;</li>
-          <li>pertenece a un sector intensivo en personal: transporte, hostelería,
-             limpieza, comercio, logística, salud privada, residencias,
-             restauración, etc.</li>
-        </ul>
-        <p>La dificultad está en juntar todo esto en una hoja de Google Sheets de
-           forma ordenada y útil para contactar.</p>
+        <p>Quieres prospectar empresas locales de forma constante, pero sin pasar
+           cada día una o dos horas buscando a mano en Google, LinkedIn o portales
+           de empleo. Y lo difícil no es encontrar empresas, sino encontrar las que
+           tienen <strong>una señal real de oportunidad</strong>: que están
+           contratando, creciendo, han cambiado de gerente, han recibido una
+           subvención, abren nueva sede o tienen reseñas negativas de organización
+           o trato.</p>
 
         <h2>💡 La idea</h2>
-        <p>Crear un sistema con <strong>Google Sheets como centro de control</strong>
-           y <strong>Workspace Studio como investigador diario</strong>. Tú indicas
-           la localidad, el sector, las señales que quieres priorizar y el número
-           de leads diarios. Y el flujo hace cada día lo siguiente:</p>
-        <ol>
-          <li>busca empresas;</li>
-          <li>detecta señales de compra;</li>
-          <li>localiza datos públicos;</li>
-          <li>identifica decisor probable;</li>
-          <li>puntúa el lead;</li>
-          <li>guarda los 3 mejores en Google Sheets;</li>
-          <li>te propone un primer mensaje de contacto.</li>
-        </ol>
-        <p>La recomendación es montarlo en tres fases:</p>
+        <p>Montar un sistema reactivo con tres piezas:</p>
         <ul>
-          <li><strong>Versión sencilla:</strong> Google Alerts + Workspace Studio + Google Sheets.</li>
-          <li><strong>Versión proactiva:</strong> Workspace Studio busca cada día por sector y localidad.</li>
-          <li><strong>Versión avanzada:</strong> Apps Script + Places API + Workspace Studio.</li>
+          <li><strong>Google Alerts</strong> como detector de señales: te avisa por
+             correo cuando aparece una novedad de tu sector y localidad.</li>
+          <li><strong>Workspace Studio</strong> como investigador: lee ese correo,
+             valida la señal, localiza datos públicos y prepara el lead.</li>
+          <li><strong>Google Sheets</strong> como centro de control: guarda cada
+             lead con su evidencia y un primer mensaje listo para contactar.</li>
         </ul>
 
         <h2>🛠️ La construcción, paso a paso</h2>
-
-        <h3>1. Crea la hoja principal en Google Sheets</h3>
-        <p>Nombre recomendado: <code>CRM Prospección</code>. Crea estas cinco
-           pestañas:</p>
-        <ol>
-          <li><strong>Configuración</strong></li>
-          <li><strong>Leads diarios</strong></li>
-          <li><strong>Descartados</strong></li>
-          <li><strong>Consultas</strong></li>
-          <li><strong>Seguimiento</strong></li>
+        <ol class="steps">
+          <li><div>
+            <strong>Crea la hoja en Google Sheets.</strong> Llámala
+            <code>CRM Prospección</code> con tres pestañas: Configuración, Leads
+            diarios y Descartados.
+          </div></li>
+          <li><div>
+            <strong>Configura tus Google Alerts.</strong> Combina localidad +
+            sector + una palabra clave de señal. Cada novedad que Google indexe
+            llega directa a tu Gmail.
+          </div></li>
+          <li><div>
+            <strong>Crea el flujo en Workspace Studio.</strong> Al llegar un correo
+            de Google Alerts, analiza el contenido, valida que haya una señal con
+            URL de evidencia y guarda el lead en "Leads diarios".
+          </div></li>
         </ol>
 
-        <h3>2. Pestaña: Configuración</h3>
-        <p>Aquí decides qué se busca esa semana. Así no tienes que tocar el flujo:
-           solo cambias el sector o la localidad en Sheets.</p>
+        <h3>Pestaña Configuración</h3>
+        <p>Aquí decides qué se busca esa semana; solo cambias el sector o la
+           localidad sin tocar el flujo.</p>
         <div class="table-wrap">
           <table>
             <thead><tr><th>Campo</th><th>Ejemplo</th></tr></thead>
             <tbody>
-              <tr><td>Localidad</td><td>Córdoba</td></tr>
-              <tr><td>Provincia</td><td>Córdoba</td></tr>
+              <tr><td>Localidad / Provincia</td><td>Córdoba</td></tr>
               <tr><td>Sector objetivo</td><td>Transporte</td></tr>
-              <tr><td>Nº leads diarios</td><td>3</td></tr>
               <tr><td>Tamaño ideal</td><td>10-40 trabajadores</td></tr>
-              <tr><td>Señales prioritarias</td><td>contratación, expansión, cambio gerente, reseñas negativas</td></tr>
-              <tr><td>Servicio prioritario</td><td>diagnóstico / RRHH externalizado / protocolos / conflictos</td></tr>
+              <tr><td>Señales prioritarias</td><td>contratación, expansión, cambio de gerente, reseñas negativas</td></tr>
               <tr><td>Estado</td><td>Activo</td></tr>
             </tbody>
           </table>
         </div>
 
-        <h3>3. Pestaña: Leads diarios</h3>
-        <p>La tabla principal donde Workspace Studio irá guardando los leads.</p>
+        <h3>Pestaña Leads diarios</h3>
+        <p>La tabla principal. Estas son las columnas que de verdad importan:</p>
         <div class="table-wrap">
           <table>
             <thead><tr><th>Campo</th><th>Descripción</th></tr></thead>
             <tbody>
-              <tr><td>Fecha detección</td><td>Día en que entra el lead</td></tr>
-              <tr><td>Empresa</td><td>Nombre de la empresa</td></tr>
-              <tr><td>Sector</td><td>Sector detectado</td></tr>
-              <tr><td>Localidad</td><td>Ciudad o provincia</td></tr>
-              <tr><td>Web</td><td>Página oficial</td></tr>
-              <tr><td>Google Maps</td><td>Enlace a ficha si se localiza</td></tr>
-              <tr><td>LinkedIn empresa</td><td>Enlace a empresa</td></tr>
-              <tr><td>Decisor probable</td><td>Nombre si aparece públicamente</td></tr>
-              <tr><td>Cargo</td><td>Gerente, CEO, responsable RRHH, administrador</td></tr>
-              <tr><td>LinkedIn decisor</td><td>Perfil si se localiza</td></tr>
-              <tr><td>Email público</td><td>Solo si aparece públicamente</td></tr>
-              <tr><td>Teléfono empresa</td><td>Teléfono corporativo</td></tr>
-              <tr><td>Señal de compra</td><td>Qué ha pasado</td></tr>
-              <tr><td>Tipo de señal</td><td>contratación, expansión, financiación, cambio, conflicto</td></tr>
-              <tr><td>Fuente</td><td>URL de evidencia</td></tr>
-              <tr><td>Fecha de la señal</td><td>Fecha de noticia/oferta/publicación</td></tr>
-              <tr><td>Score</td><td>Puntuación 0-100</td></tr>
-              <tr><td>Motivo de encaje</td><td>Por qué puede encajar con tu negocio</td></tr>
-              <tr><td>Canal recomendado</td><td>LinkedIn, llamada, email, visita, networking</td></tr>
-              <tr><td>Mensaje sugerido</td><td>Texto inicial</td></tr>
-              <tr><td>Estado</td><td>Nuevo, revisado, contactado, descartado</td></tr>
-              <tr><td>Notas</td><td>Observaciones</td></tr>
+              <tr><td>Empresa / Sector / Localidad</td><td>Identificación básica</td></tr>
+              <tr><td>Señal de compra / Tipo</td><td>Qué ha pasado y de qué tipo</td></tr>
+              <tr><td>Fuente (URL)</td><td>Evidencia pública — obligatoria</td></tr>
+              <tr><td>Decisor / Cargo</td><td>Persona de contacto si es pública</td></tr>
+              <tr><td>Canal recomendado</td><td>LinkedIn, llamada, email, visita</td></tr>
+              <tr><td>Mensaje sugerido</td><td>Borrador inicial de contacto</td></tr>
+              <tr><td>Estado</td><td>Nuevo, contactado, descartado</td></tr>
             </tbody>
           </table>
         </div>
         <blockquote>
-          Regla importante: si no hay URL de evidencia, no entra el lead.
+          Regla importante: si no hay URL de evidencia, no entra el lead. La pestaña
+          <strong>Descartados</strong> guarda las empresas que ya rechazaste para
+          que no vuelvan a aparecer.
         </blockquote>
 
-        <h3>4. Pestaña: Descartados</h3>
-        <p>Sirve para que el sistema no vuelva a proponerte empresas que ya has
-           descartado.</p>
-        <div class="table-wrap">
-          <table>
-            <thead><tr><th>Empresa</th><th>Motivo</th><th>Fecha</th><th>Fuente</th></tr></thead>
-            <tbody>
-              <tr><td>Empresa X</td><td>Muy grande / no encaja / ya contactada</td><td>17/06/2026</td><td>URL</td></tr>
-            </tbody>
-          </table>
-        </div>
-
-        <h3>5. Pestaña: Consultas</h3>
-        <p>Aquí guardas búsquedas tipo para que Workspace Studio tenga un marco de
-           trabajo.</p>
-        <pre><code>"transporte Córdoba" "oferta de empleo"
+        <h3>Ejemplos de Google Alerts</h3>
+        <pre><code>"empresa Córdoba" "nuevo gerente"
+"transporte Córdoba" "oferta de empleo"
 "empresa de limpieza Córdoba" "seleccionamos personal"
 "hostelería Córdoba" "amplía plantilla"
-"empresa Córdoba" "ha recibido financiación"
 "empresa Córdoba" "subvención"
-"empresa Córdoba" "nuevo gerente"
-"empresa Córdoba" "nombramiento gerente"
 "empresa Córdoba" "abre nueva sede"
-"empresa Córdoba" "adjudicación"
-"empresa Córdoba" "crecimiento plantilla"</code></pre>
-        <p>Puedes tener bloques por sector:</p>
-        <pre><code>Sector: transporte
-"transporte Córdoba" "conductor"
-"transporte Córdoba" "seleccionamos"
-"empresa transporte Córdoba" "amplía plantilla"
-"logística Córdoba" "oferta de empleo"</code></pre>
-        <pre><code>Sector: hostelería
-"restaurante Córdoba" "buscamos camarero"
-"hostelería Córdoba" "seleccionamos personal"
-"grupo hostelero Córdoba" "nueva apertura"
-"restaurante Córdoba" "reseñas personal"</code></pre>
+"empresa Córdoba" "adjudicación"</code></pre>
 
-        <h2>📝 Los prompts que usamos</h2>
-        <p>Los tres prompts completos están en
+        <h2>📝 El prompt que usamos</h2>
+        <p>Este es el prompt del flujo de Workspace Studio que reacciona a cada
+           correo de Google Alerts. También está en
            <a href="archivos/prompt-prospeccion-diaria.md">archivos/prompt-prospeccion-diaria.md</a>.
-           Aquí van en español, listos para pegar en Workspace Studio. Sustituye
-           lo que está entre corchetes por los datos de tu negocio.</p>
-
-        <h3>1) Prompt principal (búsqueda diaria)</h3>
-        <pre><code>Cada día laborable a las 8:30 AM, lee la Google Sheet llamada "CRM Prospección", pestaña "Configuración".
-
-Usa la configuración activa para identificar:
-- localidad objetivo
-- provincia
-- sector objetivo
-- número de leads necesarios
-- señales de compra prioritarias
-- servicio preferente
-
-Busca en la web empresas ubicadas en la zona y el sector seleccionados que muestren al menos una señal de compra reciente y verificable.
-
-Señales de compra válidas:
-- contratación o selección de personal
-- apertura de una nueva sede
-- ampliación de actividad
-- recepción de financiación, ayudas, subvenciones o contratos públicos
-- cambio de CEO, gerente, director o administrador
-- publicación de noticias de crecimiento relevantes
-- señales públicas de tensión organizativa, como reseñas negativas relacionadas con el personal, la coordinación, la calidad del servicio, retrasos, rotación o problemas de gestión interna
-
-Para cada empresa candidata, extrae:
-- nombre de la empresa
-- sector
-- localidad
-- web
-- URL de la ficha de Google Maps si está disponible
-- URL de LinkedIn de la empresa si está disponible
-- nombre del decisor probable si es público
-- cargo del decisor
-- URL de LinkedIn del decisor si es público
-- email profesional público si está disponible
-- teléfono de la empresa
-- señal de compra
-- tipo de señal
-- URL de evidencia
-- fecha de la evidencia
-- motivo por el que esta empresa puede encajar con tu propuesta de valor
-- canal de contacto recomendado
-- mensaje inicial sugerido para LinkedIn, en español
-- puntuación del lead de 0 a 100
-
-Reglas:
-- No inventes nombres, emails, cargos, señales ni URLs.
-- Si no encuentras un dato en una fuente pública, escribe "No localizado".
-- No añadas un lead si no hay URL de evidencia.
-- Antes de añadir un lead, comprueba que la empresa no aparezca ya en "Leads diarios" ni en "Descartados".
-- Añade solo los 3 mejores leads a la pestaña "Leads diarios".
-- Envíame un breve resumen por Gmail o Google Chat con los 3 leads seleccionados.</code></pre>
-
-        <h3>2) Prompt para analizar Google Alerts</h3>
-        <p>Una segunda automatización más sencilla, que reacciona a los correos de
-           Google Alerts.</p>
+           Sustituye lo que está entre corchetes por los datos de tu negocio.</p>
         <pre><code>Cuando reciba un correo de Google Alerts, analiza el contenido del correo.
 
 Identifica empresas ubicadas en mi localidad o provincia objetivo que coincidan con el sector activo en la Google Sheet "CRM Prospección", pestaña "Configuración".
@@ -295,193 +178,43 @@ Si no hay URL de fuente, descarta el lead.
 Antes de añadir la empresa, comprueba que no aparezca ya en "Leads diarios" ni en "Descartados".
 Añade los leads válidos a "Leads diarios".</code></pre>
 
-        <h3>3) Prompt para generar el mensaje comercial</h3>
-        <p>Cuando el lead ya está en Sheets, este prompt redacta el mensaje a
-           partir de los datos de la fila.</p>
-        <pre><code>Con los datos del lead de la fila actual, escribe un mensaje breve de conexión de LinkedIn en español.
-
-Reglas:
-- Máximo 200 caracteres.
-- Tono natural y profesional.
-- No vendas directamente.
-- Menciona la empresa o la señal solo si resulta natural.
-- Posicióname como alguien que ayuda a las PYMEs con [tu propuesta de valor: por ejemplo, mejorar la gestión de personas, el clima laboral y los conflictos internos].
-- Evita el lenguaje de venta agresiva.</code></pre>
-        <p>Ejemplo de salida:</p>
+        <h2>🚀 El resultado</h2>
+        <p>Cada vez que salta una alerta relevante, tendrás en Google Sheets una
+           fila limpia, lista para contactar:</p>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Empresa</th><th>Sector</th><th>Localidad</th><th>Señal</th><th>Fuente</th><th>Decisor</th><th>Canal</th></tr></thead>
+            <tbody>
+              <tr><td>Transportes X</td><td>Transporte</td><td>Córdoba</td><td>Busca conductores</td><td>URL</td><td>Gerente</td><td>LinkedIn</td></tr>
+              <tr><td>Limpiezas Y</td><td>Limpieza</td><td>Lucena</td><td>Nueva adjudicación</td><td>URL</td><td>Administrador</td><td>Llamada</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p>Con un mensaje inicial sugerido ya redactado, por ejemplo:</p>
         <pre><code>Hola, [Nombre]. He visto la evolución de [Empresa] en Córdoba. Trabajo ayudando a PYMEs a mejorar clima, liderazgo y gestión de personas. Me encantará seguir vuestra actividad.</code></pre>
 
-        <div class="callout" style="background:var(--yellow);">
-          <span style="font-size:1.4rem;">📂</span>
+        <h2>🔁 Hazlo tuyo</h2>
+        <ul>
+          <li><strong>Por sector semanal:</strong> rota el sector cada lunes
+             (transporte, limpieza, hostelería…) para hablar el lenguaje de cada
+             uno.</li>
+          <li><strong>Por señal:</strong> crea alertas centradas en una señal
+             concreta (subvenciones, cambios directivos, nuevas aperturas) para
+             detectar empresas "calientes".</li>
+          <li><strong>Por servicio:</strong> ajusta las palabras clave según el
+             servicio que quieras vender y sus señales asociadas.</li>
+        </ul>
+
+        <div class="callout" style="background:#fff6f9;border-color:var(--pink);">
+          <span style="font-size:1.4rem;">⚠️</span>
           <div>
-            <strong>Material de esta solución</strong>
-            Los tres prompts listos para copiar:
-            <a href="archivos/prompt-prospeccion-diaria.md">prompt-prospeccion-diaria.md</a>.
+            <strong>Uso responsable</strong>
+            Trabaja solo con información pública y profesional y con un fin legítimo
+            de contacto de negocio. Revisa siempre la URL de evidencia antes de
+            contactar y trata los datos de las personas conforme a la normativa
+            aplicable.
           </div>
         </div>
-
-        <h2>🚀 El resultado</h2>
-        <p>Cada día tendrás en Google Sheets una fila limpia por lead, algo así:</p>
-        <div class="table-wrap">
-          <table>
-            <thead><tr><th>Empresa</th><th>Sector</th><th>Localidad</th><th>Señal</th><th>Fuente</th><th>Decisor</th><th>Score</th><th>Canal</th></tr></thead>
-            <tbody>
-              <tr><td>Transportes X</td><td>Transporte</td><td>Córdoba</td><td>Busca conductores</td><td>URL</td><td>Gerente</td><td>82</td><td>LinkedIn</td></tr>
-              <tr><td>Limpiezas Y</td><td>Limpieza</td><td>Lucena</td><td>Nueva adjudicación</td><td>URL</td><td>Administrador</td><td>78</td><td>Llamada</td></tr>
-              <tr><td>Restaurante Z</td><td>Hostelería</td><td>Córdoba</td><td>Nueva apertura</td><td>URL</td><td>Propietario</td><td>74</td><td>LinkedIn</td></tr>
-            </tbody>
-          </table>
-        </div>
-        <p>Y recibirías un resumen diario:</p>
-        <pre><code>Hoy se han detectado 3 leads potenciales:
-
-1. Transportes X
-Señal: está seleccionando conductores.
-Motivo de encaje: crecimiento de plantilla y posible necesidad de ordenar onboarding, clima y coordinación.
-Canal recomendado: LinkedIn + llamada.
-
-2. Limpiezas Y
-Señal: nueva adjudicación de servicio.
-Motivo de encaje: aumento de carga operativa y posible necesidad de coordinación de equipos.
-
-3. Restaurante Z
-Señal: nueva apertura.
-Motivo de encaje: incorporación de personal, liderazgo operativo y prevención de rotación.</code></pre>
-
-        <h2>🔁 Hazlo tuyo</h2>
-
-        <h3>Adaptación 1: por sector semanal</h3>
-        <p>La más recomendable. Cada semana eliges un sector, lo que te permite
-           hablar su lenguaje y preparar mensajes más concretos.</p>
-        <div class="table-wrap">
-          <table>
-            <thead><tr><th>Semana</th><th>Sector</th></tr></thead>
-            <tbody>
-              <tr><td>Semana 1</td><td>Transporte</td></tr>
-              <tr><td>Semana 2</td><td>Limpieza</td></tr>
-              <tr><td>Semana 3</td><td>Hostelería</td></tr>
-              <tr><td>Semana 4</td><td>Comercio</td></tr>
-              <tr><td>Semana 5</td><td>Residencias / ayuda a domicilio</td></tr>
-              <tr><td>Semana 6</td><td>Clínicas privadas</td></tr>
-              <tr><td>Semana 7</td><td>Logística</td></tr>
-              <tr><td>Semana 8</td><td>Formación / academias</td></tr>
-            </tbody>
-          </table>
-        </div>
-
-        <h3>Adaptación 2: por señal de compra</h3>
-        <p>En vez de trabajar por sector, trabajas por señal. Útil para detectar
-           empresas "calientes" aunque estén en sectores distintos.</p>
-        <div class="table-wrap">
-          <table>
-            <thead><tr><th>Día</th><th>Señal prioritaria</th></tr></thead>
-            <tbody>
-              <tr><td>Lunes</td><td>Empresas contratando</td></tr>
-              <tr><td>Martes</td><td>Empresas con reseñas negativas</td></tr>
-              <tr><td>Miércoles</td><td>Empresas que han recibido subvenciones</td></tr>
-              <tr><td>Jueves</td><td>Empresas con nueva apertura</td></tr>
-              <tr><td>Viernes</td><td>Empresas con cambio directivo</td></tr>
-            </tbody>
-          </table>
-        </div>
-
-        <h3>Adaptación 3: por servicio que ofreces</h3>
-        <p>Buscas leads según el servicio que quieras vender.</p>
-        <div class="table-wrap">
-          <table>
-            <thead><tr><th>Servicio que ofreces</th><th>Señales a buscar</th></tr></thead>
-            <tbody>
-              <tr><td>Diagnóstico / auditoría</td><td>crecimiento, desorden, reseñas, rotación</td></tr>
-              <tr><td>RRHH externalizado</td><td>empresas 10-40 trabajadores sin departamento de RRHH</td></tr>
-              <tr><td>Protocolos y cumplimiento normativo</td><td>empresas +50, plan de igualdad, obligación normativa</td></tr>
-              <tr><td>Resolución de conflictos internos</td><td>reseñas negativas, quejas de trato, mala coordinación</td></tr>
-              <tr><td>Bienestar y clima laboral</td><td>sectores con estrés, turnos, absentismo, atención al público</td></tr>
-            </tbody>
-          </table>
-        </div>
-
-        <h2>🧭 Todas las formas posibles</h2>
-
-        <h3>Opción 1: Google Alerts + Workspace Studio + Sheets</h3>
-        <p><strong>Para empezar, es la mejor.</strong> Gratuita o casi gratuita,
-           fácil de montar, con señales reales y menos riesgo de datos basura;
-           ideal para noticias, contratación, subvenciones y expansión. Su
-           inconveniente: depende de que Google Alerts encuentre resultados.
-           <strong>Valoración: 9/10 para empezar.</strong></p>
-
-        <h3>Opción 2: Workspace Studio con búsqueda web diaria</h3>
-        <p>Muy buena como complemento: funciona aunque no lleguen alertas, puedes
-           pedirle 3 leads diarios directamente y se adapta al sector activo en
-           Sheets. Inconveniente: hay que controlar que no invente información y
-           exige URLs de evidencia. <strong>Valoración: 8/10.</strong></p>
-
-        <h3>Opción 3: Google Maps manual + Workspace Studio para enriquecer</h3>
-        <p>Tú metes empresas en bruto y Workspace Studio busca señales. Más
-           control y mejor calidad, ideal para una zona concreta, y evita perder
-           tiempo buscando decisores uno a uno. Inconveniente: requiere una carga
-           manual semanal. <strong>Valoración: 8,5/10.</strong></p>
-
-        <h3>Opción 4: Places API + Apps Script + Workspace Studio</h3>
-        <p>La versión profesional: escalable, ordenada, automatizable y buena para
-           generar bases por localidad y sector. Inconveniente: más técnica, con
-           posible coste y configuración de API.
-           <strong>Valoración: 9/10 a medio plazo, 6/10 para empezar.</strong></p>
-
-        <h3>Opción 5: Apollo / Clay / Make / Sales Navigator</h3>
-        <p>Potente, pero no empezaría por aquí. Encuentra mejor a los decisores y
-           enriquece datos, más orientado a ventas B2B. Inconveniente: coste,
-           complejidad, riesgo de dispersarte y no siempre encaja con la
-           prospección local artesanal.
-           <strong>Valoración: 7/10 ahora, 9/10 cuando escales.</strong></p>
-
-        <h2>✅ Recomendación final</h2>
-        <p>El camino recomendado sería este:</p>
-        <h3>Fase 1 — Esta semana</h3>
-        <ul>
-          <li>Google Sheet <code>CRM Prospección</code>;</li>
-          <li>Google Alerts por sector;</li>
-          <li>flujo de Workspace Studio para leer alertas y guardar leads;</li>
-          <li>mensaje diario resumen.</li>
-        </ul>
-        <h3>Fase 2 — Semana siguiente</h3>
-        <ul>
-          <li>flujo diario proactivo cada día a las 08:30;</li>
-          <li>lee el sector activo, busca empresas y selecciona 3 leads;</li>
-          <li>guarda en Sheets.</li>
-        </ul>
-        <h3>Fase 3 — Cuando ya funcione</h3>
-        <ul>
-          <li>score automático;</li>
-          <li>estado de seguimiento;</li>
-          <li>mensajes adaptados;</li>
-          <li>dashboard semanal;</li>
-          <li>Apps Script para evitar duplicados y mejorar el control.</li>
-        </ul>
-
-        <h2>📋 Checklist antes de ponerlo en marcha</h2>
-        <ul>
-          <li>☐ Crear Google Sheet con pestañas: Configuración, Leads diarios, Descartados, Consultas y Seguimiento.</li>
-          <li>☐ Definir el primer sector semanal.</li>
-          <li>☐ Crear 8-10 Google Alerts.</li>
-          <li>☐ Crear flujo en Workspace Studio para analizar emails de Google Alerts.</li>
-          <li>☐ Crear flujo diario de búsqueda proactiva.</li>
-          <li>☐ Exigir siempre URL de evidencia.</li>
-          <li>☐ No aceptar leads sin señal concreta.</li>
-          <li>☐ Revisar manualmente los 3 leads antes de contactar.</li>
-          <li>☐ Usar LinkedIn como primer canal preferente.</li>
-          <li>☐ Evitar emails comerciales fríos salvo que exista base jurídica y prudencia comunicativa.</li>
-        </ul>
-
-        <h2>📌 Versión resumida</h2>
-        <p>La mejor arquitectura para este caso:</p>
-        <pre><code>Google Sheets    = panel de control
-Google Alerts    = detector de señales
-Workspace Studio = investigador y clasificador
-Gemini           = análisis y redacción
-Tú               = revisión final y contacto humano</code></pre>
-        <p>Y el objetivo diario no es "buscar empresas", sino:</p>
-        <pre><code>Detectar 3 empresas con una razón concreta para contactarlas.</code></pre>
-        <p>Ahí está la diferencia entre prospectar por volumen y prospectar con
-           criterio.</p>
 
         <p class="breadcrumb" style="margin-top:40px;">
           ← <a href="../">Volver a soluciones</a>
