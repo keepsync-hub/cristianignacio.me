@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Presentación personalizada a partir de un correo · Claude desde Cero</title>
+  <meta name="description" content="Cómo, partiendo solo de un correo, usar Claude para investigar a la persona y su empresa, y generar un PPT personalizado. Paso a paso y sin tecnicismos." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🟧</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="wrap nav__inner">
+      <a class="brand" href="../../">
+        <span class="brand__mark">C0</span>
+        <span>Claude desde Cero</span>
+      </a>
+      <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false">MENÚ</button>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="../../#como-funciona">Cómo funciona</a></li>
+          <li><a href="../">Soluciones</a></li>
+          <li><a href="../../#comunidad">Comunidad</a></li>
+          <li><a href="https://github.com/keepsync-hub/cristianignacio.me">GitHub</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <p class="breadcrumb"><a href="../../">Inicio</a> / <a href="../">Soluciones</a> / Presentación desde un correo</p>
+
+      <article class="article">
+        <span class="eyebrow">Ventas / Productividad · Intermedio</span>
+        <h1 style="margin-top:16px;">Una presentación personalizada a partir de un correo</h1>
+        <p class="lead">Con solo la dirección de email de alguien, deja que Claude
+           investigue su rol, entienda a su empresa y sus desafíos, y te arme un
+           PowerPoint a medida listo para descargar.</p>
+
+        <div class="callout">
+          <span style="font-size:1.4rem;">⏱️</span>
+          <div>
+            <strong>Tiempo: ~15 minutos · Dificultad: intermedio</strong>
+            Necesitas una cuenta de Claude (claude.ai) con <strong>búsqueda web</strong>
+            y <strong>creación de archivos</strong> activadas. Cero código.
+          </div>
+        </div>
+
+        <h2>🧩 El problema</h2>
+        <p>Tienes una reunión o quieres escribirle a un posible cliente y solo
+           tienes su correo. Para llegar preparado necesitas saber quién es, qué
+           hace su empresa y qué le quita el sueño… y encima armar una
+           presentación a medida. Hacerlo bien toma horas de búsqueda y diseño.</p>
+
+        <h2>💡 La idea</h2>
+        <p>La dirección de correo ya tiene dos pistas enormes: el <strong>nombre</strong>
+           de la persona y el <strong>dominio</strong> de su empresa. Con eso,
+           Claude (usando búsqueda web) investiga a la persona y a la empresa, y
+           luego genera el PowerPoint personalizado por ti.</p>
+
+        <h2>🛠️ La construcción, paso a paso</h2>
+        <ol class="steps">
+          <li><div>
+            <strong>Descompón el correo.</strong> De
+            <code>nombre.apellido@empresa.com</code> sacas dos cosas: la persona
+            (<em>nombre apellido</em>) y la empresa (el dominio <em>empresa.com</em>).
+          </div></li>
+          <li><div>
+            <strong>Activa la búsqueda web en claude.ai.</strong> Así Claude puede
+            consultar información pública y actual en lugar de inventar.
+          </div></li>
+          <li><div>
+            <strong>Investiga a la persona.</strong> Pídele su rol,
+            responsabilidades y qué suele importarle a alguien con ese cargo.
+          </div></li>
+          <li><div>
+            <strong>Investiga a la empresa por el dominio.</strong> A qué se
+            dedica, sus productos, tamaño, noticias recientes y sus principales
+            desafíos.
+          </div></li>
+          <li><div>
+            <strong>Cruza rol + empresa.</strong> Pide a Claude que conecte lo
+            que le importa a esa persona con lo que vive su empresa: ahí está tu
+            ángulo de valor.
+          </div></li>
+          <li><div>
+            <strong>Genera el PPT.</strong> Pide a Claude que cree un archivo
+            <code>.pptx</code> descargable con la estructura de la presentación.
+            Lo construye y te da el enlace para bajarlo.
+          </div></li>
+        </ol>
+
+        <h2>📝 Los prompts que usamos</h2>
+        <p>Son dos: primero investigas, luego generas la presentación con ese
+           resultado.</p>
+
+        <h3>1) Investigación (persona + empresa)</h3>
+        <pre><code>Tengo solo este correo: nombre.apellido@empresa.com
+Usa búsqueda web y trabaja solo con información pública y profesional.
+
+1. PERSONA: a partir del nombre, dime su rol/cargo probable, sus
+   responsabilidades y las 3 prioridades típicas de alguien con ese rol.
+2. EMPRESA: a partir del dominio (empresa.com), dime a qué se dedica,
+   sus productos/servicios, tamaño aproximado, sector, noticias
+   recientes y sus 3 principales desafíos actuales.
+3. ÁNGULO: conecta lo que le importa a esa persona con los desafíos de
+   su empresa, y propón 3 ideas de valor que yo podría aportarle.
+
+Devuélvelo como un brief claro, sin tecnicismos. Indica el nivel de
+confianza de cada dato y marca lo que sea suposición.</code></pre>
+
+        <h3>2) Generación del PowerPoint</h3>
+        <pre><code>Con el brief anterior, crea un archivo PowerPoint (.pptx)
+descargable, personalizado para esta persona y su empresa.
+
+Estructura de slides:
+1. Portada (nombre de la persona, su empresa y el motivo del contacto)
+2. "Lo que entendemos de [empresa]" (qué hace y su contexto)
+3. "Desafíos que vemos" (los principales retos detectados)
+4. "Cómo podemos ayudar" (propuesta de valor alineada a su rol)
+5. "Por qué ahora" (1-2 razones de oportunidad/momento)
+6. Próximos pasos
+
+Tono profesional y cercano. Frases cortas, pensadas para leerse en voz
+alta. Cuando termines, dame el archivo .pptx para descargar.</code></pre>
+
+        <blockquote>
+          Consejo: si quieres tu identidad de marca, dile "usa estos colores y
+          este logo" y pega/sube tu material. Claude lo aplica al .pptx.
+        </blockquote>
+
+        <h2>🚀 El resultado</h2>
+        <p>Obtienes dos cosas: un <strong>brief de investigación</strong> (quién
+           es, qué hace su empresa y sus desafíos) y un <strong>PowerPoint
+           personalizado</strong> listo para descargar y presentar. De un correo
+           a una reunión preparada en minutos.</p>
+
+        <div class="callout" style="background:var(--yellow);">
+          <span style="font-size:1.4rem;">📂</span>
+          <div>
+            <strong>Material de esta solución</strong>
+            Prompts listos para copiar:
+            <a href="archivos/prompt-investigacion.md">prompt-investigacion.md</a>
+            y <a href="archivos/prompt-presentacion.md">prompt-presentacion.md</a>.
+          </div>
+        </div>
+
+        <div class="callout" style="background:#fff6f9;border-color:var(--pink);">
+          <span style="font-size:1.4rem;">⚠️</span>
+          <div>
+            <strong>Uso responsable</strong>
+            Usa solo información <strong>pública y profesional</strong> (web de la
+            empresa, perfiles profesionales) y con un fin legítimo de contacto de
+            negocio. Trata los datos de las personas con respeto y de acuerdo con
+            la normativa aplicable.
+          </div>
+        </div>
+
+        <h2>🔁 Hazlo tuyo</h2>
+        <ul>
+          <li><strong>Otro formato:</strong> en vez del .pptx, pídele el contenido
+             para <em>Gamma</em> o <em>Google Slides</em>, o una presentación en
+             <em>HTML</em> que abras en el navegador y exportes a PDF.</li>
+          <li><strong>Tu marca:</strong> dale tus colores, tipografía y logo.</li>
+          <li><strong>Idioma y longitud:</strong> "hazla en inglés" o "máximo 5
+             slides".</li>
+          <li><strong>Email en vez de PPT:</strong> pídele un correo de primer
+             contacto basado en el mismo brief.</li>
+        </ul>
+
+        <p class="breadcrumb" style="margin-top:40px;">
+          ← <a href="../">Volver a soluciones</a>
+        </p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div>
+        <strong>Claude desde Cero</strong> — Sin tecnicismos.<br />
+        <span class="mono" style="font-size:.85rem;opacity:.8;">cristianignacio.me</span>
+      </div>
+      <div class="mono" style="font-size:.85rem;">
+        <a href="../../">Inicio</a> ·
+        <a href="../">Soluciones</a> ·
+        <a href="https://github.com/keepsync-hub/cristianignacio.me">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../../assets/js/main.js"></script>
+</body>
+</html>
