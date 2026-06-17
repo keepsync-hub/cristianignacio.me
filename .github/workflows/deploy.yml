@@ -54,8 +54,9 @@ jobs:
           chmod 700 ~/.ssh
           printf '%s\n' "$SSH_PRIVATE_KEY" > ~/.ssh/deploy_key
           chmod 600 ~/.ssh/deploy_key
-          # Guarda la huella del servidor para evitar el aviso de "host desconocido"
-          ssh-keyscan -p "$SSH_PORT" "$SSH_HOST" >> ~/.ssh/known_hosts 2>/dev/null
+          # Guarda la huella del servidor (best-effort). Si falla por un blip de
+          # red no debe abortar el deploy: rsync usa StrictHostKeyChecking=accept-new.
+          ssh-keyscan -p "$SSH_PORT" "$SSH_HOST" >> ~/.ssh/known_hosts 2>/dev/null || true
 
       - name: Publicar con rsync sobre SSH
         env:
@@ -65,7 +66,7 @@ jobs:
           SSH_TARGET: ${{ secrets.SSH_TARGET }}
         run: |
           rsync -avz --delete \
-            -e "ssh -i ~/.ssh/deploy_key -p $SSH_PORT" \
+            -e "ssh -i ~/.ssh/deploy_key -p $SSH_PORT -o StrictHostKeyChecking=accept-new -o ConnectTimeout=20" \
             --exclude='.git' \
             --exclude='.github' \
             --exclude='README.md' \
