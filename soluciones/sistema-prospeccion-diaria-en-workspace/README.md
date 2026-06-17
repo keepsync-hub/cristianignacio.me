@@ -30,20 +30,20 @@ URL de evidencia para que puedas revisarlos.
 
 ## 🛠️ La construcción, paso a paso
 
-1. **Crea la estructura base en Google Sheets.** Un libro llamado
-   **"CRM Prospección Loke"** con cuatro pestañas:
-   - **Configuración:** localidad, sector objetivo de la semana y señales de
-     compra prioritarias.
-   - **Leads diarios:** la tabla principal, con la URL fuente que demuestra cada
-     señal.
-   - **Descartados:** empresas que no te interesan, para que la IA no vuelva a
-     sugerirlas.
-   - **Consultas:** las cadenas de búsqueda que usará el sistema.
-2. **Configura las fuentes de señales con Google Alerts.** Combina localidad,
+1. **Crea el libro en Google Sheets.** Llámalo **"CRM Prospección Loke"**;
+   tendrá cuatro pestañas que configuras en los pasos siguientes.
+2. **Pestaña Configuración.** Define la localidad, el sector objetivo de la
+   semana y las señales de compra prioritarias.
+3. **Pestaña Leads diarios.** La tabla principal, con la URL fuente que demuestra
+   cada señal.
+4. **Pestaña Descartados.** Empresas que no te interesan, para que la IA no
+   vuelva a sugerirlas.
+5. **Pestaña Consultas.** Las cadenas de búsqueda que usará el sistema.
+6. **Configura las fuentes de señales con Google Alerts.** Combina localidad,
    sector y palabras clave de compra (por ejemplo,
    *"transporte Córdoba" "amplía plantilla"*). Cada novedad que Google indexe
    llega directa a tu Gmail.
-3. **Arma el flujo automatizado en Workspace Studio.** Lánzalo cuando llegue un
+7. **Arma el flujo automatizado en Workspace Studio.** Lánzalo cuando llegue un
    correo de Google Alerts o cada mañana a las 08:30. El flujo lee tu
    configuración, pide a Gemini que investigue en la web, filtra duplicados y
    guarda solo los 3 leads con mayor puntuación del día.
