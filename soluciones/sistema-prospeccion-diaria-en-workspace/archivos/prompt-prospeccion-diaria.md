@@ -1,54 +1,34 @@
-# Prompt: Prospección diaria con Google Alerts
+# Prompt: Prospección diaria con Workspace Studio
 
-Prompt en español, listo para pegar en el flujo de **Google Workspace Studio**.
-El flujo reacciona cada vez que llega un correo de **Google Alerts**: analiza el
-contenido, valida la señal y guarda el lead en tu Google Sheets.
+Prompt base para la **automatización proactiva web** de Google Workspace Studio.
+El sistema se ejecuta solo cada mañana: lee tu configuración, busca en la web,
+selecciona los 3 mejores leads con evidencia y te avisa por Gmail o Google Chat.
 
-Ajusta la localidad y el nombre de la hoja si los cambiaste, y sustituye lo que
-está entre corchetes por los datos de tu negocio.
+Ajusta la hora, la localidad y el nombre de la hoja si los cambiaste. Puedes
+guardar aquí, en la carpeta `archivos/`, tus plantillas de mensajes y guías de
+búsqueda.
 
 ```text
-Cuando reciba un correo de Google Alerts, analiza el contenido del correo.
+Every weekday at 8:30 AM, read the Google Sheet named "CRM Prospección Loke", tab "Configuración".
 
-Identifica empresas ubicadas en mi localidad o provincia objetivo que coincidan con el sector activo en la Google Sheet "CRM Prospección", pestaña "Configuración".
+Use the active configuration to identify target location, province, sector, number of leads required, priority buying signals, and preferred service.
 
-Extrae solo empresas con una señal de compra clara y verificable:
-- contratación
-- financiación
-- subvención
-- contrato público
-- expansión
-- nueva sede
-- cambio en la dirección
-- problema organizativo relevante
+Search the web for companies located in the selected area and sector that show at least one recent and verifiable buying signal (hiring, expanding, funding, management changes, or organizational stress/negative reviews).
 
-Para cada empresa, extrae:
-- nombre de la empresa
-- sector
-- localidad
-- señal de compra
-- tipo de señal
-- URL de evidencia
-- fecha de la evidencia
-- web si está disponible
-- decisor probable si es público
-- cargo
-- datos de contacto públicos
-- motivo por el que puede encajar con tu negocio
-- canal de primer contacto recomendado
-- mensaje breve sugerido para LinkedIn, en español
+For each candidate company, extract: company name, sector, location, website, Google Maps/LinkedIn URLs, likely decision maker, role, public contact data, buying signal, evidence URL, lead score (0-100), and a suggested first LinkedIn message in Spanish.
 
-No inventes datos que falten.
-Si no hay URL de fuente, descarta el lead.
-Antes de añadir la empresa, comprueba que no aparezca ya en "Leads diarios" ni en "Descartados".
-Añade los leads válidos a "Leads diarios".
+Rules:
+- Do not invent data. If not found, write "No localizado".
+- Do not add a lead if there is no evidence URL.
+- Check "Leads diarios" and "Descartados" to avoid duplicates.
+- Add only the top 3 leads to "Leads diarios" and send me a summary via Gmail/Google Chat.
 ```
 
 ## Notas
 
-- La pestaña **Configuración** manda: el flujo solo busca lo que tú definas ahí
-  (localidad, sector y señales prioritarias).
-- Las reglas de "No inventes" y "descarta el lead si no hay URL de fuente" son las
-  que mantienen tu CRM limpio. No las quites.
-- Revisa siempre la **URL de evidencia** antes de contactar: es la prueba de que
-  la señal de compra es real.
+- La pestaña **Configuración** manda: el sistema solo busca lo que tú definas ahí
+  (localidad, sector, número de leads, señales prioritarias y servicio preferente).
+- Las reglas de "Do not invent data" y "Do not add a lead if there is no evidence
+  URL" son las que mantienen tu CRM limpio. No las quites.
+- Revisa siempre la **evidence URL** antes de contactar: es la prueba de que la
+  señal de compra es real.
