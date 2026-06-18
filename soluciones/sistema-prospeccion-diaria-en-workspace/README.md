@@ -1,57 +1,59 @@
-# 🎯 Prospección diaria de leads locales con Google Alerts
+# 🎯 Prospección diaria de leads locales con Workspace Studio
 
-> **Categoría:** Prospección de clientes · **Dificultad:** Intermedio · **Tiempo:** 30-45 min
+> **Categoría:** Automatización comercial · **Dificultad:** Intermedio · **Tiempo:** 60-90 min
 
-Un sistema sencillo: **Google Alerts** detecta las señales de compra y **Workspace
-Studio** las convierte cada día en leads locales cualificados dentro de tu Google
-Sheets.
+Encuentra de forma automática cada día **3 empresas** de tu localidad y sector que
+muestren señales reales de crecimiento o necesidad para ofrecer tus servicios en el
+momento perfecto.
 
-> Necesitas Google Workspace con **Workspace Studio**, **Google Sheets**,
-> **Gmail/Google Alerts** y **Gemini**. Sin código.
+> Necesitas Google Workspace con **Workspace Studio**, **Google Sheets** y
+> **Gmail / Google Chat**. Sin código.
 
 ---
 
 ## 🧩 El problema
 
-Quieres prospectar empresas locales de forma constante, pero sin pasar cada día
-una o dos horas buscando a mano en Google, LinkedIn o portales de empleo. Y lo
-difícil no es encontrar empresas, sino encontrar las que tienen **una señal real
-de oportunidad**: que están contratando, creciendo, han cambiado de gerente, han
-recibido una subvención, abren nueva sede o tienen reseñas negativas de
-organización o trato.
+Quieres buscar clientes locales de manera constante, pero pasar una o dos horas al
+día saltando entre Google, LinkedIn, Google Maps y portales de empleo es agotador.
+Además, el verdadero reto no es solo listar empresas, sino saber cuáles de ellas
+tienen **una necesidad real hoy** (porque están contratando, abriendo sedes,
+cambiando de directiva o sufriendo desorganización interna) para no contactar a
+puerta fría y sin argumentos.
 
 ## 💡 La idea
 
-Montar un sistema reactivo con tres piezas:
-
-- **Google Alerts** como detector de señales: te avisa por correo cuando aparece
-  una novedad de tu sector y localidad.
-- **Workspace Studio** como investigador: lee ese correo, valida la señal,
-  localiza datos públicos y prepara el lead.
-- **Google Sheets** como centro de control: guarda cada lead con su evidencia y
-  un primer mensaje listo para contactar.
+Crear un sistema automático donde usas una hoja de Google Sheets como centro de
+control para elegir el sector y la ciudad, y dejas que **Workspace Studio** actúe
+como tu investigador privado buscando en la web y seleccionando cada mañana los
+**3 mejores leads** con evidencias reales.
 
 ## 🛠️ La construcción, paso a paso
 
-1. **Crea la hoja en Google Sheets.** Llámala **CRM Prospección** con tres
-   pestañas: Configuración, Leads diarios y Descartados.
-2. **Configura tus Google Alerts.** Combina localidad + sector + una palabra
-   clave de señal. Cada novedad que Google indexe llega directa a tu Gmail.
-3. **Crea el flujo en Workspace Studio.** Al llegar un correo de Google Alerts,
-   analiza el contenido, valida que haya una señal con URL de evidencia y guarda
-   el lead en "Leads diarios".
+1. **Crea el panel en Google Sheets.** Diseña un libro llamado **CRM Prospección
+   Loke** con cinco pestañas clave: Configuración (donde pones el sector y ciudad
+   de la semana), Leads diarios (la base de datos principal), Descartados (para no
+   repetir empresas), Consultas (con frases de búsqueda tipo) y Seguimiento.
+2. **Conecta Workspace Studio.** Configura una automatización proactiva web que se
+   ejecute de forma diaria en la herramienta.
+3. **Establece la regla de oro.** Configura el sistema para que solo acepte un lead
+   si Workspace Studio encuentra y adjunta una URL que sirva como evidencia real de
+   la oportunidad (un enlace a una oferta de empleo, una noticia, una reseña, etc.).
+4. **Diseña la alerta de salida.** Activa un paso final para que, además de rellenar
+   el Sheets, el sistema te envíe un resumen rápido de los 3 elegidos por Gmail o
+   Google Chat para ponerte a trabajar de inmediato.
 
 ### Pestaña Configuración
 
-Aquí decides qué se busca esa semana; solo cambias el sector o la localidad sin
-tocar el flujo.
+Aquí decides qué se busca esa semana; solo cambias el sector o la ciudad sin tocar
+la automatización.
 
 | Campo | Ejemplo |
 |---|---|
 | Localidad / Provincia | Córdoba |
 | Sector objetivo | Transporte |
-| Tamaño ideal | 10-40 trabajadores |
-| Señales prioritarias | contratación, expansión, cambio de gerente, reseñas negativas |
+| Nº de leads requeridos | 3 |
+| Señales prioritarias | contratación, expansión, financiación, cambio de directiva, reseñas negativas |
+| Servicio preferente | Gestión de personas |
 | Estado | Activo |
 
 ### Pestaña Leads diarios
@@ -61,97 +63,72 @@ La tabla principal. Estas son las columnas que de verdad importan:
 | Campo | Descripción |
 |---|---|
 | Empresa / Sector / Localidad | Identificación básica |
-| Señal de compra / Tipo | Qué ha pasado y de qué tipo |
-| Fuente (URL) | Evidencia pública — obligatoria |
+| Web · Google Maps · LinkedIn | URLs de la empresa |
+| Señal de compra | Qué ha pasado y por qué es una oportunidad |
+| Evidencia (URL) | Enlace que demuestra la señal — obligatorio |
 | Decisor / Cargo | Persona de contacto si es pública |
-| Canal recomendado | LinkedIn, llamada, email, visita |
-| Mensaje sugerido | Borrador inicial de contacto |
-| Estado | Nuevo, contactado, descartado |
+| Lead score (0-100) | Prioridad calculada por el sistema |
+| Mensaje sugerido | Primer mensaje de LinkedIn, <200 caracteres |
 
-> Regla importante: **si no hay URL de evidencia, no entra el lead**. La pestaña
-> **Descartados** guarda las empresas que ya rechazaste para que no vuelvan a
+> Regla de oro: **si no hay URL de evidencia, no entra el lead**. Las pestañas
+> **Leads diarios** y **Descartados** evitan que una misma empresa vuelva a
 > aparecer.
 
-### Ejemplos de Google Alerts
+## 📝 El prompt / los archivos que usamos
+
+Para que el sistema funcione de forma proactiva cada mañana, se utiliza el siguiente
+prompt base en Workspace Studio. También está en
+[`archivos/prompt-prospeccion-diaria.md`](archivos/prompt-prospeccion-diaria.md)
+(puedes guardar tus plantillas de mensajes y guías de búsqueda en la carpeta
+`archivos/`).
 
 ```text
-"empresa Córdoba" "nuevo gerente"
-"transporte Córdoba" "oferta de empleo"
-"empresa de limpieza Córdoba" "seleccionamos personal"
-"hostelería Córdoba" "amplía plantilla"
-"empresa Córdoba" "subvención"
-"empresa Córdoba" "abre nueva sede"
-"empresa Córdoba" "adjudicación"
-```
+Every weekday at 8:30 AM, read the Google Sheet named "CRM Prospección Loke", tab "Configuración".
 
-## 📝 El prompt que usamos
+Use the active configuration to identify target location, province, sector, number of leads required, priority buying signals, and preferred service.
 
-Este es el prompt del flujo de Workspace Studio que reacciona a cada correo de
-Google Alerts. También está en
-[`archivos/prompt-prospeccion-diaria.md`](archivos/prompt-prospeccion-diaria.md).
-Sustituye lo que está entre corchetes por los datos de tu negocio.
+Search the web for companies located in the selected area and sector that show at least one recent and verifiable buying signal (hiring, expanding, funding, management changes, or organizational stress/negative reviews).
 
-```text
-Cuando reciba un correo de Google Alerts, analiza el contenido del correo.
+For each candidate company, extract: company name, sector, location, website, Google Maps/LinkedIn URLs, likely decision maker, role, public contact data, buying signal, evidence URL, lead score (0-100), and a suggested first LinkedIn message in Spanish.
 
-Identifica empresas ubicadas en mi localidad o provincia objetivo que coincidan con el sector activo en la Google Sheet "CRM Prospección", pestaña "Configuración".
-
-Extrae solo empresas con una señal de compra clara y verificable:
-- contratación
-- financiación
-- subvención
-- contrato público
-- expansión
-- nueva sede
-- cambio en la dirección
-- problema organizativo relevante
-
-Para cada empresa, extrae:
-- nombre de la empresa
-- sector
-- localidad
-- señal de compra
-- tipo de señal
-- URL de evidencia
-- fecha de la evidencia
-- web si está disponible
-- decisor probable si es público
-- cargo
-- datos de contacto públicos
-- motivo por el que puede encajar con tu negocio
-- canal de primer contacto recomendado
-- mensaje breve sugerido para LinkedIn, en español
-
-No inventes datos que falten.
-Si no hay URL de fuente, descarta el lead.
-Antes de añadir la empresa, comprueba que no aparezca ya en "Leads diarios" ni en "Descartados".
-Añade los leads válidos a "Leads diarios".
+Rules:
+- Do not invent data. If not found, write "No localizado".
+- Do not add a lead if there is no evidence URL.
+- Check "Leads diarios" and "Descartados" to avoid duplicates.
+- Add only the top 3 leads to "Leads diarios" and send me a summary via Gmail/Google Chat.
 ```
 
 ## 🚀 El resultado
 
-Cada vez que salta una alerta relevante, tendrás en Google Sheets una fila limpia,
-lista para contactar:
+Cada mañana a las 8:30 AM tendrás tu hoja de Google Sheets actualizada con 3
+empresas "calientes", sus datos de contacto públicos, el nombre del posible
+directivo, un enlace que demuestra por qué es una oportunidad y una propuesta de
+mensaje corto de menos de 200 caracteres listo para copiar y pegar en LinkedIn.
+También recibirás una notificación limpia en tu bandeja de entrada con el resumen
+del día.
 
-| Empresa | Sector | Localidad | Señal | Fuente | Decisor | Canal |
+| Empresa | Sector | Localidad | Señal | Evidencia | Decisor | Score |
 |---|---|---|---|---|---|---|
-| Transportes X | Transporte | Córdoba | Busca conductores | URL | Gerente | LinkedIn |
-| Limpiezas Y | Limpieza | Lucena | Nueva adjudicación | URL | Administrador | Llamada |
+| Transportes X | Transporte | Córdoba | Busca conductores | URL | Gerente | 87 |
+| Limpiezas Y | Limpieza | Lucena | Nueva adjudicación | URL | Administrador | 74 |
 
 Con un mensaje inicial sugerido ya redactado, por ejemplo:
 
 ```text
-Hola, [Nombre]. He visto la evolución de [Empresa] en Córdoba. Trabajo ayudando a PYMEs a mejorar clima, liderazgo y gestión de personas. Me encantará seguir vuestra actividad.
+Hola, [Nombre]. He visto que [Empresa] está creciendo en Córdoba. Ayudo a PYMEs a mejorar clima, liderazgo y gestión de personas. ¿Te viene bien charlar?
 ```
 
-## 🔁 Hazlo tuyo
+## 🔄 Hazlo tuyo
 
-- **Por sector semanal:** rota el sector cada lunes (transporte, limpieza,
-  hostelería…) para hablar el lenguaje de cada uno.
-- **Por señal:** crea alertas centradas en una señal concreta (subvenciones,
-  cambios directivos, nuevas aperturas) para detectar empresas "calientes".
-- **Por servicio:** ajusta las palabras clave según el servicio que quieras
-  vender y sus señales asociadas.
+- **Por sector semanal:** cambia la pestaña de configuración cada lunes (ej.:
+  Semana 1: Transporte, Semana 2: Hostelería) para enfocar tus tiros y especializar
+  tu discurso.
+- **Por señales de compra:** configura el sistema para buscar señales específicas
+  según tus días de enfoque (ej.: los lunes empresas contratando, los miércoles
+  empresas con reseñas negativas).
+- **Por servicio específico:** filtra la búsqueda según el servicio que quieras
+  empujar esa semana, adaptando las señales automáticas a las necesidades que cubre
+  ese servicio de tu catálogo.
 
 ## ⚠️ Uso responsable
 

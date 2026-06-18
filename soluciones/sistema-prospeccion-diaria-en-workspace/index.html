@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Prospección diaria de leads locales con Google Alerts + Workspace Studio · Claude desde Cero</title>
-  <meta name="description" content="Un sistema sencillo: Google Alerts detecta las señales de compra y Workspace Studio las convierte cada día en leads locales cualificados dentro de tu Google Sheets. Paso a paso y sin tecnicismos." />
+  <title>Prospección diaria de leads locales con Workspace Studio · Claude desde Cero</title>
+  <meta name="description" content="Encuentra de forma automática cada día 3 empresas de tu localidad y sector que muestren señales reales de crecimiento o necesidad, con evidencia y un primer mensaje listo para LinkedIn. Paso a paso y sin tecnicismos." />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🟧</text></svg>" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -33,75 +33,82 @@
 
   <main>
     <div class="wrap">
-      <p class="breadcrumb"><a href="../../">Inicio</a> / <a href="../">Soluciones</a> / Prospección diaria con Google Alerts</p>
+      <p class="breadcrumb"><a href="../../">Inicio</a> / <a href="../">Soluciones</a> / Prospección diaria con Workspace Studio</p>
 
       <article class="article">
-        <span class="eyebrow">Prospección de clientes · Intermedio</span>
-        <h1 style="margin-top:16px;">Prospección diaria de leads locales con Google Alerts</h1>
-        <p class="lead">Un sistema sencillo: <strong>Google Alerts</strong> detecta
-           las señales de compra y <strong>Workspace Studio</strong> las convierte
-           cada día en leads locales cualificados dentro de tu Google Sheets.</p>
+        <span class="eyebrow">Automatización comercial · Intermedio</span>
+        <h1 style="margin-top:16px;">🎯 Prospección diaria de leads locales con Workspace Studio</h1>
+        <p class="lead">Encuentra de forma automática cada día <strong>3 empresas</strong>
+           de tu localidad y sector que muestren señales reales de crecimiento o
+           necesidad, para ofrecer tus servicios en el momento perfecto.</p>
 
         <div class="callout">
           <span style="font-size:1.4rem;">⏱️</span>
           <div>
-            <strong>Tiempo: 30-45 min · Dificultad: intermedio</strong>
+            <strong>Tiempo: 60-90 min · Dificultad: intermedio</strong>
             Necesitas Google Workspace con <strong>Workspace Studio</strong>,
-            <strong>Google Sheets</strong>, <strong>Gmail/Google Alerts</strong> y
-            <strong>Gemini</strong>. Sin código.
+            <strong>Google Sheets</strong> y <strong>Gmail / Google Chat</strong>.
+            Sin código.
           </div>
         </div>
 
         <h2>🧩 El problema</h2>
-        <p>Quieres prospectar empresas locales de forma constante, pero sin pasar
-           cada día una o dos horas buscando a mano en Google, LinkedIn o portales
-           de empleo. Y lo difícil no es encontrar empresas, sino encontrar las que
-           tienen <strong>una señal real de oportunidad</strong>: que están
-           contratando, creciendo, han cambiado de gerente, han recibido una
-           subvención, abren nueva sede o tienen reseñas negativas de organización
-           o trato.</p>
+        <p>Quieres buscar clientes locales de manera constante, pero pasar una o dos
+           horas al día saltando entre Google, LinkedIn, Google Maps y portales de
+           empleo es agotador. Además, el verdadero reto no es solo listar empresas,
+           sino saber cuáles de ellas tienen <strong>una necesidad real hoy</strong>
+           (porque están contratando, abriendo sedes, cambiando de directiva o
+           sufriendo desorganización interna) para no contactar a puerta fría y sin
+           argumentos.</p>
 
         <h2>💡 La idea</h2>
-        <p>Montar un sistema reactivo con tres piezas:</p>
-        <ul>
-          <li><strong>Google Alerts</strong> como detector de señales: te avisa por
-             correo cuando aparece una novedad de tu sector y localidad.</li>
-          <li><strong>Workspace Studio</strong> como investigador: lee ese correo,
-             valida la señal, localiza datos públicos y prepara el lead.</li>
-          <li><strong>Google Sheets</strong> como centro de control: guarda cada
-             lead con su evidencia y un primer mensaje listo para contactar.</li>
-        </ul>
+        <p>Crear un sistema automático donde usas una hoja de Google Sheets como
+           centro de control para elegir el sector y la ciudad, y dejas que
+           <strong>Workspace Studio</strong> actúe como tu investigador privado
+           buscando en la web y seleccionando cada mañana los <strong>3 mejores
+           leads</strong> con evidencias reales.</p>
 
         <h2>🛠️ La construcción, paso a paso</h2>
         <ol class="steps">
           <li><div>
-            <strong>Crea la hoja en Google Sheets.</strong> Llámala
-            <code>CRM Prospección</code> con tres pestañas: Configuración, Leads
-            diarios y Descartados.
+            <strong>Crea el panel en Google Sheets.</strong> Diseña un libro llamado
+            <code>CRM Prospección Loke</code> con cinco pestañas clave:
+            <strong>Configuración</strong> (donde pones el sector y ciudad de la
+            semana), <strong>Leads diarios</strong> (la base de datos principal),
+            <strong>Descartados</strong> (para no repetir empresas),
+            <strong>Consultas</strong> (con frases de búsqueda tipo) y
+            <strong>Seguimiento</strong>.
           </div></li>
           <li><div>
-            <strong>Configura tus Google Alerts.</strong> Combina localidad +
-            sector + una palabra clave de señal. Cada novedad que Google indexe
-            llega directa a tu Gmail.
+            <strong>Conecta Workspace Studio.</strong> Configura una automatización
+            proactiva web que se ejecute de forma diaria en la herramienta.
           </div></li>
           <li><div>
-            <strong>Crea el flujo en Workspace Studio.</strong> Al llegar un correo
-            de Google Alerts, analiza el contenido, valida que haya una señal con
-            URL de evidencia y guarda el lead en "Leads diarios".
+            <strong>Establece la regla de oro.</strong> Configura el sistema para
+            que solo acepte un lead si Workspace Studio encuentra y adjunta una URL
+            que sirva como evidencia real de la oportunidad (un enlace a una oferta
+            de empleo, una noticia, una reseña, etc.).
+          </div></li>
+          <li><div>
+            <strong>Diseña la alerta de salida.</strong> Activa un paso final para
+            que, además de rellenar el Sheets, el sistema te envíe un resumen rápido
+            de los 3 elegidos por Gmail o Google Chat para ponerte a trabajar de
+            inmediato.
           </div></li>
         </ol>
 
         <h3>Pestaña Configuración</h3>
         <p>Aquí decides qué se busca esa semana; solo cambias el sector o la
-           localidad sin tocar el flujo.</p>
+           ciudad sin tocar la automatización.</p>
         <div class="table-wrap">
           <table>
             <thead><tr><th>Campo</th><th>Ejemplo</th></tr></thead>
             <tbody>
               <tr><td>Localidad / Provincia</td><td>Córdoba</td></tr>
               <tr><td>Sector objetivo</td><td>Transporte</td></tr>
-              <tr><td>Tamaño ideal</td><td>10-40 trabajadores</td></tr>
-              <tr><td>Señales prioritarias</td><td>contratación, expansión, cambio de gerente, reseñas negativas</td></tr>
+              <tr><td>Nº de leads requeridos</td><td>3</td></tr>
+              <tr><td>Señales prioritarias</td><td>contratación, expansión, financiación, cambio de directiva, reseñas negativas</td></tr>
+              <tr><td>Servicio preferente</td><td>Gestión de personas</td></tr>
               <tr><td>Estado</td><td>Activo</td></tr>
             </tbody>
           </table>
@@ -114,95 +121,71 @@
             <thead><tr><th>Campo</th><th>Descripción</th></tr></thead>
             <tbody>
               <tr><td>Empresa / Sector / Localidad</td><td>Identificación básica</td></tr>
-              <tr><td>Señal de compra / Tipo</td><td>Qué ha pasado y de qué tipo</td></tr>
-              <tr><td>Fuente (URL)</td><td>Evidencia pública — obligatoria</td></tr>
+              <tr><td>Web · Google Maps · LinkedIn</td><td>URLs de la empresa</td></tr>
+              <tr><td>Señal de compra</td><td>Qué ha pasado y por qué es una oportunidad</td></tr>
+              <tr><td>Evidencia (URL)</td><td>Enlace que demuestra la señal — obligatorio</td></tr>
               <tr><td>Decisor / Cargo</td><td>Persona de contacto si es pública</td></tr>
-              <tr><td>Canal recomendado</td><td>LinkedIn, llamada, email, visita</td></tr>
-              <tr><td>Mensaje sugerido</td><td>Borrador inicial de contacto</td></tr>
-              <tr><td>Estado</td><td>Nuevo, contactado, descartado</td></tr>
+              <tr><td>Lead score (0-100)</td><td>Prioridad calculada por el sistema</td></tr>
+              <tr><td>Mensaje sugerido</td><td>Primer mensaje de LinkedIn, &lt;200 caracteres</td></tr>
             </tbody>
           </table>
         </div>
         <blockquote>
-          Regla importante: si no hay URL de evidencia, no entra el lead. La pestaña
-          <strong>Descartados</strong> guarda las empresas que ya rechazaste para
-          que no vuelvan a aparecer.
+          Regla de oro: si no hay URL de evidencia, no entra el lead. Las pestañas
+          <strong>Leads diarios</strong> y <strong>Descartados</strong> evitan que
+          una misma empresa vuelva a aparecer.
         </blockquote>
 
-        <h3>Ejemplos de Google Alerts</h3>
-        <pre><code>"empresa Córdoba" "nuevo gerente"
-"transporte Córdoba" "oferta de empleo"
-"empresa de limpieza Córdoba" "seleccionamos personal"
-"hostelería Córdoba" "amplía plantilla"
-"empresa Córdoba" "subvención"
-"empresa Córdoba" "abre nueva sede"
-"empresa Córdoba" "adjudicación"</code></pre>
+        <h2>📝 El prompt / los archivos que usamos</h2>
+        <p>Para que el sistema funcione de forma proactiva cada mañana, se utiliza
+           el siguiente prompt base en Workspace Studio. También está en
+           <a href="archivos/prompt-prospeccion-diaria.md">archivos/prompt-prospeccion-diaria.md</a>
+           (puedes guardar tus plantillas de mensajes y guías de búsqueda en la
+           carpeta <code>archivos/</code>).</p>
+        <pre><code>Every weekday at 8:30 AM, read the Google Sheet named "CRM Prospección Loke", tab "Configuración".
 
-        <h2>📝 El prompt que usamos</h2>
-        <p>Este es el prompt del flujo de Workspace Studio que reacciona a cada
-           correo de Google Alerts. También está en
-           <a href="archivos/prompt-prospeccion-diaria.md">archivos/prompt-prospeccion-diaria.md</a>.
-           Sustituye lo que está entre corchetes por los datos de tu negocio.</p>
-        <pre><code>Cuando reciba un correo de Google Alerts, analiza el contenido del correo.
+Use the active configuration to identify target location, province, sector, number of leads required, priority buying signals, and preferred service.
 
-Identifica empresas ubicadas en mi localidad o provincia objetivo que coincidan con el sector activo en la Google Sheet "CRM Prospección", pestaña "Configuración".
+Search the web for companies located in the selected area and sector that show at least one recent and verifiable buying signal (hiring, expanding, funding, management changes, or organizational stress/negative reviews).
 
-Extrae solo empresas con una señal de compra clara y verificable:
-- contratación
-- financiación
-- subvención
-- contrato público
-- expansión
-- nueva sede
-- cambio en la dirección
-- problema organizativo relevante
+For each candidate company, extract: company name, sector, location, website, Google Maps/LinkedIn URLs, likely decision maker, role, public contact data, buying signal, evidence URL, lead score (0-100), and a suggested first LinkedIn message in Spanish.
 
-Para cada empresa, extrae:
-- nombre de la empresa
-- sector
-- localidad
-- señal de compra
-- tipo de señal
-- URL de evidencia
-- fecha de la evidencia
-- web si está disponible
-- decisor probable si es público
-- cargo
-- datos de contacto públicos
-- motivo por el que puede encajar con tu negocio
-- canal de primer contacto recomendado
-- mensaje breve sugerido para LinkedIn, en español
-
-No inventes datos que falten.
-Si no hay URL de fuente, descarta el lead.
-Antes de añadir la empresa, comprueba que no aparezca ya en "Leads diarios" ni en "Descartados".
-Añade los leads válidos a "Leads diarios".</code></pre>
+Rules:
+- Do not invent data. If not found, write "No localizado".
+- Do not add a lead if there is no evidence URL.
+- Check "Leads diarios" and "Descartados" to avoid duplicates.
+- Add only the top 3 leads to "Leads diarios" and send me a summary via Gmail/Google Chat.</code></pre>
 
         <h2>🚀 El resultado</h2>
-        <p>Cada vez que salta una alerta relevante, tendrás en Google Sheets una
-           fila limpia, lista para contactar:</p>
+        <p>Cada mañana a las 8:30 AM tendrás tu hoja de Google Sheets actualizada
+           con 3 empresas "calientes", sus datos de contacto públicos, el nombre del
+           posible directivo, un enlace que demuestra por qué es una oportunidad y
+           una propuesta de mensaje corto de menos de 200 caracteres listo para
+           copiar y pegar en LinkedIn. También recibirás una notificación limpia en
+           tu bandeja de entrada con el resumen del día.</p>
         <div class="table-wrap">
           <table>
-            <thead><tr><th>Empresa</th><th>Sector</th><th>Localidad</th><th>Señal</th><th>Fuente</th><th>Decisor</th><th>Canal</th></tr></thead>
+            <thead><tr><th>Empresa</th><th>Sector</th><th>Localidad</th><th>Señal</th><th>Evidencia</th><th>Decisor</th><th>Score</th></tr></thead>
             <tbody>
-              <tr><td>Transportes X</td><td>Transporte</td><td>Córdoba</td><td>Busca conductores</td><td>URL</td><td>Gerente</td><td>LinkedIn</td></tr>
-              <tr><td>Limpiezas Y</td><td>Limpieza</td><td>Lucena</td><td>Nueva adjudicación</td><td>URL</td><td>Administrador</td><td>Llamada</td></tr>
+              <tr><td>Transportes X</td><td>Transporte</td><td>Córdoba</td><td>Busca conductores</td><td>URL</td><td>Gerente</td><td>87</td></tr>
+              <tr><td>Limpiezas Y</td><td>Limpieza</td><td>Lucena</td><td>Nueva adjudicación</td><td>URL</td><td>Administrador</td><td>74</td></tr>
             </tbody>
           </table>
         </div>
         <p>Con un mensaje inicial sugerido ya redactado, por ejemplo:</p>
-        <pre><code>Hola, [Nombre]. He visto la evolución de [Empresa] en Córdoba. Trabajo ayudando a PYMEs a mejorar clima, liderazgo y gestión de personas. Me encantará seguir vuestra actividad.</code></pre>
+        <pre><code>Hola, [Nombre]. He visto que [Empresa] está creciendo en Córdoba. Ayudo a PYMEs a mejorar clima, liderazgo y gestión de personas. ¿Te viene bien charlar?</code></pre>
 
-        <h2>🔁 Hazlo tuyo</h2>
+        <h2>🔄 Hazlo tuyo</h2>
         <ul>
-          <li><strong>Por sector semanal:</strong> rota el sector cada lunes
-             (transporte, limpieza, hostelería…) para hablar el lenguaje de cada
-             uno.</li>
-          <li><strong>Por señal:</strong> crea alertas centradas en una señal
-             concreta (subvenciones, cambios directivos, nuevas aperturas) para
-             detectar empresas "calientes".</li>
-          <li><strong>Por servicio:</strong> ajusta las palabras clave según el
-             servicio que quieras vender y sus señales asociadas.</li>
+          <li><strong>Por sector semanal:</strong> cambia la pestaña de configuración
+             cada lunes (ej.: Semana 1: Transporte, Semana 2: Hostelería) para
+             enfocar tus tiros y especializar tu discurso.</li>
+          <li><strong>Por señales de compra:</strong> configura el sistema para
+             buscar señales específicas según tus días de enfoque (ej.: los lunes
+             empresas contratando, los miércoles empresas con reseñas negativas).</li>
+          <li><strong>Por servicio específico:</strong> filtra la búsqueda según el
+             servicio que quieras empujar esa semana, adaptando las señales
+             automáticas a las necesidades que cubre ese servicio de tu catálogo.</li>
         </ul>
 
         <div class="callout" style="background:#fff6f9;border-color:var(--pink);">
