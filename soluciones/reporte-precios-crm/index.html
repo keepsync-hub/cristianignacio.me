@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reporte automático de precios para carga en CRM · Claude desde Cero</title>
+  <meta name="description" content="Genera cada lunes un Excel limpio con los cambios de precios de tu proveedor usando Claude Code y cárgalos en tu CRM cerrado con Claude CoWork, sin trabajo manual." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🟧</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="wrap nav__inner">
+      <a class="brand" href="../../">
+        <span class="brand__mark">C0</span>
+        <span>Claude desde Cero</span>
+      </a>
+      <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false">MENÚ</button>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="../../#como-funciona">Cómo funciona</a></li>
+          <li><a href="../">Soluciones</a></li>
+          <li><a href="../../#comunidad">Comunidad</a></li>
+          <li><a href="https://github.com/keepsync-hub/cristianignacio.me">GitHub</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <p class="breadcrumb"><a href="../../">Inicio</a> / <a href="../">Soluciones</a> / Reporte de precios para CRM</p>
+
+      <article class="article">
+        <span class="eyebrow">Automatización de procesos · Intermedio</span>
+        <h1 style="margin-top:16px;">📈 Reporte automático de precios para carga en CRM</h1>
+        <p class="lead">Genera un Excel limpio con las actualizaciones de precios
+           de tu proveedor mediante una rutina de Claude Code y automatiza su
+           carga en la interfaz de tu CRM usando la extensión Claude CoWork.</p>
+
+        <div class="callout">
+          <span style="font-size:1.4rem;">⏱️</span>
+          <div>
+            <strong>Tiempo: 45 minutos · Dificultad: intermedio</strong>
+            Necesitas Claude Code y la extensión de Chrome Claude CoWork.
+          </div>
+        </div>
+
+        <h2>🧩 El problema</h2>
+        <p>Tu proveedor actualiza sus precios constantemente y necesitas reflejar
+           esos cambios en tu CRM para cotizar correctamente. El problema es que
+           tu CRM es cerrado: no permite conectar herramientas externas ni
+           Inteligencia Artificial para que se actualice solo. Hacer el
+           seguimiento, buscar los cambios y armar el archivo a mano todas las
+           semanas te quita tiempo valioso y abre la puerta a errores de
+           digitación.</p>
+
+        <h2>💡 La idea</h2>
+        <p>Crear un flujo automatizado con una rutina de Claude Code que se
+           ejecute en segundo plano de forma programada para extraer los precios
+           actualizados a un Excel limpio. Después, usar Claude CoWork desde su
+           extensión de Google Chrome para automatizar la carga de esos datos
+           directamente en la interfaz del CRM, superando la limitación de un
+           sistema cerrado.</p>
+
+        <h2>🛠️ La construcción, paso a paso</h2>
+        <ol class="steps">
+          <li><div>
+            <strong>Configura la rutina de Claude Code</strong> en segundo plano
+            para que revise las actualizaciones del proveedor de forma programada.
+          </div></li>
+          <li><div>
+            <strong>Programa la extracción.</strong> Que genere un archivo de
+            Excel limpio y ordenado todos los lunes exactamente a las 9:00 AM.
+          </div></li>
+          <li><div>
+            <strong>Instala Claude CoWork</strong> (extensión de Google Chrome)
+            en tu navegador.
+          </div></li>
+          <li><div>
+            <strong>Configura la carga.</strong> Que Claude CoWork tome los datos
+            del Excel generado y rellene de forma secuencial los campos en la
+            interfaz de usuario del CRM.
+          </div></li>
+        </ol>
+
+        <h2>📝 El prompt / los archivos que usamos</h2>
+        <p>Todo el material está en la carpeta <code>archivos/</code>:</p>
+        <ul>
+          <li>Rutina de extracción para Claude Code:
+            <a href="archivos/rutina_claude_code.js">archivos/rutina_claude_code.js</a></li>
+          <li>Prompts listos para copiar:
+            <a href="archivos/prompt-rutina-claude-code.md">archivos/prompt-rutina-claude-code.md</a></li>
+          <li>Ejemplo de Excel limpio para la extensión:
+            <a href="archivos/plantilla_precios.csv">archivos/plantilla_precios.csv</a></li>
+        </ul>
+
+        <div class="callout c-yellow" style="background:var(--yellow);">
+          <span style="font-size:1.4rem;">📂</span>
+          <div>
+            <strong>Material de esta solución</strong>
+            El Excel final (<code>plantilla_precios.xlsx</code>) lo genera la
+            propia rutina; aquí dejamos un ejemplo en CSV con las mismas columnas
+            para que veas cómo queda.
+          </div>
+        </div>
+
+        <h2>🚀 El resultado</h2>
+        <p>Un reporte de precios exacto y puntual listo cada lunes, junto con una
+           carga de datos al CRM completamente manos libres que elimina los
+           errores humanos de digitación y evita el trabajo manual aburrido.</p>
+
+        <h2>🔁 Hazlo tuyo</h2>
+        <ul>
+          <li>Adapta la rutina para que extraiga datos de varios proveedores a la vez.</li>
+          <li>Modifica la frecuencia (por ejemplo, diaria en lugar de semanal) si
+            tu mercado requiere actualizaciones en tiempo real.</li>
+        </ul>
+
+        <p class="breadcrumb" style="margin-top:40px;">
+          ← <a href="../">Volver a soluciones</a>
+        </p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div>
+        <strong>Claude desde Cero</strong> — Sin tecnicismos.<br />
+        <span class="mono" style="font-size:.85rem;opacity:.8;">cristianignacio.me</span>
+      </div>
+      <div class="mono" style="font-size:.85rem;">
+        <a href="../../">Inicio</a> ·
+        <a href="../">Soluciones</a> ·
+        <a href="https://github.com/keepsync-hub/cristianignacio.me">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../../assets/js/main.js"></script>
+</body>
+</html>
