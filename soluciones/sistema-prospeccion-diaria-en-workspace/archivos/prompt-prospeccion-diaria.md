@@ -9,26 +9,26 @@ guardar aquí, en la carpeta `archivos/`, tus plantillas de mensajes y guías de
 búsqueda.
 
 ```text
-Every weekday at 8:30 AM, read the Google Sheet named "CRM Prospección Loke", tab "Configuración".
+Cada día laborable a las 8:30, lee la Google Sheet llamada "CRM Prospección Loke", pestaña "Configuración".
 
-Use the active configuration to identify target location, province, sector, number of leads required, priority buying signals, and preferred service.
+Usa la configuración activa para identificar la localidad objetivo, la provincia, el sector, el número de leads requeridos, las señales de compra prioritarias y el servicio preferente.
 
-Search the web for companies located in the selected area and sector that show at least one recent and verifiable buying signal (hiring, expanding, funding, management changes, or organizational stress/negative reviews).
+Busca en la web empresas ubicadas en la zona y el sector seleccionados que muestren al menos una señal de compra reciente y verificable (contratación, expansión, financiación, cambios en la dirección o estrés organizativo/reseñas negativas).
 
-For each candidate company, extract: company name, sector, location, website, Google Maps/LinkedIn URLs, likely decision maker, role, public contact data, buying signal, evidence URL, lead score (0-100), and a suggested first LinkedIn message in Spanish.
+Para cada empresa candidata, extrae: nombre de la empresa, sector, localidad, web, URLs de Google Maps/LinkedIn, decisor probable, cargo, datos de contacto públicos, señal de compra, URL de evidencia, lead score (0-100) y un primer mensaje sugerido para LinkedIn en español.
 
-Rules:
-- Do not invent data. If not found, write "No localizado".
-- Do not add a lead if there is no evidence URL.
-- Check "Leads diarios" and "Descartados" to avoid duplicates.
-- Add only the top 3 leads to "Leads diarios" and send me a summary via Gmail/Google Chat.
+Reglas:
+- No inventes datos. Si no lo encuentras, escribe "No localizado".
+- No añadas un lead si no hay URL de evidencia.
+- Revisa "Leads diarios" y "Descartados" para evitar duplicados.
+- Añade solo los 3 mejores leads a "Leads diarios" y envíame un resumen por Gmail/Google Chat.
 ```
 
 ## Notas
 
 - La pestaña **Configuración** manda: el sistema solo busca lo que tú definas ahí
   (localidad, sector, número de leads, señales prioritarias y servicio preferente).
-- Las reglas de "Do not invent data" y "Do not add a lead if there is no evidence
-  URL" son las que mantienen tu CRM limpio. No las quites.
-- Revisa siempre la **evidence URL** antes de contactar: es la prueba de que la
+- Las reglas de "No inventes datos" y "No añadas un lead si no hay URL de
+  evidencia" son las que mantienen tu CRM limpio. No las quites.
+- Revisa siempre la **URL de evidencia** antes de contactar: es la prueba de que la
   señal de compra es real.
