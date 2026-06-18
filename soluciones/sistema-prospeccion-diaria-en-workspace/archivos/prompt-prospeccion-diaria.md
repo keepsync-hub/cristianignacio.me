@@ -9,7 +9,7 @@ guardar aquí, en la carpeta `archivos/`, tus plantillas de mensajes y guías de
 búsqueda.
 
 ```text
-Cada día laborable a las 8:30, lee la Google Sheet llamada "CRM Prospección Loke", pestaña "Configuración".
+Cada día laborable a las 8:30, lee la Google Sheet llamada "CRM Prospección", pestaña "Configuración".
 
 Usa la configuración activa para identificar la localidad objetivo, la provincia, el sector, el número de leads requeridos, las señales de compra prioritarias y el servicio preferente.
 

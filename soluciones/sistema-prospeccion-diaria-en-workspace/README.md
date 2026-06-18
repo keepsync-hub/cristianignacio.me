@@ -29,8 +29,8 @@ como tu investigador privado buscando en la web y seleccionando cada mañana los
 
 ## 🛠️ La construcción, paso a paso
 
-1. **Crea el panel en Google Sheets.** Diseña un libro llamado **CRM Prospección
-   Loke** con cinco pestañas clave: Configuración (donde pones el sector y ciudad
+1. **Crea el panel en Google Sheets.** Diseña un libro llamado **CRM Prospección**
+   con cinco pestañas clave: Configuración (donde pones el sector y ciudad
    de la semana), Leads diarios (la base de datos principal), Descartados (para no
    repetir empresas), Consultas (con frases de búsqueda tipo) y Seguimiento.
 2. **Conecta Workspace Studio.** Configura una automatización proactiva web que se
@@ -83,7 +83,7 @@ prompt base en Workspace Studio. También está en
 `archivos/`).
 
 ```text
-Cada día laborable a las 8:30, lee la Google Sheet llamada "CRM Prospección Loke", pestaña "Configuración".
+Cada día laborable a las 8:30, lee la Google Sheet llamada "CRM Prospección", pestaña "Configuración".
 
 Usa la configuración activa para identificar la localidad objetivo, la provincia, el sector, el número de leads requeridos, las señales de compra prioritarias y el servicio preferente.
 
