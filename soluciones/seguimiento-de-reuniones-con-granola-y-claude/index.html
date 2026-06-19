@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Seguimiento de reuniones de ventas con Granola y Claude · Claude desde Cero</title>
+  <meta name="description" content="Graba tus reuniones con Granola.ai y deja que un Proyecto de Claude haga el resumen, actualice el CRM, cree la tarea de seguimiento, redacte el correo al cliente y agregue tus pendientes a Google Tasks. Paso a paso y sin tecnicismos." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🟧</text></svg>" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../../assets/css/style.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="wrap nav__inner">
+      <a class="brand" href="../../">
+        <span class="brand__mark">C0</span>
+        <span>Claude desde Cero</span>
+      </a>
+      <button class="nav__toggle" aria-label="Abrir menú" aria-expanded="false">MENÚ</button>
+      <nav>
+        <ul class="nav__links">
+          <li><a href="../../#como-funciona">Cómo funciona</a></li>
+          <li><a href="../">Soluciones</a></li>
+          <li><a href="../../#comunidad">Comunidad</a></li>
+          <li><a href="https://github.com/keepsync-hub/cristianignacio.me">GitHub</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="wrap">
+      <p class="breadcrumb"><a href="../../">Inicio</a> / <a href="../">Soluciones</a> / Seguimiento de reuniones con Granola y Claude</p>
+
+      <article class="article">
+        <span class="eyebrow">Automatización comercial · Intermedio</span>
+        <h1 style="margin-top:16px;">🎙️ Seguimiento de reuniones de ventas con Granola y Claude</h1>
+        <p class="lead">Graba tus reuniones con <strong>Granola.ai</strong> y deja
+           que un <strong>Proyecto de Claude</strong> haga el resto: resumen, CRM
+           actualizado, tarea de seguimiento, correo para el cliente y tus
+           pendientes en Google Tasks. Todo automático, justo al terminar la
+           reunión.</p>
+
+        <div class="callout">
+          <span style="font-size:1.4rem;">⏱️</span>
+          <div>
+            <strong>Tiempo: 45-60 min · Dificultad: intermedio</strong>
+            Necesitas <strong>Granola.ai</strong>, un <strong>Proyecto de
+            Claude</strong> con conexión a Granola, tu <strong>CRM (ej.
+            HubSpot)</strong> y <strong>Google Tasks / Gmail</strong>. Sin código.
+          </div>
+        </div>
+
+        <h2>🧩 El problema</h2>
+        <p>Como vendedor quieres tener <strong>la mayor cantidad de reuniones
+           posible</strong>: cada reunión es una oportunidad. Pero hay una trampa.
+           Cuantas más reuniones haces, más se te acumulan las tareas de después:
+           generar el resumen, identificar los compromisos, anotar quién es
+           responsable de cada cosa, definir los próximos pasos y, sobre todo,
+           <strong>dar seguimiento</strong>. Ese trabajo "invisible" se amontona, se
+           hace de memoria y a las apuradas, y al final las oportunidades se
+           enfrían porque nadie movió la siguiente ficha a tiempo.</p>
+        <blockquote>
+          El dilema es real: <strong>más reuniones = más ventas potenciales, pero
+          también más trabajo administrativo que termina frenando las ventas.</strong>
+        </blockquote>
+
+        <h2>💡 La idea</h2>
+        <p>Separar las dos cosas que hoy haces a la vez y haces mal por falta de
+           tiempo: <strong>estar presente en la reunión</strong> y
+           <strong>procesar la reunión</strong>. Granola se encarga de capturar y
+           resumir; un Proyecto de Claude se encarga de convertir ese resumen en
+           acciones dentro de tus herramientas. Tú solo conversas con el cliente.</p>
+
+        <h2>🛠️ La construcción, paso a paso</h2>
+        <ol class="steps">
+          <li><div>
+            <strong>Graba con Granola.ai.</strong> Granola <strong>no se suma como
+            un asistente más a la reunión</strong>: captura el audio directo desde
+            tu dispositivo (PC o teléfono). Graba la conversación y entrega un
+            <strong>resumen estructurado</strong> listo para revisar y compartir,
+            sin que tengas que tomar notas.
+          </div></li>
+          <li><div>
+            <strong>Crea un Proyecto de Claude.</strong> En un Proyecto, pega las
+            <a href="archivos/instrucciones-proyecto-claude.md">instrucciones del
+            proyecto</a> que definen el rol del asistente y las reglas (no inventar
+            datos, dejar el correo en borrador, etapa "Análisis" por defecto,
+            seguimiento a 3 días).
+          </div></li>
+          <li><div>
+            <strong>Conecta las herramientas.</strong> Conecta el proyecto a
+            <strong>Granola</strong> (para leer los datos de la reunión), a tu
+            <strong>CRM, por ejemplo HubSpot</strong> (contactos, negocios, notas y
+            tareas) y a <strong>Google Tasks / Gmail</strong>.
+          </div></li>
+          <li><div>
+            <strong>Procesa cada reunión con un solo prompt.</strong> Al terminar,
+            pega el <a href="archivos/prompt-post-reunion.md">prompt principal</a>.
+            Claude lee la reunión desde Granola y ejecuta todo el flujo de
+            seguimiento.
+          </div></li>
+        </ol>
+
+        <h3>Qué hace Claude al ejecutar el flujo</h3>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Paso</th><th>Acción</th></tr></thead>
+            <tbody>
+              <tr><td>1. Lee Granola</td><td>Obtiene el resumen estructurado y la transcripción de la reunión.</td></tr>
+              <tr><td>2. Extrae lo clave</td><td>Cliente, empresa, correo, compromisos, responsables, próximos pasos y fechas.</td></tr>
+              <tr><td>3. CRM — Contacto</td><td>Busca el contacto; <strong>si no existe, lo crea</strong>.</td></tr>
+              <tr><td>4. CRM — Negocio</td><td>Crea un negocio en etapa <strong>"Análisis"</strong> con el resumen como nota.</td></tr>
+              <tr><td>5. CRM — Tarea</td><td>Crea una <strong>tarea de seguimiento dentro de 3 días</strong>.</td></tr>
+              <tr><td>6. Correo</td><td>Redacta un <strong>borrador listo para enviar</strong> al cliente justo tras la reunión.</td></tr>
+              <tr><td>7. Google Tasks</td><td>Agrega <strong>solo tus pendientes</strong> (donde tú eres el responsable).</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <h2>📝 Los prompts que usamos</h2>
+        <p>Tres prompts listos para copiar y usar (los tienes en la carpeta
+           <a href="archivos/">archivos/</a>):</p>
+        <ul>
+          <li><a href="archivos/instrucciones-proyecto-claude.md"><strong>Instrucciones del Proyecto</strong></a> — el rol y las reglas fijas del asistente.</li>
+          <li><a href="archivos/prompt-post-reunion.md"><strong>Prompt principal</strong></a> — hace todo el flujo de seguimiento de una sola vez.</li>
+          <li><a href="archivos/prompt-correo-seguimiento.md"><strong>Solo el correo</strong></a> y <a href="archivos/prompt-pendientes-google-tasks.md"><strong>solo los pendientes</strong></a> — para cuando solo necesitas una parte.</li>
+        </ul>
+
+        <h3>Prompt principal (el que más usarás)</h3>
+        <pre><code>Procesa mi reunión de ventas más reciente.
+
+1) GRANOLA — Obtén los datos
+Conéctate a Granola y trae el resumen estructurado y la transcripción de mi última reunión.
+(Si no es la última, te indico el título o la fecha: __________.)
+Extrae con claridad: nombre del cliente, empresa, correo, cargo, teléfono si aparece, temas tratados, dolores/necesidades, presupuesto o señales de compra, compromisos acordados, responsables de cada compromiso, próximos pasos y fechas mencionadas.
+
+2) HUBSPOT — Actualiza el CRM
+- Busca el contacto por correo o por nombre + empresa. Si NO existe, créalo con los datos disponibles.
+- Crea un negocio (deal) asociado a ese contacto, en la etapa "Análisis", con un nombre claro (Empresa — motivo de la oportunidad).
+- Añade el resumen de la reunión como NOTA dentro del negocio.
+- Crea una TAREA de seguimiento asociada al negocio, con vencimiento dentro de 3 días, titulada "Seguimiento: [Empresa]".
+
+3) CORREO — Deja un borrador listo
+Redacta un correo de seguimiento dirigido al cliente, para enviar justo después de la reunión: agradece la reunión, resume en 3-4 puntos lo conversado, confirma los próximos pasos y propone una fecha para el siguiente contacto. Déjalo como BORRADOR, no lo envíes.
+
+4) GOOGLE TASKS — Mis pendientes
+De la lista de próximos pasos, identifica solo los que me corresponden a MÍ como responsable y agrégalos a Google Tasks, cada uno con su fecha límite. Los pasos que le corresponden al cliente NO van a mis tareas (van solo en el correo y en la nota del CRM).
+
+5) RESUMEN
+Al final dame un resumen corto: contacto creado o encontrado, negocio creado, tarea de seguimiento, borrador de correo y pendientes agregados, con sus enlaces.
+
+Reglas: no inventes datos; si falta el correo del cliente avísame antes de crear el negocio; no envíes el correo, solo déjalo en borrador.</code></pre>
+
+        <h2>🚀 El resultado</h2>
+        <p>Terminas la reunión, escribes un mensaje y, en segundos, tienes:</p>
+        <ul>
+          <li>El <strong>contacto creado o actualizado</strong> en tu CRM.</li>
+          <li>Un <strong>negocio en etapa "Análisis"</strong> con el resumen de la reunión como nota.</li>
+          <li>Una <strong>tarea de seguimiento a 3 días</strong> para no dejar enfriar la oportunidad.</li>
+          <li>Un <strong>borrador de correo</strong> para el cliente, listo para revisar y enviar.</li>
+          <li>Tus <strong>pendientes personales en Google Tasks</strong>, con sus fechas.</li>
+        </ul>
+        <p>Dejas de hacer trabajo administrativo entre reunión y reunión, y
+           vuelves a lo que importa: <strong>tener más conversaciones de ventas sin
+           que se te caiga ninguna.</strong></p>
+
+        <h2>🔁 Hazlo tuyo</h2>
+        <ul>
+          <li><strong>Otro CRM:</strong> cambia HubSpot por el que uses (Pipedrive,
+             Salesforce, Zoho). El flujo es el mismo: buscar/crear contacto, crear
+             negocio, nota y tarea.</li>
+          <li><strong>Otra etapa:</strong> si tu primera reunión no es "Análisis",
+             ajusta la etapa por defecto en las instrucciones del proyecto.</li>
+          <li><strong>Otro gestor de tareas:</strong> reemplaza Google Tasks por
+             Todoist, Notion o Microsoft To Do.</li>
+          <li><strong>Otro ritmo de seguimiento:</strong> cambia los 3 días por el
+             plazo que use tu equipo, o pídele a Claude que proponga la fecha según
+             lo conversado.</li>
+        </ul>
+
+        <div class="callout" style="background:#fff6f9;border-color:var(--pink);">
+          <span style="font-size:1.4rem;">⚠️</span>
+          <div>
+            <strong>Uso responsable</strong>
+            Avisa a los participantes de que la reunión se está grabando cuando
+            corresponda y respeta la normativa de tu país y de tu empresa. Revisa
+            siempre el borrador del correo y los datos del CRM antes de enviar o
+            guardar: Claude prepara, tú decides.
+          </div>
+        </div>
+
+        <p class="breadcrumb" style="margin-top:40px;">
+          ← <a href="../">Volver a soluciones</a>
+        </p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div>
+        <strong>Claude desde Cero</strong> — Sin tecnicismos.<br />
+        <span class="mono" style="font-size:.85rem;opacity:.8;">cristianignacio.me</span>
+      </div>
+      <div class="mono" style="font-size:.85rem;">
+        <a href="../../">Inicio</a> ·
+        <a href="../">Soluciones</a> ·
+        <a href="https://github.com/keepsync-hub/cristianignacio.me">GitHub</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="../../assets/js/main.js"></script>
+</body>
+</html>
