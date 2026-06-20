@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" font-family="'Space Grotesk', 'Segoe UI', system-ui, sans-serif">
+  <!-- Fondo crema -->
+  <rect width="1200" height="630" fill="#faf4e6"/>
+  <!-- Borde grueso neo-brutalista -->
+  <rect x="32" y="32" width="1136" height="566" fill="#ffffff" stroke="#16130d" stroke-width="8"/>
+  <!-- Acento naranja superior -->
+  <rect x="32" y="32" width="1136" height="20" fill="#ff7a1a" stroke="#16130d" stroke-width="8"/>
+
+  <!-- Marca C0 (cuadro con sombra dura) -->
+  <rect x="88" y="120" width="132" height="132" fill="#16130d"/>
+  <rect x="80" y="112" width="132" height="132" fill="#ff7a1a" stroke="#16130d" stroke-width="8"/>
+  <text x="146" y="200" font-size="64" font-weight="700" fill="#16130d" text-anchor="middle" dominant-baseline="middle">C0</text>
+
+  <!-- Nombre de la comunidad -->
+  <text x="248" y="170" font-size="40" font-weight="600" fill="#16130d">Claude desde Cero</text>
+  <text x="250" y="220" font-size="24" font-weight="500" fill="#16130d" font-family="'JetBrains Mono', monospace" opacity="0.7">cristianignacio.me</text>
+
+  <!-- Titular principal -->
+  <text x="90" y="358" font-size="56" font-weight="700" fill="#16130d">Soluciones reales con Claude,</text>
+  <text x="90" y="430" font-size="56" font-weight="700" fill="#16130d">explicadas <tspan fill="#ff7a1a">sin tecnicismos.</tspan></text>
+
+  <!-- Subtítulo / chips -->
+  <g font-family="'JetBrains Mono', monospace" font-size="22" font-weight="700">
+    <rect x="90" y="500" width="240" height="56" fill="#ffd23f" stroke="#16130d" stroke-width="6"/>
+    <text x="210" y="536" fill="#16130d" text-anchor="middle">Soluciones</text>
+    <rect x="352" y="500" width="270" height="56" fill="#56cfe1" stroke="#16130d" stroke-width="6"/>
+    <text x="487" y="536" fill="#16130d" text-anchor="middle">Cursos gratis</text>
+    <rect x="644" y="500" width="230" height="56" fill="#ff6ec7" stroke="#16130d" stroke-width="6"/>
+    <text x="759" y="536" fill="#16130d" text-anchor="middle">Comunidad</text>
+  </g>
+</svg>

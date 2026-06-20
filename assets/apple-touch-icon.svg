@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 180 180" font-family="'Space Grotesk', system-ui, sans-serif">
+  <rect width="180" height="180" fill="#ff7a1a"/>
+  <rect x="10" y="10" width="160" height="160" fill="none" stroke="#16130d" stroke-width="10"/>
+  <text x="90" y="104" font-size="92" font-weight="700" fill="#16130d" text-anchor="middle">C0</text>
+</svg>

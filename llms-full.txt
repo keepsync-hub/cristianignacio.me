@@ -1,0 +1,2602 @@
+# Claude desde Cero — Contenido completo
+
+> Volcado en texto plano de https://cristianignacio.me para ingestión por modelos de IA. Soluciones reales construidas con Claude y cursos gratuitos, en español, sin tecnicismos. Comunidad abierta (no oficial de Anthropic).
+
+
+
+======================================================================
+URL: https://cristianignacio.me/
+======================================================================
+
+Sin tecnicismos · Paso a paso
+
+# Aprende a resolver
+problemas reales con Claude, desde cero.
+
+Cada solución se explica en lenguaje claro: el problema, la idea, el
+paso a paso y exactamente cómo se construyó. Sin jerga, sin asumir que
+ya sabes programar.
+
+Ver soluciones →
+Cursos gratis →
+Cómo funciona
+
+🧱 Abierto y replicable
+📂 Todo en GitHub
+🗣️ Lenguaje humano
+
+La idea
+
+## Tres pasos. Cero misterio.
+
+Publicamos soluciones acompañadas de su receta completa para que
+cualquiera pueda entenderlas, copiarlas y mejorarlas.
+
+🧩
+
+### El problema
+
+Empezamos por una necesidad concreta y cotidiana, contada como se
+la contarías a un amigo.
+
+🛠️
+
+### La construcción
+
+Mostramos los prompts, decisiones y archivos. Cómo se hizo de
+verdad, no una versión idealizada.
+
+🚀
+
+### El resultado
+
+Una solución que funciona y que puedes replicar tú mismo, con
+todo el material disponible.
+
+Soluciones
+
+## Lo último de la comunidad
+
+Cada tarjeta enlaza a la explicación completa y a los archivos que
+la componen.
+
+🎙️
+
+### Seguimiento de reuniones de ventas con Granola y Claude
+
+Granola graba la reunión y un Proyecto de Claude actualiza el CRM,
+crea la tarea de seguimiento, redacta el correo al cliente y suma
+tus pendientes a Google Tasks.
+
+Automatización comercial
+Intermedio
+
+🎯
+
+### Prospección diaria de leads locales con Workspace Studio
+
+Workspace Studio busca en la web y selecciona cada mañana las 3
+empresas locales con señal real de oportunidad, dentro de tu
+Google Sheets.
+
+Automatización comercial
+Intermedio
+
+✅
+
+### Organizar tus tareas con Claude
+
+Convierte una lista caótica de pendientes en un plan claro y
+priorizado, conversando en lenguaje natural.
+
+Productividad
+Principiante
+
+Ver todas las soluciones →
+
+Cómo está organizado
+
+## Transparente por diseño
+
+Tanto el sitio como el repositorio comparten la misma lógica: cada
+solución vive en su propia carpeta, con su explicación y sus
+archivos. Así es fácil aprender, copiar y contribuir.
+
+cristianignacio.me/
+├── index.html # Esta página
+├── soluciones/ # Todas las soluciones
+│ ├── index.html # Listado
+│ └── nombre-solucion/ # Una carpeta por solución
+│ ├── index.html # Explicación (web)
+│ ├── README.md # Explicación (GitHub)
+│ └── archivos/ # Material de la solución
+├── cursos/ # Cursos gratis
+│ ├── index.html # Listado por niveles
+│ └── nombre-curso/ # Una carpeta por curso
+├── plantilla/ # Plantilla para empezar
+└── CONTRIBUTING.md # Cómo contribuir
+
+Comunidad
+
+## Construyamos esto entre todos
+
+Claude desde Cero es una base abierta. Si resolviste
+algo con Claude —por simple que parezca— alguien más lo necesita.
+Documenta tu solución y compártela.
+
+Usar la plantilla →
+Cómo contribuir
+
+¿Quieres acompañamiento? Súmate a nuestra comunidad:
+
+Súmate a nuestro grupo de WhatsApp
+
+
+======================================================================
+URL: https://cristianignacio.me/soluciones/
+======================================================================
+
+Inicio / Soluciones
+
+Catálogo
+
+## Soluciones
+
+Cada solución incluye el problema, la construcción paso a paso y los
+archivos para replicarla. Elige una para ver la receta completa.
+
+🎙️
+
+### Seguimiento de reuniones de ventas con Granola y Claude
+
+Granola graba la reunión y un Proyecto de Claude actualiza el CRM,
+crea la tarea de seguimiento, redacta el correo al cliente y suma
+tus pendientes a Google Tasks.
+
+Automatización comercial
+Intermedio
+
+📈
+
+### Reporte automático de precios para carga en CRM
+
+Una rutina de Claude Code genera cada lunes un Excel limpio con los
+cambios de precios y Claude CoWork los carga solo en tu CRM cerrado.
+
+Automatización de procesos
+Intermedio
+
+🎯
+
+### Prospección diaria de leads locales con Workspace Studio
+
+Workspace Studio busca en la web y selecciona cada mañana las 3
+empresas locales con señal real de oportunidad, dentro de tu
+Google Sheets.
+
+Automatización comercial
+Intermedio
+
+✅
+
+### Organizar tus tareas con Claude
+
+Convierte una lista caótica de pendientes en un plan claro y
+priorizado, conversando en lenguaje natural.
+
+Productividad
+Principiante
+
+📑
+
+### Una presentación personalizada a partir de un correo
+
+Con solo un email, Claude investiga a la persona y su empresa, y
+te genera un PowerPoint a medida listo para descargar.
+
+Ventas
+Intermedio
+
+📋
+
+### Crear una solución nueva
+
+Plantilla lista para documentar tu solución en minutos y sumarla
+a este catálogo.
+
+Plantilla
+
+
+======================================================================
+URL: https://cristianignacio.me/cursos/
+======================================================================
+
+Inicio / Cursos Gratis
+
+Gratis · de principiante a experto
+
+## Cursos Gratis
+
+Una colección de guías gratuitas para dominar Claude. Sí, gratis.
+Cada curso es corto, va al grano y termina con algo que puedes usar
+hoy. Elige tu nivel y empieza.
+
+Nivel 1 · Principiante
+
+### Da tus primeros pasos
+
+Si nunca abriste Claude (o casi), empieza por aquí.
+
+🐣
+
+### Claude para principiantes
+
+Si nunca abriste Claude, empieza aquí. Qué es, para qué sirve y
+cómo escribir tu primer mensaje.
+
+Principiante
+5 min
+
+🧭
+
+### Ser bueno con Claude es (ridículamente) simple
+
+Una guía de supervivencia para la IA: tres hábitos que te
+convierten en alguien que de verdad le saca jugo a Claude.
+
+Principiante
+5 min
+
+🎓
+
+### Certifícate en Claude gratis
+
+Cómo certificarte en Claude sin pagar nada, paso a paso, y para
+qué te sirve el certificado.
+
+Principiante
+4 min
+
+Nivel 2 · Intermedio
+
+### Llévalo a tu trabajo diario
+
+Configura Claude para ti y para tu equipo, y crea cosas reales.
+
+🤝
+
+### Claude Cowork
+
+Cómo configurar Claude Cowork correctamente para que trabaje junto
+a ti en archivos y tareas reales.
+
+Intermedio
+18 min
+
+👥
+
+### Claude para equipos
+
+Un plan de una semana para que todo tu equipo empiece a producir
+con Claude, con Proyectos y plantillas compartidas.
+
+Intermedio
+11 min
+
+🎨
+
+### Claude Design
+
+Cómo usar el nuevo Claude Design para generar piezas visuales y
+prototipos sin ser diseñador.
+
+Intermedio
+9 min
+
+📁
+
+### Claude Cowork + Proyectos
+
+Cómo crear Proyectos dentro de Cowork para trabajar mejor en
+equipo, con contexto compartido y ordenado.
+
+Intermedio
+10 min
+
+🖼️
+
+### Claude para presentaciones
+
+La mejor forma de crear diapositivas con Claude: de una idea suelta
+a una presentación lista para mostrar.
+
+Intermedio
+7 min
+
+⚡
+
+### Claude Skills
+
+Cómo crear tus primeras Claude Skills para enseñarle a Claude a
+hacer tus tareas exactamente como tú las haces.
+
+Intermedio
+6 min
+
+Nivel 3 · Avanzado
+
+### Afina y profesionaliza
+
+Haz que Claude suene como tú y rinda al máximo sin tropezar.
+
+🪞
+
+### Que Claude suene como tú
+
+Entrena a Claude para que escriba con tu voz: tu tono, tus
+muletillas y tu forma de explicar las cosas.
+
+Avanzado
+12 min
+
+🚦
+
+### Deja de chocar con los límites de Claude
+
+Cómo dejar de alcanzar los límites de uso de Claude trabajando de
+forma más inteligente con tu contexto.
+
+Avanzado
+12 min
+
+🧠
+
+### Deja de hacer prompts
+
+Ve más allá de la ingeniería de prompts: piensa en contexto,
+sistemas y procesos en vez de frases mágicas.
+
+Avanzado
+10 min
+
+🤖
+
+### Claude me reemplazó
+
+Construye la Claude Skill que te enseña tu propio trabajo paso a
+paso, hasta que casi se hace solo.
+
+Avanzado
+4 min
+
+🗣️
+
+### Deja de sonar como una IA
+
+Deja de usar ciertas expresiones ya mismo: te delatan como texto
+de IA. Aprende a sonar humano otra vez.
+
+Avanzado
+20 min
+
+📊
+
+### Excel con Claude Cowork
+
+Cómo hacer hojas de cálculo con IA: fórmulas, tablas y reportes sin
+pelearte con Excel.
+
+Avanzado
+7 min
+
+Nivel 4 · Experto
+
+### Conecta y automatiza
+
+Enchufa Claude a tus apps y a tu flujo de trabajo de verdad.
+
+🔌
+
+### Conectores de Claude
+
+Cómo conectar Claude con tus apps (calendario, correo, archivos)
+para que actúe sobre tus datos reales.
+
+Experto
+8 min
+
+💻
+
+### Claude Code
+
+Para personas que nunca, jamás, van a programar: cómo crear una web
+o una herramienta hablándole a Claude en español.
+
+Experto
+14 min
+
+🔒
+
+### Deja de usar tu Claude personal en el trabajo
+
+Cómo usar Claude en la empresa sin poner en riesgo datos
+confidenciales… ni que te despidan.
+
+Experto
+9 min
+
+
+======================================================================
+URL: https://cristianignacio.me/soluciones/organizar-tareas-con-claude/
+======================================================================
+
+Inicio / Soluciones / Organizar tus tareas
+
+Productividad · Principiante
+
+# Organizar tus tareas con Claude
+
+Convierte una lista desordenada de pendientes en un plan
+claro y priorizado, sin instalar nada y conversando en lenguaje
+natural.
+
+⏱️
+
+Tiempo: 5 minutos · Dificultad: principiante
+Solo necesitas una cuenta de Claude y tu lista de pendientes.
+
+## 🧩 El problema
+
+Tienes mil cosas en la cabeza: trabajo, casa, recados, ideas sueltas.
+Las anotas en cualquier parte y al final no sabes por dónde empezar.
+No quieres otra app complicada; quieres claridad.
+
+## 💡 La idea
+
+Le damos a Claude tu lista tal cual, en desorden, y le pedimos que la
+organice por prioridad y esfuerzo, que detecte lo urgente y que nos
+proponga por dónde empezar hoy. Todo en una conversación normal.
+
+## 🛠️ La construcción, paso a paso
+
+- 
+Reúne tus pendientes. Escríbelos como salgan, sin
+ordenar. Da igual si están mezclados o mal redactados.
+
+- 
+Abre Claude y pega el prompt de abajo seguido de tu
+lista.
+
+- 
+Lee el plan que te devuelve: prioridades, lo urgente
+y una sugerencia de "empieza por aquí".
+
+- 
+Ajusta conversando. Pídele cambios en lenguaje
+natural: "súbeme esta tarea", "agrúpalas por día", "hazlo más corto".
+
+## 📝 El prompt que usamos
+
+Este es el texto exacto. Cópialo y pega tu lista justo debajo:
+
+Eres mi asistente de organización personal.
+Te voy a pasar una lista desordenada de pendientes.
+
+Quiero que:
+1. Los agrupes por área (Trabajo, Casa, Personal).
+2. Marques con 🔴 lo urgente, 🟡 lo importante y 🟢 lo que puede esperar.
+3. Me digas exactamente por cuáles 3 empezar hoy y por qué.
+4. Uses lenguaje claro, sin tecnicismos.
+
+Mi lista:
+- (pega aquí tus pendientes)
+
+Consejo: si el resultado es muy largo, pídele "resúmelo en una sola
+pantalla". Claude se adapta a cómo trabajas tú.
+
+## 🚀 El resultado
+
+Obtienes tu caos convertido en un plan accionable: agrupado, priorizado
+y con un punto de partida claro para hoy. Puedes guardarlo, pegarlo en
+tus notas o pedirle a Claude que te lo recuerde mañana.
+
+📂
+
+Material de esta solución
+El prompt completo está disponible como archivo:
+archivos/prompt.md.
+
+## 🔁 Hazlo tuyo
+
+- Cambia las áreas (por ejemplo: Estudios, Salud).
+
+- Pídele que estime cuánto tarda cada tarea.
+
+- Pídele un plan para toda la semana en vez de solo hoy.
+
+← Volver a soluciones
+
+
+======================================================================
+URL: https://cristianignacio.me/soluciones/presentacion-personalizada-desde-un-correo/
+======================================================================
+
+Inicio / Soluciones / Presentación desde un correo
+
+Ventas / Productividad · Intermedio
+
+# Una presentación personalizada a partir de un correo
+
+Con solo la dirección de email de alguien, deja que Claude
+investigue su rol, entienda a su empresa y sus desafíos, y te arme un
+PowerPoint a medida listo para descargar.
+
+⏱️
+
+Tiempo: ~15 minutos · Dificultad: intermedio
+Necesitas una cuenta de Claude (claude.ai) con búsqueda web
+y creación de archivos activadas. Cero código.
+
+## 🧩 El problema
+
+Tienes una reunión o quieres escribirle a un posible cliente y solo
+tienes su correo. Para llegar preparado necesitas saber quién es, qué
+hace su empresa y qué le quita el sueño… y encima armar una
+presentación a medida. Hacerlo bien toma horas de búsqueda y diseño.
+
+## 💡 La idea
+
+La dirección de correo ya tiene dos pistas enormes: el nombre
+de la persona y el dominio de su empresa. Con eso,
+Claude (usando búsqueda web) investiga a la persona y a la empresa, y
+luego genera el PowerPoint personalizado por ti.
+
+## 🛠️ La construcción, paso a paso
+
+- 
+Descompón el correo. De
+nombre.apellido@empresa.com sacas dos cosas: la persona
+(nombre apellido) y la empresa (el dominio empresa.com).
+
+- 
+Activa la búsqueda web en claude.ai. Así Claude puede
+consultar información pública y actual en lugar de inventar.
+
+- 
+Investiga a la persona. Pídele su rol,
+responsabilidades y qué suele importarle a alguien con ese cargo.
+
+- 
+Investiga a la empresa por el dominio. A qué se
+dedica, sus productos, tamaño, noticias recientes y sus principales
+desafíos.
+
+- 
+Cruza rol + empresa. Pide a Claude que conecte lo
+que le importa a esa persona con lo que vive su empresa: ahí está tu
+ángulo de valor.
+
+- 
+Genera el PPT. Pide a Claude que cree un archivo
+.pptx descargable con la estructura de la presentación.
+Lo construye y te da el enlace para bajarlo.
+
+## 📝 Los prompts que usamos
+
+Son dos: primero investigas, luego generas la presentación con ese
+resultado.
+
+### 1) Investigación (persona + empresa)
+
+Tengo solo este correo: nombre.apellido@empresa.com
+Usa búsqueda web y trabaja solo con información pública y profesional.
+
+1. PERSONA: a partir del nombre, dime su rol/cargo probable, sus
+responsabilidades y las 3 prioridades típicas de alguien con ese rol.
+2. EMPRESA: a partir del dominio (empresa.com), dime a qué se dedica,
+sus productos/servicios, tamaño aproximado, sector, noticias
+recientes y sus 3 principales desafíos actuales.
+3. ÁNGULO: conecta lo que le importa a esa persona con los desafíos de
+su empresa, y propón 3 ideas de valor que yo podría aportarle.
+
+Devuélvelo como un brief claro, sin tecnicismos. Indica el nivel de
+confianza de cada dato y marca lo que sea suposición.
+
+### 2) Generación del PowerPoint
+
+Con el brief anterior, crea un archivo PowerPoint (.pptx)
+descargable, personalizado para esta persona y su empresa.
+
+Estructura de slides:
+1. Portada (nombre de la persona, su empresa y el motivo del contacto)
+2. "Lo que entendemos de [empresa]" (qué hace y su contexto)
+3. "Desafíos que vemos" (los principales retos detectados)
+4. "Cómo podemos ayudar" (propuesta de valor alineada a su rol)
+5. "Por qué ahora" (1-2 razones de oportunidad/momento)
+6. Próximos pasos
+
+Tono profesional y cercano. Frases cortas, pensadas para leerse en voz
+alta. Cuando termines, dame el archivo .pptx para descargar.
+
+Consejo: si quieres tu identidad de marca, dile "usa estos colores y
+este logo" y pega/sube tu material. Claude lo aplica al .pptx.
+
+## 🚀 El resultado
+
+Obtienes dos cosas: un brief de investigación (quién
+es, qué hace su empresa y sus desafíos) y un PowerPoint
+personalizado listo para descargar y presentar. De un correo
+a una reunión preparada en minutos.
+
+📂
+
+Material de esta solución
+Prompts listos para copiar:
+prompt-investigacion.md
+y prompt-presentacion.md.
+
+⚠️
+
+Uso responsable
+Usa solo información pública y profesional (web de la
+empresa, perfiles profesionales) y con un fin legítimo de contacto de
+negocio. Trata los datos de las personas con respeto y de acuerdo con
+la normativa aplicable.
+
+## 🔁 Hazlo tuyo
+
+- Otro formato: en vez del .pptx, pídele el contenido
+para Gamma o Google Slides, o una presentación en
+HTML que abras en el navegador y exportes a PDF.
+
+- Tu marca: dale tus colores, tipografía y logo.
+
+- Idioma y longitud: "hazla en inglés" o "máximo 5
+slides".
+
+- Email en vez de PPT: pídele un correo de primer
+contacto basado en el mismo brief.
+
+← Volver a soluciones
+
+
+======================================================================
+URL: https://cristianignacio.me/soluciones/reporte-precios-crm/
+======================================================================
+
+Inicio / Soluciones / Reporte de precios para CRM
+
+Automatización de procesos · Intermedio
+
+# 📈 Reporte automático de precios para carga en CRM
+
+Genera un Excel limpio con las actualizaciones de precios
+de tu proveedor mediante una rutina de Claude Code y automatiza su
+carga en la interfaz de tu CRM usando la extensión Claude CoWork.
+
+⏱️
+
+Tiempo: 45 minutos · Dificultad: intermedio
+Necesitas Claude Code y la extensión de Chrome Claude CoWork.
+
+## 🧩 El problema
+
+Tu proveedor actualiza sus precios constantemente y necesitas reflejar
+esos cambios en tu CRM para cotizar correctamente. El problema es que
+tu CRM es cerrado: no permite conectar herramientas externas ni
+Inteligencia Artificial para que se actualice solo. Hacer el
+seguimiento, buscar los cambios y armar el archivo a mano todas las
+semanas te quita tiempo valioso y abre la puerta a errores de
+digitación.
+
+## 💡 La idea
+
+Crear un flujo automatizado con una rutina de Claude Code que se
+ejecute en segundo plano de forma programada para extraer los precios
+actualizados a un Excel limpio. Después, usar Claude CoWork desde su
+extensión de Google Chrome para automatizar la carga de esos datos
+directamente en la interfaz del CRM, superando la limitación de un
+sistema cerrado.
+
+## 🛠️ La construcción, paso a paso
+
+- 
+Configura la rutina de Claude Code en segundo plano
+para que revise las actualizaciones del proveedor de forma programada.
+
+- 
+Programa la extracción. Que genere un archivo de
+Excel limpio y ordenado todos los lunes exactamente a las 9:00 AM.
+
+- 
+Instala Claude CoWork (extensión de Google Chrome)
+en tu navegador.
+
+- 
+Configura la carga. Que Claude CoWork tome los datos
+del Excel generado y rellene de forma secuencial los campos en la
+interfaz de usuario del CRM.
+
+## 📝 El prompt / los archivos que usamos
+
+Todo el material está en la carpeta archivos/:
+
+- Rutina de extracción para Claude Code:
+archivos/rutina_claude_code.js
+
+- Prompts listos para copiar:
+archivos/prompt-rutina-claude-code.md
+
+- Ejemplo de Excel limpio para la extensión:
+archivos/plantilla_precios.csv
+
+📂
+
+Material de esta solución
+El Excel final (plantilla_precios.xlsx) lo genera la
+propia rutina; aquí dejamos un ejemplo en CSV con las mismas columnas
+para que veas cómo queda.
+
+## 🚀 El resultado
+
+Un reporte de precios exacto y puntual listo cada lunes, junto con una
+carga de datos al CRM completamente manos libres que elimina los
+errores humanos de digitación y evita el trabajo manual aburrido.
+
+## 🔁 Hazlo tuyo
+
+- Adapta la rutina para que extraiga datos de varios proveedores a la vez.
+
+- Modifica la frecuencia (por ejemplo, diaria en lugar de semanal) si
+tu mercado requiere actualizaciones en tiempo real.
+
+← Volver a soluciones
+
+
+======================================================================
+URL: https://cristianignacio.me/soluciones/seguimiento-de-reuniones-con-granola-y-claude/
+======================================================================
+
+Inicio / Soluciones / Seguimiento de reuniones con Granola y Claude
+
+Automatización comercial · Intermedio
+
+# 🎙️ Seguimiento de reuniones de ventas con Granola y Claude
+
+Graba tus reuniones con Granola.ai y deja
+que un Proyecto de Claude haga el resto: resumen, CRM
+actualizado, tarea de seguimiento, correo para el cliente y tus
+pendientes en Google Tasks. Todo automático, justo al terminar la
+reunión.
+
+⏱️
+
+Tiempo: 45-60 min · Dificultad: intermedio
+Necesitas Granola.ai, un Proyecto de
+Claude con conexión a Granola, tu CRM (ej.
+HubSpot) y Google Tasks / Gmail. Sin código.
+
+## 🧩 El problema
+
+Como vendedor quieres tener la mayor cantidad de reuniones
+posible: cada reunión es una oportunidad. Pero hay una trampa.
+Cuantas más reuniones haces, más se te acumulan las tareas de después:
+generar el resumen, identificar los compromisos, anotar quién es
+responsable de cada cosa, definir los próximos pasos y, sobre todo,
+dar seguimiento. Ese trabajo "invisible" se amontona, se
+hace de memoria y a las apuradas, y al final las oportunidades se
+enfrían porque nadie movió la siguiente ficha a tiempo.
+
+El dilema es real: más reuniones = más ventas potenciales, pero
+también más trabajo administrativo que termina frenando las ventas.
+
+## 💡 La idea
+
+Separar las dos cosas que hoy haces a la vez y haces mal por falta de
+tiempo: estar presente en la reunión y
+procesar la reunión. Granola se encarga de capturar y
+resumir; un Proyecto de Claude se encarga de convertir ese resumen en
+acciones dentro de tus herramientas. Tú solo conversas con el cliente.
+
+## 🛠️ La construcción, paso a paso
+
+- 
+Graba con Granola.ai. Granola no se suma como
+un asistente más a la reunión: captura el audio directo desde
+tu dispositivo (PC o teléfono). Graba la conversación y entrega un
+resumen estructurado listo para revisar y compartir,
+sin que tengas que tomar notas.
+
+- 
+Crea un Proyecto de Claude. En un Proyecto, pega las
+instrucciones del
+proyecto que definen el rol del asistente y las reglas (no inventar
+datos, dejar el correo en borrador, etapa "Análisis" por defecto,
+seguimiento a 3 días).
+
+- 
+Conecta las herramientas. Conecta el proyecto a
+Granola (para leer los datos de la reunión), a tu
+CRM, por ejemplo HubSpot (contactos, negocios, notas y
+tareas) y a Google Tasks / Gmail.
+
+- 
+Procesa cada reunión con un solo prompt. Al terminar,
+pega el prompt principal.
+Claude lee la reunión desde Granola y ejecuta todo el flujo de
+seguimiento.
+
+### Qué hace Claude al ejecutar el flujo
+
+PasoAcción
+
+1. Lee GranolaObtiene el resumen estructurado y la transcripción de la reunión.
+2. Extrae lo claveCliente, empresa, correo, compromisos, responsables, próximos pasos y fechas.
+3. CRM — ContactoBusca el contacto; si no existe, lo crea.
+4. CRM — NegocioCrea un negocio en etapa "Análisis" con el resumen como nota.
+5. CRM — TareaCrea una tarea de seguimiento dentro de 3 días.
+6. CorreoRedacta un borrador listo para enviar al cliente justo tras la reunión.
+7. Google TasksAgrega solo tus pendientes (donde tú eres el responsable).
+
+## 📝 Los prompts que usamos
+
+Tres prompts listos para copiar y usar (los tienes en la carpeta
+archivos/):
+
+- Instrucciones del Proyecto — el rol y las reglas fijas del asistente.
+
+- Prompt principal — hace todo el flujo de seguimiento de una sola vez.
+
+- Solo el correo y solo los pendientes — para cuando solo necesitas una parte.
+
+### Prompt principal (el que más usarás)
+
+Procesa mi reunión de ventas más reciente.
+
+1) GRANOLA — Obtén los datos
+Conéctate a Granola y trae el resumen estructurado y la transcripción de mi última reunión.
+(Si no es la última, te indico el título o la fecha: __________.)
+Extrae con claridad: nombre del cliente, empresa, correo, cargo, teléfono si aparece, temas tratados, dolores/necesidades, presupuesto o señales de compra, compromisos acordados, responsables de cada compromiso, próximos pasos y fechas mencionadas.
+
+2) HUBSPOT — Actualiza el CRM
+- Busca el contacto por correo o por nombre + empresa. Si NO existe, créalo con los datos disponibles.
+- Crea un negocio (deal) asociado a ese contacto, en la etapa "Análisis", con un nombre claro (Empresa — motivo de la oportunidad).
+- Añade el resumen de la reunión como NOTA dentro del negocio.
+- Crea una TAREA de seguimiento asociada al negocio, con vencimiento dentro de 3 días, titulada "Seguimiento: [Empresa]".
+
+3) CORREO — Deja un borrador listo
+Redacta un correo de seguimiento dirigido al cliente, para enviar justo después de la reunión: agradece la reunión, resume en 3-4 puntos lo conversado, confirma los próximos pasos y propone una fecha para el siguiente contacto. Déjalo como BORRADOR, no lo envíes.
+
+4) GOOGLE TASKS — Mis pendientes
+De la lista de próximos pasos, identifica solo los que me corresponden a MÍ como responsable y agrégalos a Google Tasks, cada uno con su fecha límite. Los pasos que le corresponden al cliente NO van a mis tareas (van solo en el correo y en la nota del CRM).
+
+5) RESUMEN
+Al final dame un resumen corto: contacto creado o encontrado, negocio creado, tarea de seguimiento, borrador de correo y pendientes agregados, con sus enlaces.
+
+Reglas: no inventes datos; si falta el correo del cliente avísame antes de crear el negocio; no envíes el correo, solo déjalo en borrador.
+
+## 🚀 El resultado
+
+Terminas la reunión, escribes un mensaje y, en segundos, tienes:
+
+- El contacto creado o actualizado en tu CRM.
+
+- Un negocio en etapa "Análisis" con el resumen de la reunión como nota.
+
+- Una tarea de seguimiento a 3 días para no dejar enfriar la oportunidad.
+
+- Un borrador de correo para el cliente, listo para revisar y enviar.
+
+- Tus pendientes personales en Google Tasks, con sus fechas.
+
+Dejas de hacer trabajo administrativo entre reunión y reunión, y
+vuelves a lo que importa: tener más conversaciones de ventas sin
+que se te caiga ninguna.
+
+## 🔁 Hazlo tuyo
+
+- Otro CRM: cambia HubSpot por el que uses (Pipedrive,
+Salesforce, Zoho). El flujo es el mismo: buscar/crear contacto, crear
+negocio, nota y tarea.
+
+- Otra etapa: si tu primera reunión no es "Análisis",
+ajusta la etapa por defecto en las instrucciones del proyecto.
+
+- Otro gestor de tareas: reemplaza Google Tasks por
+Todoist, Notion o Microsoft To Do.
+
+- Otro ritmo de seguimiento: cambia los 3 días por el
+plazo que use tu equipo, o pídele a Claude que proponga la fecha según
+lo conversado.
+
+⚠️
+
+Uso responsable
+Avisa a los participantes de que la reunión se está grabando cuando
+corresponda y respeta la normativa de tu país y de tu empresa. Revisa
+siempre el borrador del correo y los datos del CRM antes de enviar o
+guardar: Claude prepara, tú decides.
+
+← Volver a soluciones
+
+
+======================================================================
+URL: https://cristianignacio.me/soluciones/sistema-prospeccion-diaria-en-workspace/
+======================================================================
+
+Inicio / Soluciones / Prospección diaria con Workspace Studio
+
+Automatización comercial · Intermedio
+
+# 🎯 Prospección diaria de leads locales con Workspace Studio
+
+Encuentra de forma automática cada día 3 empresas
+de tu localidad y sector que muestren señales reales de crecimiento o
+necesidad, para ofrecer tus servicios en el momento perfecto.
+
+⏱️
+
+Tiempo: 60-90 min · Dificultad: intermedio
+Necesitas Google Workspace con Workspace Studio,
+Google Sheets y Gmail / Google Chat.
+Sin código.
+
+## 🧩 El problema
+
+Quieres buscar clientes locales de manera constante, pero pasar una o dos
+horas al día saltando entre Google, LinkedIn, Google Maps y portales de
+empleo es agotador. Además, el verdadero reto no es solo listar empresas,
+sino saber cuáles de ellas tienen una necesidad real hoy
+(porque están contratando, abriendo sedes, cambiando de directiva o
+sufriendo desorganización interna) para no contactar a puerta fría y sin
+argumentos.
+
+## 💡 La idea
+
+Crear un sistema automático donde usas una hoja de Google Sheets como
+centro de control para elegir el sector y la ciudad, y dejas que
+Workspace Studio actúe como tu investigador privado
+buscando en la web y seleccionando cada mañana los 3 mejores
+leads con evidencias reales.
+
+## 🛠️ La construcción, paso a paso
+
+- 
+Crea el panel en Google Sheets. Diseña un libro llamado
+CRM Prospección con cinco pestañas clave:
+Configuración (donde pones el sector y ciudad de la
+semana), Leads diarios (la base de datos principal),
+Descartados (para no repetir empresas),
+Consultas (con frases de búsqueda tipo) y
+Seguimiento.
+
+- 
+Conecta Workspace Studio. Configura una automatización
+proactiva web que se ejecute de forma diaria en la herramienta.
+
+- 
+Establece la regla de oro. Configura el sistema para
+que solo acepte un lead si Workspace Studio encuentra y adjunta una URL
+que sirva como evidencia real de la oportunidad (un enlace a una oferta
+de empleo, una noticia, una reseña, etc.).
+
+- 
+Diseña la alerta de salida. Activa un paso final para
+que, además de rellenar el Sheets, el sistema te envíe un resumen rápido
+de los 3 elegidos por Gmail o Google Chat para ponerte a trabajar de
+inmediato.
+
+### Pestaña Configuración
+
+Aquí decides qué se busca esa semana; solo cambias el sector o la
+ciudad sin tocar la automatización.
+
+CampoEjemplo
+
+Localidad / ProvinciaCórdoba
+Sector objetivoTransporte
+Nº de leads requeridos3
+Señales prioritariascontratación, expansión, financiación, cambio de directiva, reseñas negativas
+Servicio preferenteGestión de personas
+EstadoActivo
+
+### Pestaña Leads diarios
+
+La tabla principal. Estas son las columnas que de verdad importan:
+
+CampoDescripción
+
+Empresa / Sector / LocalidadIdentificación básica
+Web · Google Maps · LinkedInURLs de la empresa
+Señal de compraQué ha pasado y por qué es una oportunidad
+Evidencia (URL)Enlace que demuestra la señal — obligatorio
+Decisor / CargoPersona de contacto si es pública
+Lead score (0-100)Prioridad calculada por el sistema
+Mensaje sugeridoPrimer mensaje de LinkedIn, <200 caracteres
+
+Regla de oro: si no hay URL de evidencia, no entra el lead. Las pestañas
+Leads diarios y Descartados evitan que
+una misma empresa vuelva a aparecer.
+
+## 📝 El prompt / los archivos que usamos
+
+Para que el sistema funcione de forma proactiva cada mañana, se utiliza
+el siguiente prompt base en Workspace Studio. También está en
+archivos/prompt-prospeccion-diaria.md
+(puedes guardar tus plantillas de mensajes y guías de búsqueda en la
+carpeta archivos/).
+
+Cada día laborable a las 8:30, lee la Google Sheet llamada "CRM Prospección", pestaña "Configuración".
+
+Usa la configuración activa para identificar la localidad objetivo, la provincia, el sector, el número de leads requeridos, las señales de compra prioritarias y el servicio preferente.
+
+Busca en la web empresas ubicadas en la zona y el sector seleccionados que muestren al menos una señal de compra reciente y verificable (contratación, expansión, financiación, cambios en la dirección o estrés organizativo/reseñas negativas).
+
+Para cada empresa candidata, extrae: nombre de la empresa, sector, localidad, web, URLs de Google Maps/LinkedIn, decisor probable, cargo, datos de contacto públicos, señal de compra, URL de evidencia, lead score (0-100) y un primer mensaje sugerido para LinkedIn en español.
+
+Reglas:
+- No inventes datos. Si no lo encuentras, escribe "No localizado".
+- No añadas un lead si no hay URL de evidencia.
+- Revisa "Leads diarios" y "Descartados" para evitar duplicados.
+- Añade solo los 3 mejores leads a "Leads diarios" y envíame un resumen por Gmail/Google Chat.
+
+## 🚀 El resultado
+
+Cada mañana a las 8:30 AM tendrás tu hoja de Google Sheets actualizada
+con 3 empresas "calientes", sus datos de contacto públicos, el nombre del
+posible directivo, un enlace que demuestra por qué es una oportunidad y
+una propuesta de mensaje corto de menos de 200 caracteres listo para
+copiar y pegar en LinkedIn. También recibirás una notificación limpia en
+tu bandeja de entrada con el resumen del día.
+
+EmpresaSectorLocalidadSeñalEvidenciaDecisorScore
+
+Transportes XTransporteCórdobaBusca conductoresURLGerente87
+Limpiezas YLimpiezaLucenaNueva adjudicaciónURLAdministrador74
+
+Con un mensaje inicial sugerido ya redactado, por ejemplo:
+
+Hola, [Nombre]. He visto que [Empresa] está creciendo en Córdoba. Ayudo a PYMEs a mejorar clima, liderazgo y gestión de personas. ¿Te viene bien charlar?
+
+## 🔄 Hazlo tuyo
+
+- Por sector semanal: cambia la pestaña de configuración
+cada lunes (ej.: Semana 1: Transporte, Semana 2: Hostelería) para
+enfocar tus tiros y especializar tu discurso.
+
+- Por señales de compra: configura el sistema para
+buscar señales específicas según tus días de enfoque (ej.: los lunes
+empresas contratando, los miércoles empresas con reseñas negativas).
+
+- Por servicio específico: filtra la búsqueda según el
+servicio que quieras empujar esa semana, adaptando las señales
+automáticas a las necesidades que cubre ese servicio de tu catálogo.
+
+⚠️
+
+Uso responsable
+Trabaja solo con información pública y profesional y con un fin legítimo
+de contacto de negocio. Revisa siempre la URL de evidencia antes de
+contactar y trata los datos de las personas conforme a la normativa
+aplicable.
+
+← Volver a soluciones
+
+
+======================================================================
+URL: https://cristianignacio.me/cursos/01-claude-para-principiantes/
+======================================================================
+
+Inicio / Cursos Gratis / Claude para principiantes
+
+Principiante · 5 min
+
+# Claude para principiantes
+
+Claude es una inteligencia artificial con la que conversas:
+tú escribes algo y te responde. Sirve para escribir, resumir, ordenar
+ideas, analizar documentos y ayudarte a decidir. Si nunca lo abriste,
+este es tu punto de partida.
+
+⏱️
+
+Tiempo: 5 minutos · Nivel: principiante
+Solo necesitas una cuenta gratuita en claude.ai. Sin tarjeta.
+
+## 🎯 Qué aprenderás
+
+- Qué es Claude y cómo funciona por dentro, en simple.
+
+- Cuánto cuesta y qué plan te conviene.
+
+- Las tres formas de usarlo y cómo hablarle para que te entienda.
+
+## 💡 La idea
+
+Claude predice la palabra siguiente una y otra vez, a una velocidad
+enorme. Por eso suena seguro de sí mismo… incluso cuando se equivoca.
+Está hecho para ayudarte y darte la razón, así que si le dices algo
+falso, puede seguirte la corriente. Conclusión práctica: úsalo mucho,
+pero verifica los datos importantes.
+
+## 🛠️ Paso a paso
+
+- 
+Crea tu cuenta. Entra a claude.ai y regístrate con tu
+correo. El plan gratis alcanza para probar.
+
+- 
+Escribe una tarea concreta. En vez de "escríbeme un
+correo", pide algo específico: a quién, para qué, qué tono y qué largo.
+
+- 
+Da ejemplos. Pega algo que ya escribiste y te gustó, y
+dile: "escribe con este estilo".
+
+- 
+Si se enreda, empieza de nuevo. Abrir un chat nuevo es
+gratis y suele dar mejores resultados que insistir.
+
+## 📝 Un buen primer mensaje
+
+Vago: "Escríbeme un correo."
+
+Mejor: "Escribe un correo de seguimiento a una clienta llamada
+Sara que faltó a la reunión del martes. Tono amable pero
+firme. Máximo 4 frases."
+
+## 🧭 Las tres formas de usar Claude
+
+- En el navegador (claude.ai): preguntas y te responde. Ideal para borradores y resúmenes rápidos.
+
+- App de escritorio (Mac o Windows): la misma cuenta, pero instalada; puede ver los archivos de tu computador.
+
+- Cowork (dentro de la app): hace el trabajo por ti durante minutos: lee tus archivos, arma el documento y lo guarda. Solo en planes de pago.
+
+Claude siempre te dará una respuesta. Que te responda no significa que
+tenga razón: revisa fechas, nombres, cifras y citas.
+
+## 🚀 El resultado
+
+Ya sabes qué es Claude, cómo elegir plan, cómo hablarle y cuándo usar el
+navegador, la app o Cowork. Con eso puedes empezar a delegarle tareas
+reales hoy mismo.
+
+## 🔁 Da el siguiente paso
+
+- Ser bueno con Claude es simple
+
+- Claude Cowork
+
+← Volver a Cursos Gratis
+
+
+======================================================================
+URL: https://cristianignacio.me/cursos/02-ser-bueno-con-claude-es-simple/
+======================================================================
+
+Inicio / Cursos Gratis / Ser bueno con Claude es simple
+
+Principiante · 5 min
+
+# Ser bueno con Claude es simple
+
+No necesitas saber "hacer prompts" como un experto. Con un
+truco de una sola línea y unos pocos niveles, pasas de tu primer mensaje
+a crear archivos, conectar tus apps y hasta una página web. Sin tecnicismos.
+
+⏱️
+
+Tiempo: 5 minutos · Nivel: principiante
+La mayoría dice "estoy muy atrasado", pero nunca lo intentó. Empieza por el nivel 1, hoy.
+
+## 🎯 Qué aprenderás
+
+- El truco de una línea que te convierte en usuario avanzado.
+
+- Cómo subir de nivel: hablarle, crear archivos y conectar tus apps.
+
+- Hasta dónde puedes llegar sin saber nada técnico.
+
+## 💡 La idea
+
+La IA solo necesita contexto: necesita conocerte. El error más común es
+escribir un mensaje vago y culpar a Claude por la respuesta floja. La
+solución es pedirle que te pregunte a ti antes de empezar.
+Tú respondes y la respuesta mejora sola.
+
+## 🛠️ Paso a paso (por niveles)
+
+- 
+Nivel 1 — Empieza en claude.ai. Crea tu cuenta, elige
+el mejor modelo disponible y activa el pensamiento extendido.
+
+- 
+Nivel 2 — Habla en vez de teclear. Dictar es mucho más
+rápido y das más contexto sin esfuerzo.
+
+- 
+Nivel 3 — Descarga la app y usa Cowork. En el navegador
+copias y pegas; con Cowork, Claude crea el archivo real y lo guarda en tu computador.
+
+- 
+Nivel 4 — Conecta tus apps. Correo, calendario o notas
+de reuniones, para que Claude trabaje con tu información.
+
+- 
+Nivel 5 — Enséñale tareas. Crea instructivos que Claude
+sigue solo cuando la tarea encaja.
+
+## 📝 El truco de una línea
+
+Ayúdame a hacer [X] para [Y]. Primero hazme preguntas.
+Claude te hará 3 a 5 preguntas en vez de adivinar. Mientras más cuentes,
+mejor sale el resultado.
+
+El listón para "saber de IA" es simplemente intentarlo. Abre Claude y
+empieza por el nivel 1 esta noche, no mañana.
+
+## 🚀 El resultado
+
+Tienes un mapa claro para avanzar a tu ritmo: de la primera conversación
+a crear cosas reales, sumando un nivel cada vez que te sientas cómodo.
+
+## 🔁 Da el siguiente paso
+
+- Claude para principiantes
+
+- Claude Cowork
+
+← Volver a Cursos Gratis
+
+
+======================================================================
+URL: https://cristianignacio.me/cursos/03-certificate-en-claude/
+======================================================================
+
+Inicio / Cursos Gratis / Certifícate en Claude gratis
+
+Principiante · 4 min
+
+# Certifícate en Claude gratis
+
+Hay certificados oficiales de Claude, gratuitos y emitidos
+por Anthropic (la empresa que crea Claude). Son una línea limpia para tu
+perfil profesional y cuestan $0.
+
+⏱️
+
+Tiempo: 4 minutos · Nivel: principiante
+Cuidado: hay "certificaciones de Claude" que se venden por internet. Son falsas. Los oficiales son gratis.
+
+## 🎯 Qué aprenderás
+
+- Cuáles son los certificados oficiales y gratuitos.
+
+- El orden recomendado para tomarlos.
+
+- Cómo dejarlos bien presentados en tu perfil.
+
+## 💡 La idea
+
+Las empresas usan IA cada vez más, y muy poca gente la ha tocado de
+verdad. Un certificado no te conseguirá el trabajo solo, pero deja claro
+algo simple: "estoy aprendiendo las herramientas que ya se usan en el
+trabajo". Pocas horas, costo cero.
+
+## 🛠️ Paso a paso
+
+- 
+Entra al sitio oficial de formación de Anthropic y
+regístrate con tu correo. No necesitas pagar Claude para tomarlos.
+
+- 
+Claude 101 (1 hora). Qué es Claude, cuándo usar chat,
+Cowork o Code, y cómo funcionan los Proyectos y las Skills.
+
+- 
+Fluidez con IA: marco y fundamentos (3 horas). El más
+completo: cómo trabajar con la IA, buenos hábitos al pedir y pensamiento
+crítico sobre las respuestas. Si solo tomas uno, que sea este.
+
+- 
+Introducción a Claude Cowork (2 horas). Qué es Cowork,
+cómo se accede, Proyectos, Skills, tareas programadas y manejo de archivos.
+
+## 📝 Cómo agregarlo a tu perfil
+
+Nombre: Claude 101 — Anthropic Academy
+Organización: Anthropic
+Fecha de emisión: la de hoy
+
+(Repite con los otros dos certificados.)
+
+Cuando alguien revise tu perfil, un certificado de Claude dice: "ya usé la
+herramienta de verdad". Eso te diferencia.
+
+## 🚀 El resultado
+
+Con unas pocas horas sumas tres certificados oficiales y gratuitos, y una
+base real para usar Claude con confianza.
+
+## 🔁 Da el siguiente paso
+
+- Claude para principiantes
+
+- Ser bueno con Claude es simple
+
+← Volver a Cursos Gratis
+
+
+======================================================================
+URL: https://cristianignacio.me/cursos/04-claude-cowork/
+======================================================================
+
+Inicio / Cursos Gratis / Claude Cowork
+
+Intermedio · 18 min
+
+# Claude Cowork
+
+Cowork es la parte de Claude que hace trabajo real por ti:
+lee tus archivos, arma el documento o la planilla y los guarda en tu
+computador. Si no programas, esto es lo que tienes que saber usar.
+
+⏱️
+
+Tiempo: 18 minutos · Nivel: intermedio
+Necesitas la app de escritorio y un plan de pago. Cowork está en la pestaña entre Chat y Code.
+
+## 🎯 Qué aprenderás
+
+- Cómo dejar una carpeta lista para trabajar con Cowork.
+
+- Los tres archivos de contexto que cambian tus resultados.
+
+- Cómo gastar menos créditos y avanzar más rápido.
+
+## 💡 La idea
+
+En el navegador, Claude responde y tú copias y pegas. Cowork da un paso
+más: produce el archivo final y lo deja en tu carpeta. La clave está en
+darle buen contexto sobre ti una sola vez, para no repetirlo nunca más.
+
+## 🛠️ Paso a paso
+
+- 
+Crea una carpeta "Claude Cowork" con tres subcarpetas:
+Sobre mí, Resultados y Plantillas.
+
+- 
+Llena "Sobre mí" con tres archivos: quién eres y cómo
+quieres que te escriba; qué estilo de escritura odias; y dónde trabajas
+y en qué estás enfocado. Cortos y al grano.
+
+- 
+Deja "Resultados" para el trabajo que va creando Cowork,
+y "Plantillas" para tus mejores ejemplos, listos para reutilizar.
+
+- 
+Configura una instrucción global para que, antes de cada
+tarea, lea siempre tu carpeta "Sobre mí" y guarde lo que haga en "Resultados".
+
+## 📝 Instrucción global de ejemplo
+
+Antes de cada tarea, lee todos los archivos de "Sobre mí":
+quién soy, el estilo que odio y dónde trabajo.
+
+No abras "Resultados" ni "Plantillas" salvo que te lo indique.
+Guarda lo que entregues en "Resultados", en una subcarpeta con
+el nombre del proyecto. Si algo no está claro, pregúntame antes.
+
+## 🔋 Cómo ahorrar créditos
+
+- Reinicia la conversación en vez de encadenar muchas respuestas.
+
+- Empieza de cero cada 15–20 mensajes: las charlas largas gastan mucho.
+
+- Junta varias tareas en un solo mensaje en lugar de mandar tres.
+
+- Mantén los archivos de "Sobre mí" cortos.
+
+El verdadero cuello de botella eres tú: Cowork lee y crea en segundos,
+pero tú tecleas lento. Habla en vez de escribir y le das más contexto de una.
+
+## 🚀 El resultado
+
+Tienes Cowork listo para producir documentos y planillas con tu estilo,
+gastando menos créditos y sin volver a explicar quién eres en cada sesión.
+
+## 🔁 Da el siguiente paso
+
+- Claude Cowork + Proyectos
+
+- Deja de hacer prompts
+
+← Volver a Cursos Gratis
+
+
+======================================================================
+URL: https://cristianignacio.me/cursos/05-claude-para-equipos/
+======================================================================
+
+Inicio / Cursos Gratis / Claude para equipos
+
+Intermedio · 11 min
+
+# Claude para equipos
+
+Un plan de una semana, de 15 a 60 minutos al día, para que
+tu equipo deje de improvisar y empiece a producir con Claude. Un día,
+un paso.
+
+⏱️
+
+Tiempo: 11 minutos · Nivel: intermedio
+Pensado para el plan de equipos. En esos planes, Claude no entrena con los datos de tu empresa.
+
+## 🎯 Qué aprenderás
+
+- Cómo crear un Proyecto por cada entrega que tu equipo repite.
+
+- Cómo convertir a la primera persona y luego al resto.
+
+- Un plan día a día para lograr adopción real.
+
+## 💡 La idea
+
+Un Proyecto es una carpeta con instrucciones y ejemplos para una tarea
+que se repite (un reporte, una propuesta, un resumen). Si cada entrega
+recurrente tiene su Proyecto, cualquiera del equipo produce con el mismo
+estándar sin partir de cero.
+
+## 🛠️ El plan de la semana
+
+- 
+Lunes — Crea los Proyectos. Identifica 3 a 5 entregas
+que tu equipo hace siempre y crea un Proyecto compartido para cada una,
+con un buen ejemplo y las instrucciones.
+
+- 
+Martes — Arma plantillas de mensaje. Una frase corta
+que tus compañeros copian y pegan para producir esa entrega.
+
+- 
+Miércoles — Busca el "wow". Toma una tarea que esta
+semana te llevó más de 30 minutos y pásala por el sistema. Guarda el
+antes y después.
+
+- 
+Jueves — Convence a una persona. No al más fan ni al
+más escéptico: a quien está ahogado de trabajo. Muéstrale en 15 minutos
+con un caso real suyo.
+
+- 
+Viernes — Lánzalo al equipo. Anuncia el espacio
+compartido con un resultado concreto y tres cosas que pueden hacer ya.
+
+## 📝 Para que Claude proponga los Proyectos
+
+Trabajo en [empresa y rubro]. Mi equipo ayuda a [clientes] a [meta].
+Quiero identificar las 3 a 5 entregas que repetimos cada semana o mes,
+para crear un Proyecto de Claude por cada una.
+
+Hazme preguntas de a una a la vez sobre qué hacemos, qué entregamos y
+qué tareas se repiten. Cuando tengas contexto, dame la lista de entregas,
+un nombre de Proyecto para cada una y qué documentos subir.
+
+En 5 días haces lo que muchas empresas tardan meses en lograr con un
+consultor. Y la inteligencia del equipo se acumula.
+
+## 🚀 El resultado
+
+Tu equipo tiene Proyectos compartidos, plantillas listas y al menos una
+persona que ya lo defiende. La adopción deja de ser una pelea.
+
+## 🔁 Da el siguiente paso
+
+- Claude Cowork + Proyectos
+
+- Claude Skills
+
+← Volver a Cursos Gratis
+
+
+======================================================================
+URL: https://cristianignacio.me/cursos/06-claude-design/
+======================================================================
+
+Inicio / Cursos Gratis / Claude Design
+
+Intermedio · 9 min
+
+# Claude Design
+
+Claude Design es la parte de Claude que diseña: páginas web,
+presentaciones y hasta videos animados, a partir de una descripción.
+Vive en su propia dirección y exporta a las herramientas que ya usas.
+
+⏱️
+
+Tiempo: 9 minutos · Nivel: intermedio
+Disponible en planes de pago. Consume créditos rápido: úsalo con foco.
+
+## 🎯 Qué aprenderás
+
+- Cómo crear una web, una presentación o un video en minutos.
+
+- El truco del video para obtener mejores diapositivas.
+
+- Cómo aplicar tu identidad de marca a todo lo que generes.
+
+## 💡 La idea
+
+Claude Design crea diez versiones en diez minutos. Lo que no puede hacer
+es decidir cuál sirve: eso depende de tu criterio, de saber decir que no
+a nueve y sí a una. La herramienta produce; tú eliges.
+
+## 🛠️ Paso a paso
+
+- 
+Crea una página. Describe el objetivo, a quién va
+dirigida y qué sensación buscas. En menos de dos minutos tienes un primer diseño.
+
+- 
+Arma una presentación. Cuéntale el propósito, responde
+sus preguntas y obtienes una serie de diapositivas completas.
+
+- 
+Itera. Los cambios grandes los pides por chat; los
+ajustes finos los haces tocando directamente el diseño.
+
+- 
+Exporta. Lleva el resultado a tus herramientas de
+presentaciones, a PDF o a una página lista para publicar.
+
+## 📝 El truco del video
+
+1. Pídele a Claude un breve informe sobre tu tema.
+2. Súbelo a Claude Design: "Haz un video animado de 30 segundos
+que resuma esto para alguien que lo ve por primera vez."
+3. Luego: "Convierte ese video en una presentación."
+Las diapositivas salen mejor que si las pides directo, porque el video
+obliga a pensar en imágenes primero.
+
+## 🎨 Tu identidad de marca
+
+Reúne tus materiales de marca (logos, colores, ejemplos) en una carpeta y
+pídele a Cowork que escriba un resumen de tu sistema de diseño. Luego usa
+ese resumen como contexto para que todo lo que generes salga con tu estilo.
+
+El criterio es lo único que necesitas. Los diseñadores con buen ojo están
+por vivir su mejor década.
+
+## 🚀 El resultado
+
+Puedes pasar de una idea a una página, una presentación o un video con tu
+marca, en una fracción del tiempo habitual.
+
+## 🔁 Da el siguiente paso
+
+- Claude para presentaciones
+
+- Claude Code
+
+← Volver a Cursos Gratis
+
+
+======================================================================
+URL: https://cristianignacio.me/cursos/07-claude-cowork-y-proyectos/
+======================================================================
+
+Inicio / Cursos Gratis / Claude Cowork + Proyectos
+
+Intermedio · 10 min
+
+# Claude Cowork + Proyectos
+
+Los Proyectos ahora viven dentro de Cowork: cada uno tiene su
+carpeta, sus instrucciones, su memoria y hasta tareas que se ejecutan
+solas. Es la forma de no empezar de cero cada vez.
+
+⏱️
+
+Tiempo: 10 minutos · Nivel: intermedio
+Necesitas la app de escritorio actualizada y un plan de pago.
+
+## 🎯 Qué aprenderás
+
+- Qué es un Proyecto de Cowork y por qué cambia tu trabajo.
+
+- Cómo crear el primero en pocos minutos.
+
+- Cómo dejar tareas recurrentes que se ejecutan automáticamente.
+
+## 💡 La idea
+
+Antes cada sesión de Cowork partía en blanco. Ahora un Proyecto recuerda
+lo que hizo dentro de él: le dices "sigue con el reporte de la semana
+pasada" y sabe a qué te refieres. Esa memoria queda dentro del Proyecto y
+no se mezcla con el resto de tu trabajo.
+
+## 🛠️ Paso a paso
+
+- 
+Crea el Proyecto. En la app, ve a Proyectos y elige
+empezar desde cero, importar uno existente o usar una carpeta que ya tienes.
+
+- 
+Dale instrucciones. Tono, reglas, formato y qué nunca
+debe hacer. Quedan fijas para todas las tareas del Proyecto.
+
+- 
+Que conozca el espacio. Pídele que lea todos los
+archivos de la carpeta y te resuma para qué sirve este Proyecto.
+
+- 
+Programa lo recurrente. Si una tarea se repite cada
+semana, déjala agendada para que se ejecute sola.
+
+## 📝 Mensaje para estrenar un Proyecto
+
+Acabo de crear este Proyecto. Lee todos los archivos de la carpeta.
+Luego resume qué sabes de este espacio: qué hay, para qué lo uso
+y qué instrucciones vas a seguir. Si algo no está claro, pregúntame.
+
+Un buen Proyecto reúne tus ejemplos, tu estilo y tus reglas en un solo
+lugar. Lo configuras una vez y rinde por meses.
+
+## 🚀 El resultado
+
+Tienes un espacio que recuerda tu contexto, aplica tus reglas solo y hasta
+ejecuta tareas sin que estés presente.
+
+## 🔁 Da el siguiente paso
+
+- Claude Cowork
+
+- Claude Skills
+
+← Volver a Cursos Gratis
+
+
+======================================================================
+URL: https://cristianignacio.me/cursos/08-claude-para-presentaciones/
+======================================================================
+
+Inicio / Cursos Gratis / Claude para presentaciones
+
+Intermedio · 7 min
+
+# Claude para presentaciones
+
+Hay tres formas de hacer diapositivas con IA. La rápida, la
+bonita y la que combina ambas. Para lo que de verdad importa, el truco es
+que Claude piense y otra herramienta diseñe.
+
+⏱️
+
+Tiempo: 7 minutos · Nivel: intermedio
+Claude redacta muy bien; para el acabado visual conviene apoyarse en una herramienta de diseño.
+
+## 🎯 Qué aprenderás
+
+- Tres formas de crear diapositivas y cuándo usar cada una.
+
+- El flujo recomendado para presentaciones importantes.
+
+- Cómo dejar tus diapositivas con la identidad de tu marca.
+
+## 💡 La idea
+
+El contenido es tan bueno como el contexto que des. Para una reunión
+interna, basta velocidad. Para un cliente o un directorio, separa el
+trabajo: primero la investigación y el guion, después el diseño, y al
+final tú decides qué se queda.
+
+## 🛠️ El flujo que importa
+
+- 
+Investiga. Pide a Claude que lea tus archivos, busque
+datos recientes y guarde un resumen ordenado por temas. Todavía no
+generes diapositivas.
+
+- 
+Arma el guion. Convierte ese resumen en un esquema:
+título y dos o tres puntos por diapositiva, sin párrafos largos.
+
+- 
+Genera el diseño. Pasa el guion a tu herramienta de
+presentaciones para que lo convierta en diapositivas con buen aspecto.
+
+- 
+Edita. Revisa diapositiva por diapositiva: ¿lo diría en
+voz alta?, ¿se gana su lugar?, ¿el dato es correcto?
+
+## 📝 Esquema listo para diseñar
+
+Lee el resumen y conviértelo en un esquema de presentación.
+Objetivo: [qué debe lograr] Audiencia: [quién la verá]
+
+- Cada diapositiva: título, 2-3 puntos clave y los datos que apliquen.
+- Máximo [X] diapositivas.
+- No escribas párrafos completos.
+
+## 🎨 Para equipos: tus reglas de marca
+
+Reúne tus materiales de marca en una carpeta y pide a Cowork un archivo de
+reglas: identidad visual, estructura de diapositivas, tono y elementos que
+se repiten. Lo usas como base y todas tus presentaciones salen consistentes.
+
+Una buena presentación se decide en la edición. Corta sin pena: si una
+diapositiva no aporta, fuera.
+
+## 🚀 El resultado
+
+Pasas de un tema a una presentación sólida y con tu marca, con el contenido
+pensado y el diseño resuelto.
+
+## 🔁 Da el siguiente paso
+
+- Claude Design
+
+- Claude Cowork
+
+← Volver a Cursos Gratis
+
+
+======================================================================
+URL: https://cristianignacio.me/cursos/09-claude-skills/
+======================================================================
+
+Inicio / Cursos Gratis / Claude Skills
+
+Intermedio · 6 min
+
+# Claude Skills
+
+Una Skill es un instructivo guardado que Claude activa solo
+cuando la tarea encaja. Lo creas una vez y lo llamas con un comando como
+/resumen o /correo, sin repetir nunca el contexto.
+
+⏱️
+
+Tiempo: 6 minutos · Nivel: intermedio
+Perfecto para tareas que repites con el mismo formato.
+
+## 🎯 Qué aprenderás
+
+- Qué es una Skill y en qué se diferencia de un buen prompt.
+
+- Cómo crear la primera, paso a paso.
+
+- Trucos para que se active justo cuando debe.
+
+## 💡 La idea
+
+Hay tres formas de darle contexto a Claude: un mensaje muy largo, un
+archivo que subes, o un Proyecto que abres. Las Skills van un paso más:
+se disparan solas. Claude reconoce la tarea y activa la Skill correcta sin
+que tengas que pedírselo.
+
+## 🛠️ Paso a paso
+
+- 
+Elige una tarea repetitiva con un resultado siempre
+parecido (un resumen, un correo, un reporte).
+
+- 
+Usa el creador de Skills. En Cowork, pídele que te ayude
+a crear una Skill para esa tarea y agrega "pregúntame primero".
+
+- 
+Responde la entrevista con detalle. "Escribo reportes"
+no sirve. "Escribo reportes semanales que empiezan con la cifra clave,
+usan tres secciones y cierran con próximos pasos" sí funciona.
+
+- 
+Guárdala y pruébala. Instálala y verifica que se active
+con distintas formas de pedir lo mismo, y que no se active cuando no toca.
+
+## 📝 Estructura de una Skill
+
+Nombre: (cómo la vas a llamar)
+Cuándo usarla: (en qué situación)
+Cuándo NO usarla: (para que no se active de más)
+Objetivo: (qué debe lograr)
+Pasos: 1) ... 2) ... 3) ...
+Formato de salida: (cómo debe verse el resultado)
+Ejemplo: (un caso bien resuelto)
+
+## ✨ Trucos que ayudan
+
+- La línea de "cuándo NO usarla" importa más que la de "cuándo sí": evita que se active donde no corresponde.
+
+- Si no se dispara, pregúntale a Claude cuándo usaría esa Skill; verás si la descripción está vaga.
+
+- Las Skills se combinan con tu archivo de estilo: una pone el tono, la otra el proceso.
+
+- Producen un buen punto de partida, no la perfección. Casi siempre conviene revisar.
+
+Una buena Skill incluye un ejemplo de resultado correcto. Es lo que más
+sube la calidad y la consistencia.
+
+## 🚀 El resultado
+
+Tienes tu primera Skill: un instructivo reutilizable que convierte una
+tarea repetitiva en algo de un comando, siempre con tu mismo estándar.
+
+## 🔁 Da el siguiente paso
+
+- Claude me reemplazó
+
+- Que Claude suene como tú
+
+← Volver a Cursos Gratis
+
+
+======================================================================
+URL: https://cristianignacio.me/cursos/10-claude-que-suene-como-tu/
+======================================================================
+
+Inicio / Cursos Gratis / Que Claude suene como tú
+
+Avanzado · 12 min
+
+# Que Claude suene como tú
+
+Dale dos horas y un solo archivo, y cualquier IA puede
+escribir y decidir como tú. La clave es extraer tu forma de pensar en una
+entrevista profunda y resumirla para usarla siempre.
+
+⏱️
+
+Tiempo: 12 minutos · Nivel: avanzado
+La entrevista toma cerca de 2 horas. Dictar en vez de teclear la hace más rápida y honesta.
+
+## 🎯 Qué aprenderás
+
+- Cómo extraer tu voz con una entrevista a fondo.
+
+- Cómo resumirla en un archivo compacto y útil.
+
+- Dónde guardarlo para que Claude lo lea antes de cada tarea.
+
+## 💡 La idea
+
+Tu estilo se puede escribir. Si capturas tus reglas, tus manías, lo que
+amas y lo que detestas, otra IA puede sonar como tú. Cuando alguien que te
+conoce bien lo lea, dirá: "sí, eres tú".
+
+## 🛠️ Paso a paso
+
+- 
+La entrevista. Pide a Claude que actúe como entrevistador
+y te haga muchas preguntas, de a una, sobre cómo escribes, qué crees, qué
+te gusta y qué jamás harías. Que insista cuando seas vago.
+
+- 
+El resumen. Convierte esas respuestas en un archivo
+compacto: solo lo que cambie cómo escribe o decide la IA.
+
+- 
+Pruébalo. En una sesión limpia, pídele que escriba algo
+"con tu voz". ¿Suena a ti? Si sí, funciona.
+
+- 
+Guárdalo. Déjalo en tu carpeta "Sobre mí" y pon como
+regla que lo lea antes de cada tarea.
+
+## 📝 La regla para no inflar el archivo
+
+Cada línea debe pasar esta prueba:
+"Si esta línea desapareciera, ¿la IA escribiría, editaría o
+decidiría distinto?"
+
+Si la respuesta es no, bórrala.
+
+Verte en un solo archivo da un poco de vértigo: ya no hay dónde esconderse.
+Pero es justo lo que hace que la IA suene como tú y no como nadie.
+
+## 🚀 El resultado
+
+Tienes un archivo que captura tu voz. Claude lo lee antes de cada sesión y
+nunca más tienes que explicar tu estilo.
+
+## 🔁 Da el siguiente paso
+
+- Deja de sonar como una IA
+
+- Deja de hacer prompts
+
+← Volver a Cursos Gratis
+
+
+======================================================================
+URL: https://cristianignacio.me/cursos/11-deja-de-chocar-con-los-limites/
+======================================================================
+
+Inicio / Cursos Gratis / Deja de chocar con los límites
+
+Avanzado · 12 min
+
+# Deja de chocar con los límites
+
+Si tus créditos de Claude se acaban rápido, casi siempre es
+por un puñado de hábitos. Entender cómo se consumen y cambiar unas pocas
+costumbres rinde mucho más que pagar un plan más caro.
+
+⏱️
+
+Tiempo: 12 minutos · Nivel: avanzado
+No tienes que aplicar todo: elige tres hábitos según cómo usas Claude.
+
+## 🎯 Qué aprenderás
+
+- Por qué los mensajes largos cuestan cada vez más.
+
+- Los hábitos que más ahorran sin perder calidad.
+
+- Por dónde empezar según tu forma de usar Claude.
+
+## 💡 La idea
+
+Claude relee toda la conversación desde el inicio en cada mensaje. Por eso
+el mensaje 30 cuesta muchas veces más que el primero, y por eso los
+créditos desaparecen en charlas largas. La solución es trabajar en tramos
+cortos y darle solo lo que necesita.
+
+## 🛠️ Hábitos que más ayudan
+
+- 
+Piensa en Chat, crea en Cowork. Crear archivos gasta
+más. Haz el razonamiento en lo barato y la producción en lo caro.
+
+- 
+Empieza de nuevo seguido. Cada 15–20 mensajes, pide un
+resumen, ábrelo en una sesión nueva y sigue desde ahí.
+
+- 
+Junta tareas. Tres mensajes separados son tres relecturas;
+un mensaje con tres tareas es una sola.
+
+- 
+No vuelvas a hacer todo. Pide "rehaz solo la sección 3,
+deja el resto" y agrega "sin comentarios, solo el resultado".
+
+- 
+Elige el modelo según la tarea. Para algo simple, el
+modelo liviano; guarda el más potente para el trabajo profundo.
+
+## 📝 Un mensaje que ahorra
+
+Quiero [tarea] para lograr [objetivo]. Lee mi carpeta.
+Hazme preguntas antes de empezar.
+
+(Así evitas un mensaje larguísimo que se relee cada vez.)
+
+## 🧹 Lo básico que siempre suma
+
+- Mantén cortos tus archivos de contexto: se leen antes de cada tarea.
+
+- Apaga lo que no uses (búsqueda, conectores) y enciéndelo por tarea.
+
+- Convierte documentos a texto antes de subirlos; un PDF cuesta más.
+
+- Reparte el trabajo en el día en vez de concentrarlo todo de golpe.
+
+¿Por dónde empiezo? Si usas Cowork a diario, parte por separar pensar de
+crear. Si vives en el Chat, por reiniciar conversaciones y usar Proyectos.
+
+## 🚀 El resultado
+
+Rindes más con el mismo plan: menos relecturas, menos desperdicio y
+créditos que alcanzan para lo que de verdad importa.
+
+## 🔁 Da el siguiente paso
+
+- Claude Cowork
+
+- Claude Skills
+
+← Volver a Cursos Gratis
+
+
+======================================================================
+URL: https://cristianignacio.me/cursos/12-deja-de-hacer-prompts/
+======================================================================
+
+Inicio / Cursos Gratis / Deja de hacer prompts
+
+Avanzado · 10 min
+
+# Deja de hacer prompts
+
+El peor modo de usar Claude: un mensaje vago, un resultado
+mediocre y la culpa para Claude. El mejor modo: tus archivos son el
+mensaje, para siempre. Deja de repetirte.
+
+⏱️
+
+Tiempo: 10 minutos · Nivel: avanzado
+Funciona con Cowork ya configurado: una carpeta con tu contexto, tus resultados y tus plantillas.
+
+## 🎯 Qué aprenderás
+
+- Por qué tus archivos valen más que un prompt perfecto.
+
+- Cómo abrir y editar esos archivos con una app simple.
+
+- Cómo guardar flujos que repites y llamarlos con un comando.
+
+## 💡 La idea
+
+Cowork funciona con archivos de texto, pero leerlos y editarlos directo es
+incómodo, así que nunca los actualizas. Si usas una app sencilla que abre
+tu carpeta como una libreta de notas, editar tu contexto se vuelve fácil…
+y le hablas a Claude una vez para que lo recuerde siempre.
+
+## 🛠️ Paso a paso
+
+- 
+Abre tu carpeta de Cowork con una app gratuita de notas
+que la muestre bien formateada y la edite directo (Obsidian es una buena opción).
+
+- 
+Edita tu contexto ahí. Agrega una regla nueva a tu
+archivo "sobre mí" y queda lista para la próxima sesión.
+
+- 
+Busca en todo. Encuentra rápido cualquier cosa que tú o
+Claude hayan escrito en la carpeta.
+
+- 
+Guarda tus flujos como Skills. Las tareas que repites
+cada semana, conviértelas en comandos que llamas cuando los necesitas.
+
+## 📝 El sistema completo
+
+Claude Cowork/
+├── Sobre mí/ (quién eres, tu estilo, tu empresa)
+├── Resultados/ (el trabajo de Claude, por proyecto)
+├── Plantillas/ (tus mejores ejemplos para reutilizar)
+└── Skills/ (tus flujos guardados como comandos)
+
+Le hablaste a Claude una vez. Lo recuerda para siempre. Tus archivos son tu
+segundo cerebro, y editarlos es editar cómo trabaja Claude.
+
+## 🚀 El resultado
+
+Dejas de escribir el mismo contexto una y otra vez. Tu carpeta es la fuente
+de verdad, y mantenerla al día es todo lo que hace falta.
+
+## 🔁 Da el siguiente paso
+
+- Claude Cowork
+
+- Claude Skills
+
+← Volver a Cursos Gratis
+
+
+======================================================================
+URL: https://cristianignacio.me/cursos/13-claude-me-reemplazo/
+======================================================================
+
+Inicio / Cursos Gratis / Claude me reemplazó
+
+Avanzado · 4 min
+
+# Claude me reemplazó
+
+La idea es simple: una Skill que te guía de principio a fin en
+cualquier tarea con Claude, incluso si no tienes idea de cómo llegar.
+Tú dices qué quieres lograr; ella arma el plan y te lleva paso a paso.
+
+⏱️
+
+Tiempo: 4 minutos · Nivel: avanzado
+Una Skill es un instructivo guardado que se activa con un comando. Si no las conoces, parte por el curso de Skills.
+
+## 🎯 Qué aprenderás
+
+- Cómo una Skill de "cómo hacer" te acompaña en cualquier tarea.
+
+- Cómo instalarla y activarla con un comando.
+
+- Qué esperar de ella y qué no.
+
+## 💡 La idea
+
+Muchas veces sabes qué quieres, pero no cómo. Una Skill de guía resuelve
+eso: te hace preguntas, arma un plan completo y te lleva por cada paso.
+Si te trabas, pides que te lo explique más simple y sigue.
+
+## 🛠️ Paso a paso
+
+- 
+Crea o instala la Skill de guía. Puedes armarla con el
+creador de Skills o subir una ya hecha desde el menú de personalización.
+
+- 
+Actívala con su comando. Escribe / y el
+nombre de la Skill, y agrega lo que quieres hacer y no sabes cómo.
+
+- 
+Responde sus preguntas. Claude aclara lo que falta y
+arma un plan paso a paso.
+
+- 
+Pide que lo simplifique si te trabas. Di "explícamelo
+como si tuviera 5 años" y desmenuza el paso difícil.
+
+## 📝 Para sacarle más provecho
+
+Mejor combinación para la guía paso a paso:
+- Úsala en Cowork (no solo en Chat)
+- Modelo: el más potente disponible
+- Esfuerzo: alto
+
+La Skill te da los pasos. Lo que no te da es el botón que no responde ni el
+momento en que algo se rompe sin razón: eso sigue siendo parte del camino.
+
+## 🚀 El resultado
+
+Tienes un asistente que te lleva de la idea al resultado en cualquier tarea
+con Claude, sin quedarte atascado por no saber el "cómo".
+
+## 🔁 Da el siguiente paso
+
+- Claude Skills
+
+- Ser bueno con Claude es simple
+
+← Volver a Cursos Gratis
+
+
+======================================================================
+URL: https://cristianignacio.me/cursos/14-deja-de-sonar-como-ia/
+======================================================================
+
+Inicio / Cursos Gratis / Deja de sonar como una IA
+
+Avanzado · 20 min
+
+# Deja de sonar como una IA
+
+Hay un patrón que delata al instante un texto hecho con IA:
+"no es X, es Y". Si lo usas, se nota. Aquí aprendes a detectarlo, a evitarlo
+y a darle a Claude una guía para que tu escritura suene a persona.
+
+⏱️
+
+Tiempo: 20 minutos · Nivel: avanzado
+La idea: crear un archivo de reglas anti-IA y pedirle a Claude que audite cada texto contra él.
+
+## 🎯 Qué aprenderás
+
+- El patrón que más delata a la IA y cómo reemplazarlo.
+
+- Las palabras y aperturas que conviene desterrar.
+
+- Cómo dejar una guía para que Claude se autocorrija.
+
+## 💡 La idea
+
+La voz natural es directa, específica y con frases cortas. La IA tiende a
+lo contrario: contrastes huecos, palabras de moda y aperturas vacías. Si
+defines esas reglas en un archivo, Claude puede revisar su propio texto y
+sonar mucho más humano.
+
+## 🛠️ Paso a paso
+
+- 
+Crea tu guía anti-IA. Un archivo con la voz que quieres
+y lo que está prohibido: palabras, aperturas y giros.
+
+- 
+Conéctala a tu contexto. Indica que la lea antes de cada
+tarea de escritura.
+
+- 
+Pide la auditoría. Tras escribir, di "ahora audita el
+texto contra la guía anti-IA".
+
+- 
+Mantenla viva. Los patrones cambian: revísala cada cierto
+tiempo y agrega lo nuevo que te chirríe.
+
+## 📝 El patrón a eliminar (y cómo arreglarlo)
+
+Evita estos contrastes vacíos:
+"No es X. Es Y." "Menos X, más Y."
+"Deja de pensar X." "X está muerto, Y es el futuro."
+
+El arreglo: borra la mitad rechazada y afirma directo.
+Antes: "No se trata del prompt. Se trata del contexto."
+Mejor: "El contexto controla el resultado."
+
+## 🚫 Hábitos que delatan
+
+- Palabras de relleno y de moda que casi nadie usa al hablar.
+
+- Aperturas vacías tipo "En el mundo de hoy…" o "Es importante notar que…".
+
+- Conectores pesados encadenados ("Además", "Asimismo", "Dicho esto").
+
+- Frases gancho para llamar la atención ("Léelo de nuevo", "Esto lo cambia todo").
+
+Escribe corto, concreto y en voz activa. Empieza por la respuesta útil y
+usa números y nombres reales. Eso solo ya te separa del montón.
+
+## 🚀 El resultado
+
+Tu escritura deja de oler a IA. Y Claude, con tu guía, se autocorrige antes
+de entregarte el texto.
+
+## 🔁 Da el siguiente paso
+
+- Que Claude suene como tú
+
+- Claude Cowork
+
+← Volver a Cursos Gratis
+
+
+======================================================================
+URL: https://cristianignacio.me/cursos/15-excel-con-claude-cowork/
+======================================================================
+
+Inicio / Cursos Gratis / Excel con Claude Cowork
+
+Avanzado · 7 min
+
+# Excel con Claude Cowork
+
+Para crear una hoja de cálculo desde cero, Cowork es de lo
+mejor que hay: arma varias pestañas con fórmulas que funcionan en pocos
+minutos. El secreto está en pedirle las suposiciones antes de construir.
+
+⏱️
+
+Tiempo: 7 minutos · Nivel: avanzado
+Conviene conectar tu Drive para exportar y abrir el resultado fácilmente.
+
+## 🎯 Qué aprenderás
+
+- Cómo describir la planilla que necesitas para que salga bien.
+
+- El truco de las suposiciones para no perder el control.
+
+- Cómo crear con Cowork y editar después con comodidad.
+
+## 💡 La idea
+
+Si pides "hazme una planilla" a secas, sale cualquier cosa. Si describes el
+propósito, las pestañas y el formato, y además pides que liste sus
+suposiciones antes de construir, tú decides qué está bien y qué corregir.
+
+## 🛠️ Paso a paso
+
+- 
+Abre Cowork con un modelo potente y, si puedes, conecta
+tu Drive para exportar más tarde.
+
+- 
+Describe la planilla. De dónde salen los datos, qué
+pestañas necesitas y con qué formato.
+
+- 
+Pide las suposiciones primero. Que liste sus 10 supuestos
+para revisarlos antes de armar todo.
+
+- 
+Expórtala y edítala. Llévala a tu hoja de cálculo
+habitual para los ajustes finos.
+
+## 📝 Plantilla de petición
+
+Crea una hoja de cálculo a partir de:
+[datos: ruta de archivo, carpeta o datos pegados]
+
+Propósito: [quién la usa y qué decisión apoya — 1 frase].
+
+Pestañas:
+- "[Nombre]": columnas, qué representa cada fila, cálculos.
+- "[Nombre]": resumen con totales o gráficos.
+
+Formato: moneda, fechas, encabezados fijos, fila de totales.
+
+Antes de construir, lista tus 10 principales suposiciones
+para que las revise, y luego ejecútalo.
+
+La parte mágica es pedir "las 10 suposiciones a revisar antes de ejecutar".
+Así te mantienes al mando del resultado.
+
+## 🚀 El resultado
+
+Obtienes una planilla completa, con varias pestañas y fórmulas que
+funcionan, construida sobre supuestos que tú aprobaste.
+
+## 🔁 Da el siguiente paso
+
+- Claude Cowork
+
+- Conectores de Claude
+
+← Volver a Cursos Gratis
+
+
+======================================================================
+URL: https://cristianignacio.me/cursos/16-conectores-de-claude/
+======================================================================
+
+Inicio / Cursos Gratis / Conectores de Claude
+
+Experto · 8 min
+
+# Conectores de Claude
+
+Un conector es un puente de un clic entre Claude y una app que
+ya usas: correo, calendario, notas de reuniones, CRM. Le das contexto real
+y deja de adivinar.
+
+⏱️
+
+Tiempo: 8 minutos · Nivel: experto
+Enciende los conectores por tarea y apágalos al terminar: encendidos gastan créditos antes de que escribas.
+
+## 🎯 Qué aprenderás
+
+- Cómo conectar una app a Claude en pocos pasos.
+
+- Ejemplos concretos para correo, reuniones y CRM.
+
+- Cuándo conviene NO usar un conector.
+
+## 💡 La idea
+
+Claude es mucho más útil cuando puede ver tu información. En vez de pegar
+textos a mano, conectas la app y le pides que trabaje directo con tus
+correos, reuniones o pipeline. Tú decides qué enciendes y cuándo.
+
+## 🛠️ Paso a paso
+
+- 
+Abre el menú de conectores con el botón "+" del chat y
+elige "agregar conector".
+
+- 
+Busca tu app (correo, calendario, notas de reuniones,
+CRM) y actívala.
+
+- 
+Enciéndela en el chat donde la vayas a usar, y pídele
+tareas concretas sobre esos datos.
+
+- 
+Empieza en modo lectura. Deja que solo lea por un tiempo;
+recién cuando confíes, dale permiso para escribir o crear.
+
+## 📝 Ejemplos de petición
+
+Correo:
+"Lee mi correo de esta semana y agrúpalo en 3: responder hoy,
+puede esperar, y solo informativo. Dame 3 listas, sin comentarios."
+
+Reuniones:
+"Toma mi última reunión, resúmela en 5 puntos y lista mis
+tareas con fechas. Marca los 2-3 posibles bloqueos."
+
+CRM:
+"Revisa mi pipeline. Lista los tratos en 'propuesta enviada'
+sin movimiento hace más de 7 días y redacta un seguimiento para cada uno."
+
+## 🚦 Cuándo NO usar un conector
+
+- No los dejes todos encendidos por defecto: gastan créditos antes de escribir.
+
+- Para trabajo creativo, apágalos: el ruido del correo o el chat ensucia el resultado.
+
+- No des permiso de escritura hasta confiar en cómo lee.
+
+Si solo enciendes tres hoy: tus notas de reuniones, tu correo y tu chat de
+equipo. Ese trío se complementa y te da la foto completa.
+
+## 🚀 El resultado
+
+Claude trabaja con tu información real: resume reuniones, ordena tu correo y
+prepara seguimientos, sin que pegues nada a mano.
+
+## 🔁 Da el siguiente paso
+
+- Deja de usar tu Claude personal en el trabajo
+
+- Claude Cowork
+
+← Volver a Cursos Gratis
+
+
+======================================================================
+URL: https://cristianignacio.me/cursos/17-claude-code/
+======================================================================
+
+Inicio / Cursos Gratis / Claude Code
+
+Experto · 14 min
+
+# Claude Code
+
+Para gente que nunca va a programar. Construyes una web o una
+pequeña herramienta hablándole a Claude en español: tú describes lo que
+quieres y él escribe todo el código.
+
+⏱️
+
+Tiempo: 14 minutos · Nivel: experto
+Sirve para dos cosas: mostrar tu idea funcionando o armar una herramienta a tu medida.
+
+## 🎯 Qué aprenderás
+
+- Cómo dejar todo listo para construir sin saber programar.
+
+- El mensaje inicial que pone a Claude a trabajar solo.
+
+- Cómo evitar que tu sitio se vea como cualquier sitio hecho con IA.
+
+## 💡 La idea
+
+No necesitas saber código. Describes el resultado que quieres y dejas que
+Claude elija los pasos técnicos. La regla de oro: que no te tome más
+construirlo de lo que tomaría usarlo.
+
+## 🛠️ Paso a paso
+
+- 
+Prepara el espacio. Una carpeta vacía y limpia, sin
+archivos privados. Claude solo toca esa carpeta.
+
+- 
+Activa el modo sin interrupciones. Así Claude no te pide
+permiso en cada paso técnico. Si es un equipo de trabajo, consulta antes con IT.
+
+- 
+Dale el mensaje inicial. Explica qué quieres en español,
+pídele que te entreviste primero y que decida lo técnico.
+
+- 
+Construye de a poco. Una parte a la vez: revisa, anota
+qué está mal en una lista y pásasela para que lo arregle. Repite.
+
+## 📝 El mensaje inicial
+
+Eres mi equipo técnico. Yo no escribo ni quiero leer código.
+Háblame en español simple, solo de lo que puedo ver, tocar o decidir.
+
+Quiero [tu objetivo, por ejemplo: "una página donde la gente
+reserve una hora conmigo eligiendo un horario"].
+
+Antes de construir, entrevístame: pregúntame todo lo que necesites,
+de a una pregunta a la vez. Decide tú la parte técnica. Cuando tengas
+suficiente, cuéntame el plan en pocas frases y constrúyelo.
+
+Construye una parte a la vez. Después de cada una, revísala tú mismo
+(también en el celular), arregla lo que falle y dime qué mirar.
+
+## 🎨 Que no parezca "sitio de IA"
+
+- Parte desde una captura: muestra un sitio que te guste y di "hazme algo así, pero para lo mío".
+
+- Sé específico: nombra la tipografía, pide más espacio, da colores exactos.
+
+- Deja de escribir "hazlo bonito" y describe qué quieres ver.
+
+¿Cuándo NO usar Claude Code? Si es algo que verás una sola vez, o un
+documento o planilla: para eso usa el chat o Cowork. No te demores más en
+construirlo que en usarlo.
+
+## 🚀 El resultado
+
+Pasas de una idea a algo que funciona y se puede abrir desde un enlace, sin
+escribir una sola línea de código.
+
+## 🔁 Da el siguiente paso
+
+- Claude Design
+
+- Conectores de Claude
+
+← Volver a Cursos Gratis
+
+
+======================================================================
+URL: https://cristianignacio.me/cursos/18-deja-de-usar-claude-personal-en-el-trabajo/
+======================================================================
+
+Inicio / Cursos Gratis / Deja de usar tu Claude personal en el trabajo
+
+Experto · 9 min
+
+# Deja de usar tu Claude personal en el trabajo
+
+Mucha gente usa su IA personal para tareas del trabajo, casi
+siempre sin avisar a nadie, y a veces pegando información sensible. Aquí
+aprendes a seguir usándola sin meterte en problemas.
+
+⏱️
+
+Tiempo: 9 minutos · Nivel: experto
+La pregunta clave antes de pegar algo: "¿estaría tranquilo si esto apareciera en el canal de toda la empresa con mi nombre?"
+
+## 🎯 Qué aprenderás
+
+- Cómo apagar el entrenamiento con tus conversaciones.
+
+- Qué información no debes pegar nunca.
+
+- Cómo anonimizar datos y usar chats temporales.
+
+## 💡 La idea
+
+Sí, te pueden despedir o demandar por filtrar datos a una IA personal: ya
+ha pasado. Un chatbot de otra empresa cuenta como un tercero externo, así
+que pegar código, datos de clientes o cifras internas puede romper acuerdos
+de confidencialidad. La buena noticia: con unos pasos simples bajas casi
+todo el riesgo.
+
+## 🛠️ Paso a paso
+
+- 
+Apaga el entrenamiento. En la configuración de privacidad,
+desactiva la opción de "ayudar a mejorar los modelos".
+
+- 
+Aplica la pregunta de oro. Antes de pegar algo, imagínalo
+publicado en el canal de toda la empresa con tu nombre. Si te incomoda, no lo pegues.
+
+- 
+Anonimiza. Cambia nombres por roles, usa cifras falsas
+parecidas y pega solo lo necesario para la tarea.
+
+- 
+Usa chat temporal. Para tareas de trabajo, abre un chat
+que no se guarde en tu historial.
+
+## 📝 Anonimizar antes de pegar
+
+En vez de:
+"Redacta la renovación para Sara Pérez en [empresa real].
+Su contrato de $2,3M vence el 31 de agosto y están molestos."
+
+Mejor:
+"Redacta una renovación para un contacto cliente. Su contrato
+vence a fin del próximo mes y están molestos por las demoras."
+
+## 🚫 Nunca pegues en una cuenta personal
+
+- Código o cualquier cosa del repositorio de tu empresa.
+
+- Datos de clientes o pacientes: nombres, correos, teléfonos, salud.
+
+- Planes, hojas de ruta o diseños que aún no se publican.
+
+- Cifras no públicas: ingresos, márgenes, presupuestos, términos de tratos.
+
+- Contraseñas, accesos o cualquier cosa marcada como confidencial.
+
+Cuidado con los conectores: nunca conectes cuentas del trabajo a tu IA
+personal, da el menor acceso posible y revísalos cada cierto tiempo.
+
+## 🚀 El resultado
+
+Sigues aprovechando tu Claude personal para trabajar, pero con la privacidad
+apagada, sin pegar lo que no debes y con datos anonimizados. Menos riesgo,
+misma utilidad.
+
+## 🔁 Da el siguiente paso
+
+- Conectores de Claude
+
+- Deja de chocar con los límites
+
+← Volver a Cursos Gratis

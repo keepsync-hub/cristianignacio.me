@@ -1,0 +1,18 @@
+{
+  "name": "Claude desde Cero",
+  "short_name": "Claude desde Cero",
+  "description": "Soluciones reales construidas con Claude, explicadas sin tecnicismos. La base abierta de la comunidad Claude desde Cero.",
+  "lang": "es",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#faf4e6",
+  "theme_color": "#faf4e6",
+  "icons": [
+    {
+      "src": "/assets/og-image.png",
+      "sizes": "1200x630",
+      "type": "image/png"
+    }
+  ]
+}
