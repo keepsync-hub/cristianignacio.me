@@ -1,0 +1,48 @@
+# robots.txt — cristianignacio.me (Claude desde Cero)
+# Buscadores y motores de IA son bienvenidos. Contenido abierto de la comunidad.
+
+User-agent: *
+Allow: /
+Disallow: /plantilla/
+
+# Crawlers de IA / LLM — permitidos explícitamente para indexación y citación
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: Bytespider
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+Sitemap: https://cristianignacio.me/sitemap.xml

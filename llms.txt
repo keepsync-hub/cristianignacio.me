@@ -1,0 +1,52 @@
+# Claude desde Cero
+
+> Soluciones reales construidas con Claude (la IA de Anthropic), explicadas paso a
+> paso y sin tecnicismos. Es la base de conocimiento abierta de la comunidad "Claude
+> desde Cero": casos de uso reales y cursos gratuitos, en español, para personas sin
+> conocimientos técnicos. No es un sitio oficial de Anthropic.
+
+Sitio: https://cristianignacio.me
+Idioma: Español (es)
+Autor / mantenedor: Cristian Ignacio — comunidad Claude desde Cero
+Licencia del contenido: abierto, se permite la citación e indexación por motores de IA.
+
+## Soluciones
+
+Casos reales resueltos con Claude, documentados de principio a fin (el problema, la
+idea, la construcción y el resultado replicable).
+
+- [Organizar tus tareas con Claude](https://cristianignacio.me/soluciones/organizar-tareas-con-claude/): Cómo convertir una lista caótica de pendientes en un plan claro y priorizado usando Claude, paso a paso y sin tecnicismos.
+- [Presentación personalizada a partir de un correo](https://cristianignacio.me/soluciones/presentacion-personalizada-desde-un-correo/): Partiendo solo de un correo, usar Claude para investigar a la persona y su empresa y generar un PPT personalizado.
+- [Reporte automático de precios para carga en CRM](https://cristianignacio.me/soluciones/reporte-precios-crm/): Generar cada lunes un Excel limpio con los cambios de precios del proveedor con Claude Code y cargarlos en el CRM con Claude Cowork, sin trabajo manual.
+- [Seguimiento de reuniones de ventas con Granola y Claude](https://cristianignacio.me/soluciones/seguimiento-de-reuniones-con-granola-y-claude/): Grabar reuniones con Granola.ai y dejar que un Proyecto de Claude resuma, actualice el CRM, cree la tarea de seguimiento y redacte el correo al cliente.
+- [Prospección diaria de leads locales con Workspace Studio](https://cristianignacio.me/soluciones/sistema-prospeccion-diaria-en-workspace/): Encontrar cada día 3 empresas locales de tu sector con señales reales de necesidad, con evidencia y un primer mensaje listo para LinkedIn.
+
+## Cursos gratis
+
+Guías gratuitas para dominar Claude, de principiante a experto.
+
+- [Claude para principiantes](https://cristianignacio.me/cursos/01-claude-para-principiantes/): Qué es Claude, cuánto cuesta, las tres formas de usarlo y cómo hablarle para obtener buenas respuestas.
+- [Ser bueno con Claude es simple](https://cristianignacio.me/cursos/02-ser-bueno-con-claude-es-simple/): Una guía de supervivencia para la IA, de tu primer mensaje a crear cosas reales.
+- [Certifícate en Claude gratis](https://cristianignacio.me/cursos/03-certificate-en-claude/): Cómo obtener certificados oficiales de Claude sin pagar y sumarlos a tu perfil profesional.
+- [Claude Cowork](https://cristianignacio.me/cursos/04-claude-cowork/): Cómo configurar Claude Cowork para que haga trabajo real: la carpeta correcta, tus archivos de contexto y cómo ahorrar tiempo y créditos.
+- [Claude para equipos](https://cristianignacio.me/cursos/05-claude-para-equipos/): Un plan de una semana para poner a todo tu equipo a trabajar con Claude.
+- [Claude Design](https://cristianignacio.me/cursos/06-claude-design/): Cómo crear páginas, presentaciones y videos con Claude Design, y darles tu identidad de marca.
+- [Claude Cowork + Proyectos](https://cristianignacio.me/cursos/07-claude-cowork-y-proyectos/): Crear Proyectos dentro de Cowork: memoria persistente, instrucciones fijas y tareas que se repiten solas.
+- [Claude para presentaciones](https://cristianignacio.me/cursos/08-claude-para-presentaciones/): Tres métodos para crear diapositivas con IA y el flujo que combina lo mejor de cada uno.
+- [Claude Skills](https://cristianignacio.me/cursos/09-claude-skills/): Cómo crear tus primeras Skills: instructivos que Claude activa con un comando.
+- [Que Claude suene como tú](https://cristianignacio.me/cursos/10-claude-que-suene-como-tu/): Cómo capturar tu voz en un archivo para que Claude escriba y piense como tú.
+- [Deja de chocar con los límites](https://cristianignacio.me/cursos/11-deja-de-chocar-con-los-limites/): Por qué se acaban tus créditos de Claude y los hábitos para rendir más sin gastar de más.
+- [Deja de hacer prompts](https://cristianignacio.me/cursos/12-deja-de-hacer-prompts/): Convierte tus archivos en el contexto permanente de Claude y deja de repetirte.
+- [Claude me reemplazó](https://cristianignacio.me/cursos/13-claude-me-reemplazo/): Una Skill que te lleva paso a paso de la A a la Z en cualquier tarea con Claude.
+- [Deja de sonar como una IA](https://cristianignacio.me/cursos/14-deja-de-sonar-como-ia/): Las expresiones que delatan a una IA y cómo armar una guía para sonar humano.
+- [Excel con Claude Cowork](https://cristianignacio.me/cursos/15-excel-con-claude-cowork/): Cómo crear hojas de cálculo desde cero con Claude Cowork manteniendo el control.
+- [Conectores de Claude](https://cristianignacio.me/cursos/16-conectores-de-claude/): Cómo conectar Claude a las apps que ya usas (correo, calendario, notas, CRM).
+- [Claude Code](https://cristianignacio.me/cursos/17-claude-code/): Cómo construir una web o una herramienta hablándole a Claude en español, sin escribir código.
+- [Deja de usar tu Claude personal en el trabajo](https://cristianignacio.me/cursos/18-deja-de-usar-claude-personal-en-el-trabajo/): Privacidad, qué nunca pegar y cómo anonimizar datos al usar Claude en el trabajo.
+
+## Acerca de
+
+- [Inicio](https://cristianignacio.me/): Página principal de la comunidad Claude desde Cero.
+- [Todas las soluciones](https://cristianignacio.me/soluciones/): Listado completo de soluciones.
+- [Todos los cursos](https://cristianignacio.me/cursos/): Listado completo de cursos gratuitos.
+- [Repositorio en GitHub](https://github.com/keepsync-hub/cristianignacio.me): Código abierto del sitio y de las contribuciones de la comunidad.
