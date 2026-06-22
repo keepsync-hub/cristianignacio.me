@@ -43,6 +43,10 @@ Qué obtienes y cómo se ve.
 
 ## 🔁 Hazlo tuyo
 Ideas para adaptarlo.
+
+## 🎓 Cursos recomendados
+Los 2-3 cursos esenciales para implementar esta solución, cada uno con una
+frase de por qué se necesita. Enlázalos a https://cristianignacio.me/cursos/<NN-slug>/.
 ```
 
 ## ✅ Checklist antes de publicar
