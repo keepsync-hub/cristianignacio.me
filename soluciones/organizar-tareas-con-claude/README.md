@@ -58,6 +58,13 @@ partida claro para hoy.
 - Pídele que estime cuánto tarda cada tarea.
 - Pídele un plan para toda la semana en vez de solo hoy.
 
+## 🎓 Cursos recomendados
+
+Para implementar esta solución te conviene dominar antes:
+
+- [Claude para principiantes](https://cristianignacio.me/cursos/01-claude-para-principiantes/) — abrir Claude y escribir tu primer mensaje con soltura.
+- [Ser bueno con Claude es simple](https://cristianignacio.me/cursos/02-ser-bueno-con-claude-es-simple/) — los hábitos para pedir y ajustar resultados como en este flujo.
+
 ---
 
 📄 **Versión web:** https://cristianignacio.me/soluciones/organizar-tareas-con-claude/

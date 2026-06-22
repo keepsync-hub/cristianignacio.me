@@ -104,6 +104,13 @@ las personas con respeto y conforme a la normativa aplicable.
 - **Idioma y longitud:** "hazla en inglés" o "máximo 5 slides".
 - **Email en vez de PPT:** pídele un correo de primer contacto con el mismo brief.
 
+## 🎓 Cursos recomendados
+
+Para implementar esta solución te conviene dominar antes:
+
+- [Claude para principiantes](https://cristianignacio.me/cursos/01-claude-para-principiantes/) — los fundamentos para conversar con Claude y activar la búsqueda web.
+- [Claude para presentaciones](https://cristianignacio.me/cursos/08-claude-para-presentaciones/) — cómo pasar de una idea a un PowerPoint listo para descargar.
+
 ---
 
 📄 **Versión web:** https://cristianignacio.me/soluciones/presentacion-personalizada-desde-un-correo/

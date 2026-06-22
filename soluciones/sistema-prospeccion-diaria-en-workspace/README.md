@@ -130,6 +130,13 @@ Hola, [Nombre]. He visto que [Empresa] está creciendo en Córdoba. Ayudo a PYME
   empujar esa semana, adaptando las señales automáticas a las necesidades que cubre
   ese servicio de tu catálogo.
 
+## 🎓 Cursos recomendados
+
+Para implementar esta solución te conviene dominar antes:
+
+- [Conectores de Claude](https://cristianignacio.me/cursos/16-conectores-de-claude/) — para conectar Claude con Google Workspace (Sheets, Gmail / Google Chat) y que actúe sobre tus datos.
+- [Deja de hacer prompts](https://cristianignacio.me/cursos/12-deja-de-hacer-prompts/) — para diseñar el sistema y el proceso que se ejecuta solo cada mañana, no un prompt suelto.
+
 ## ⚠️ Uso responsable
 
 Trabaja solo con información pública y profesional y con un fin legítimo de

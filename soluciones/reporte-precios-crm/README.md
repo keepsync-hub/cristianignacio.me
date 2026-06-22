@@ -58,6 +58,14 @@ digitación y evita el trabajo manual aburrido.
 - Modifica la frecuencia de ejecución (por ejemplo, diaria en lugar de semanal)
   si tu mercado requiere actualizaciones en tiempo real.
 
+## 🎓 Cursos recomendados
+
+Para implementar esta solución te conviene dominar antes:
+
+- [Claude Code](https://cristianignacio.me/cursos/17-claude-code/) — para crear y programar la rutina que extrae los precios en segundo plano.
+- [Claude Cowork](https://cristianignacio.me/cursos/04-claude-cowork/) — para usar la extensión de navegador que carga los datos en la interfaz del CRM.
+- [Excel con Claude Cowork](https://cristianignacio.me/cursos/15-excel-con-claude-cowork/) — para generar el archivo de Excel limpio y ordenado del reporte.
+
 ---
 
 📄 **Versión web:** https://cristianignacio.me/soluciones/reporte-precios-crm/

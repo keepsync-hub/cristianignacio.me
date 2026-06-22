@@ -127,6 +127,13 @@ que importa: **tener más conversaciones de ventas sin que se te caiga ninguna.*
 - **Otro ritmo de seguimiento:** cambia los 3 días por el plazo que use tu
   equipo, o pídele a Claude que proponga la fecha según lo conversado.
 
+## 🎓 Cursos recomendados
+
+Para implementar esta solución te conviene dominar antes:
+
+- [Claude Cowork + Proyectos](https://cristianignacio.me/cursos/07-claude-cowork-y-proyectos/) — para crear el Proyecto de Claude con las instrucciones y reglas del asistente.
+- [Conectores de Claude](https://cristianignacio.me/cursos/16-conectores-de-claude/) — para conectar el Proyecto a Granola, tu CRM (HubSpot) y Google Tasks / Gmail.
+
 ## ⚠️ Uso responsable
 
 Avisa a los participantes de que la reunión se está grabando cuando corresponda
