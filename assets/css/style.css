@@ -471,6 +471,55 @@ a.card:hover { transform: translate(-3px, -3px); box-shadow: var(--shadow-lg); }
 
 .callout strong { display: block; }
 
+/* ---------------------------------------------------------- Formularios */
+.field { display: grid; gap: 8px; }
+
+.field + .field { margin-top: 18px; }
+
+.field label {
+  font-family: var(--font-mono);
+  font-size: 0.82rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.input {
+  font-family: inherit;
+  font-size: 1rem;
+  color: var(--ink);
+  background: var(--bg);
+  padding: 14px 16px;
+  border: var(--border-w) solid var(--ink);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-sm);
+  width: 100%;
+}
+
+.input:focus {
+  outline: none;
+  background: var(--paper);
+  box-shadow: var(--shadow);
+}
+
+/* trampa antispam: invisible para personas, tentadora para bots */
+.hp {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+.form-status {
+  font-family: var(--font-mono);
+  font-size: 0.88rem;
+  font-weight: 600;
+  margin-top: 16px;
+}
+
+.form-status--error { color: #b3123f; }
+
 /* --------------------------------------------------------------- Utils */
 .center      { text-align: center; }
 .mt-0        { margin-top: 0 !important; }
