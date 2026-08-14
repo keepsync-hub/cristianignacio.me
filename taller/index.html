@@ -178,9 +178,10 @@
                        autocomplete="tel" inputmode="tel" />
               </div>
 
+              <!-- Trampa antispam: sin label ni nombre reconocible, para que
+                   los asistentes de autocompletado del navegador no la sugieran. -->
               <div class="hp" aria-hidden="true">
-                <label for="taller-website">No completes este campo</label>
-                <input type="text" id="taller-website" name="website"
+                <input type="text" id="taller-hp" name="hp_check"
                        tabindex="-1" autocomplete="off" />
               </div>
 
