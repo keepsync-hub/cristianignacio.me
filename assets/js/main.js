@@ -68,7 +68,7 @@
       body: JSON.stringify({
         email: email,
         telefono: telefono,
-        website: form.website.value,
+        website: form.hp_check.value,
         origen: "taller"
       })
     })
