@@ -503,13 +503,9 @@ a.card:hover { transform: translate(-3px, -3px); box-shadow: var(--shadow-lg); }
 }
 
 /* trampa antispam: invisible para personas, tentadora para bots */
-.hp {
-  position: absolute;
-  left: -9999px;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-}
+/* display:none, no solo fuera de pantalla: los asistentes de autocompletado
+   leen el árbol de accesibilidad, no la posición visual. */
+.hp { display: none; }
 
 .form-status {
   font-family: var(--font-mono);
